@@ -1,0 +1,5 @@
+{
+    "port": 5000,
+    "jwtSecret": "psy",
+    "mongoUri": "mongodb+srv://psy:88888888@cluster0.ki0n4.mongodb.net/app?retryWrites=true&w=majority"
+}

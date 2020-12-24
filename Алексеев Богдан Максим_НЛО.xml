@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root mode="0" new_person="true" authorized="true" birthdate="21.03.2002" fio="Алексеев Богдан Максим" gender="1" school="[object HTMLInputElement]">
+    <test code="209" name="НЛО" time_limit="0" navigate="false" control_scroll="false" control="true" use_conclusion="false" use_stoping="false" time="43" guid="883455ce-71bf-11e1-8181-bcaec5d251ec" fill="0" conclusion="" mode="Не пройден" registered="false" fb_user_guid="" fb_user_name="" fb_link_guid="" fb_link_name="" grade_unit_guid="" grade_unit_name="" grade_post_guid="" grade_post_name="">
+        <fact_data>
+            <section id="209_0" code="0" name="НЛО" shake="false" sample="0" time_limit="0" time="43">
+                <inst img="">Вам будут предложены варианты поведения в различных ситуациях общения. Вам нужно выбрать для каждой ситуации тот вариант, который в наибольшей степени соответствует предпочитаемому Вами стилю общения с людьми (с друзьями, знакомыми и т.п.). Предложенные варианты не исчерпывают всё многообразие общения. Поэтому, если ни один из предложенных вариантов не соответствует Вашему представлению об общении, то сформулируйте свой вариант и впишите его.
+&lt;br&gt;&lt;/br&gt;Постарайтесь быть искренними - помните, что здесь не может быть «хороших» или «плохих» ответов, важно лишь, чтобы они отражали Ваше мнение.
+</inst>
+                <qw name="Чтобы собеседник правильно понял меня, ..." id="209_0_1" code="1" valid_type="0" img="" time_limit="0" time="7">
+                    <an name="я должен говорить о том, что его волнует и интересует" id="209_0_1_1" code="1" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="true"/>
+                    <an name="у него должна быть со мной одинаковая точка зрения" id="209_0_1_2" code="2" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="главное, чтобы он хорошо разбирался в обсуждаемом вопросе" id="209_0_1_3" code="3" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="я должен говорить то, что ему понятно и с чем он согласен" id="209_0_1_4" code="4" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="я не всегда буду стараться достичь этого" id="209_0_1_5" code="5" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="" id="209_0_1_6" code="6" type="ar" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                </qw>
+                <qw name="Я ожидаю от собеседника..." id="209_0_2" code="2" valid_type="0" img="" time_limit="0" time="2">
+                    <an name="четкой и твердой позиции" id="209_0_2_1" code="1" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="согласия со мной" id="209_0_2_2" code="2" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="true"/>
+                    <an name="какой-либо пользы для себя" id="209_0_2_3" code="3" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="участия в решении деловых вопросов" id="209_0_2_4" code="4" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="открытости, готовности принять мою помощь" id="209_0_2_5" code="5" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="" id="209_0_2_6" code="6" type="ar" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                </qw>
+                <qw name="То, что чувствует и переживает собеседник..." id="209_0_3" code="3" valid_type="0" img="" time_limit="0" time="1">
+                    <an name="я принимаю близко к сердцу" id="209_0_3_1" code="1" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="может влиять на мое поведение" id="209_0_3_2" code="2" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="может представлять интерес" id="209_0_3_3" code="3" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="true"/>
+                    <an name="не должно мешать делу" id="209_0_3_4" code="4" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="не следует показывать окружающим" id="209_0_3_5" code="5" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="" id="209_0_3_6" code="6" type="ar" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                </qw>
+                <qw name="Я хотел бы, чтобы собеседник занимал в общении со мной позиции..." id="209_0_4" code="4" valid_type="0" img="" time_limit="0" time="2">
+                    <an name="удобную для меня" id="209_0_4_1" code="1" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="все равно какую" id="209_0_4_2" code="2" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="лидера" id="209_0_4_3" code="3" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="true"/>
+                    <an name="сочувствующего слушателя" id="209_0_4_4" code="4" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="удобную для него" id="209_0_4_5" code="5" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="" id="209_0_4_6" code="6" type="ar" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                </qw>
+                <qw name="Доверие собеседника ко мне..." id="209_0_5" code="5" valid_type="0" img="" time_limit="0" time="1">
+                    <an name="не имеет существенного значения для дела" id="209_0_5_1" code="1" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="нужно, если мне важен этот человек" id="209_0_5_2" code="2" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="должно быть полным" id="209_0_5_3" code="3" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="true"/>
+                    <an name="сделает общение более спокойным и легким" id="209_0_5_4" code="4" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="мне очень дорого и я буду стараться оправдать его" id="209_0_5_5" code="5" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="" id="209_0_5_6" code="6" type="ar" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                </qw>
+                <qw name="Если в общении между нами назревает конфликт, собеседник..." id="209_0_6" code="6" valid_type="0" img="" time_limit="0" time="3">
+                    <an name="должен уступить" id="209_0_6_1" code="1" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="может рассчитывать на мою готовность помочь, уступить" id="209_0_6_2" code="2" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="true"/>
+                    <an name="не должен делать того, чего я не хочу" id="209_0_6_3" code="3" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="лучше пусть займется делом" id="209_0_6_4" code="4" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="должен его не допустить" id="209_0_6_5" code="5" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="" id="209_0_6_6" code="6" type="ar" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                </qw>
+                <qw name="Когда собеседник меня не понимает, ..." id="209_0_7" code="7" valid_type="0" img="" time_limit="0" time="1">
+                    <an name="значит я плохо объясняю и должен ему помочь" id="209_0_7_1" code="1" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="я должен выслушать его точку зрения" id="209_0_7_2" code="2" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="меня это не волнует, если это не мешает делу" id="209_0_7_3" code="3" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="true"/>
+                    <an name="я прекращаю с ним общаться" id="209_0_7_4" code="4" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="я буду ему объяснять, если мне это надо" id="209_0_7_5" code="5" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="" id="209_0_7_6" code="6" type="ar" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                </qw>
+                <qw name="Для меня важно, чтобы собеседник в общении со мной исходил из..." id="209_0_8" code="8" valid_type="0" img="" time_limit="0" time="1">
+                    <an name="моих интересов" id="209_0_8_1" code="1" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="желания не обострять отношения" id="209_0_8_2" code="2" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="того, что приятно для меня" id="209_0_8_3" code="3" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="true"/>
+                    <an name="того, что его волнует" id="209_0_8_4" code="4" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="интересов дела" id="209_0_8_5" code="5" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="" id="209_0_8_6" code="6" type="ar" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                </qw>
+                <qw name="Если собеседник перестает меня слушать..." id="209_0_9" code="9" valid_type="0" img="" time_limit="0" time="2">
+                    <an name="меня это не волнует" id="209_0_9_1" code="1" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="я обижаюсь и прекращаю разговор" id="209_0_9_2" code="2" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="значит, в этом виновен я" id="209_0_9_3" code="3" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="true"/>
+                    <an name="я попробую повлиять на него по другому" id="209_0_9_4" code="4" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="я буду слушать его" id="209_0_9_5" code="5" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="" id="209_0_9_6" code="6" type="ar" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                </qw>
+                <qw name="Мне нравится такое общение, когда..." id="209_0_10" code="10" valid_type="0" img="" time_limit="0" time="2">
+                    <an name="оно проходит спокойно, и я согласен с собеседником" id="209_0_10_1" code="1" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="я получаю от него пользу" id="209_0_10_2" code="2" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="true"/>
+                    <an name="я чувствую, что нужен собеседнику" id="209_0_10_3" code="3" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="когда есть практический результат" id="209_0_10_4" code="4" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="когда я получаю удовольствие" id="209_0_10_5" code="5" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="" id="209_0_10_6" code="6" type="ar" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                </qw>
+                <qw name="Чтобы я правильно понял собеседника, ..." id="209_0_11" code="11" valid_type="0" img="" time_limit="0" time="2">
+                    <an name="он должен быть моим единомышленником" id="209_0_11_1" code="1" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="надо меньше разговоров, а больше дела" id="209_0_11_2" code="2" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="я должен согласиться с его точкой зрения" id="209_0_11_3" code="3" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="надо внимательно за ним понаблюдать" id="209_0_11_4" code="4" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="true"/>
+                    <an name="мне надо полностью сосредоточиться на его проблемах" id="209_0_11_5" code="5" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="" id="209_0_11_6" code="6" type="ar" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                </qw>
+                <qw name="Я считаю правильным, если собеседник ожидает от меня..." id="209_0_12" code="12" valid_type="0" img="" time_limit="0" time="2">
+                    <an name="согласия" id="209_0_12_1" code="1" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="того, что я намерен ему предложить" id="209_0_12_2" code="2" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="true"/>
+                    <an name="ничего не ожидает" id="209_0_12_3" code="3" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="помощи, участия" id="209_0_12_4" code="4" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="четкой и твердой позиции" id="209_0_12_5" code="5" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="" id="209_0_12_6" code="6" type="ar" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                </qw>
+                <qw name="То, что я чувствую и переживаю, ..." id="209_0_13" code="13" valid_type="0" img="" time_limit="0" time="3">
+                    <an name="зависит от переживаний собеседника" id="209_0_13_1" code="1" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="не должно быть заметно собеседнику" id="209_0_13_2" code="2" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="true"/>
+                    <an name="не должно мешать делу" id="209_0_13_3" code="3" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="должно быть важно для собеседника, и он тоже  должен переживать" id="209_0_13_4" code="4" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="не должно беспокоить собеседника" id="209_0_13_5" code="5" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="" id="209_0_13_6" code="6" type="ar" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                </qw>
+                <qw name="Я стараюсь занять в общении позицию..." id="209_0_14" code="14" valid_type="0" img="" time_limit="0" time="2">
+                    <an name="удобную для собеседника" id="209_0_14_1" code="1" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="все равно какую" id="209_0_14_2" code="2" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="сочувствующего слушателя" id="209_0_14_3" code="3" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="true"/>
+                    <an name="удобную для меня" id="209_0_14_4" code="4" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="лидера" id="209_0_14_5" code="5" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="" id="209_0_14_6" code="6" type="ar" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                </qw>
+                <qw name="Доверять собеседнику..." id="209_0_15" code="15" valid_type="0" img="" time_limit="0" time="2">
+                    <an name="можно только в очень редких случаях /если в этом есть смысл/" id="209_0_15_1" code="1" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="true"/>
+                    <an name="надо, если это в интересах дела" id="209_0_15_2" code="2" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="можно, если его позиция убедительна" id="209_0_15_3" code="3" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="можно, если наши взгляды совпадают" id="209_0_15_4" code="4" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="надо, потому что это поможет ему" id="209_0_15_5" code="5" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="" id="209_0_15_6" code="6" type="ar" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                </qw>
+                <qw name="Если в общении назревает конфликт, я..." id="209_0_16" code="16" valid_type="0" img="" time_limit="0" time="2">
+                    <an name="займусь делом" id="209_0_16_1" code="1" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="постараюсь его сгладить" id="209_0_16_2" code="2" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="буду действовать в соответствии со своими  интересами" id="209_0_16_3" code="3" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="true"/>
+                    <an name="уступлю, чтобы помочь собеседнику" id="209_0_16_4" code="4" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="буду доказывать свою правоту" id="209_0_16_5" code="5" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="" id="209_0_16_6" code="6" type="ar" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                </qw>
+                <qw name="В общении я исхожу из..." id="209_0_17" code="17" valid_type="0" img="" time_limit="0" time="2">
+                    <an name="стремления утвердить свою точку зрения" id="209_0_17_1" code="1" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="желания получить максимум пользы для себя" id="209_0_17_2" code="2" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="необходимости решить проблемы другого человека, помочь ему" id="209_0_17_3" code="3" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="true"/>
+                    <an name="необходимости избежать конфликта" id="209_0_17_4" code="4" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="интересов дела" id="209_0_17_5" code="5" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="" id="209_0_17_6" code="6" type="ar" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                </qw>
+                <qw name="Когда я не понимаю собеседника..." id="209_0_18" code="18" valid_type="0" img="" time_limit="0" time="1">
+                    <an name="меня это не беспокоит" id="209_0_18_1" code="1" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="я очень переживаю и ищу свою ошибку" id="209_0_18_2" code="2" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="true"/>
+                    <an name="пересматриваю свою точку зрения" id="209_0_18_3" code="3" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="значит, он плохо объясняет" id="209_0_18_4" code="4" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="буду стараться понять, если мне это надо" id="209_0_18_5" code="5" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="" id="209_0_18_6" code="6" type="ar" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                </qw>
+                <qw name="Для меня главная цель общения" id="209_0_19" code="19" valid_type="0" img="" time_limit="0" time="1">
+                    <an name="помочь, поддержать собеседника" id="209_0_19_1" code="1" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="решить деловой вопрос" id="209_0_19_2" code="2" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="получить удовольствие" id="209_0_19_3" code="3" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="true"/>
+                    <an name="избежать конфликта" id="209_0_19_4" code="4" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="извлечь какую-нибудь пользу" id="209_0_19_5" code="5" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="" id="209_0_19_6" code="6" type="ar" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                </qw>
+                <qw name="Если я считаю, что собеседник не прав, то..." id="209_0_20" code="20" valid_type="0" img="" time_limit="0" time="4">
+                    <an name="я теряю к нему интерес" id="209_0_20_1" code="1" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="думаю, чем могу ему помочь" id="209_0_20_2" code="2" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="true"/>
+                    <an name="буду добиваться, чтобы он признал и исправил свою ошибку" id="209_0_20_3" code="3" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="не буду обострять ситуацию" id="209_0_20_4" code="4" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="меня это не беспокоит - это его проблема" id="209_0_20_5" code="5" type="r" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                    <an name="" id="209_0_20_6" code="6" type="ar" img="" max_value="0" min_value="0" snap_value="0" tick_value="0" x="0" y="0" height="0" width="0" adapt="" tv="" nv="" selected="false"/>
+                </qw>
+            </section>
+        </fact_data>
+    </test>
+</root>
