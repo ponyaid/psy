@@ -5,7 +5,6 @@ const path = require('path')
 const fs = require('fs')
 const xml2js = require('xml2js')
 const Test = require('./models/Test')
-const { response } = require('express')
 
 
 const parser = new xml2js.Parser()
@@ -21,7 +20,7 @@ if (process.env.NODE_ENV === 'production') {
     app.use('/', express.static(path.join(__dirname, 'client', 'build')))
 
     app.get('*', (req, res) => {
-        res.sendFile(path.resolve(__dirname, 'clien', 'build', 'index.html'))
+        res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'))
     })
 }
 
