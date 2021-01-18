@@ -19,8 +19,10 @@
     "config": "^3.3.3",
     "express": "^4.17.1",
     "express-validator": "^6.8.0",
+    "history": "^5.0.0",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.11.5",
+    "qrcode.react": "^1.0.1",
     "xml2js": "^0.4.23",
     "xmlhttprequest": "^1.8.0"
   },

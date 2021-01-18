@@ -4,16 +4,34 @@ const mongoose = require('mongoose')
 const path = require('path')
 const fs = require('fs')
 const xml2js = require('xml2js')
-const Test = require('./models/Test')
+const Condition = require('./models/Condition')
 
 
 const parser = new xml2js.Parser()
 
 const app = express()
 
+
 app.use(express.json({ extended: true }))
 
-app.use('/api/auth', require('./routes/auth.routes'))
+// Read content-type: text/plain 
+app.use(function (req, res, next) {
+    if (req.is('text/*')) {
+        req.text = ''
+        req.setEncoding('utf8')
+        req.on('data', function (chunk) { req.text += chunk })
+        req.on('end', next)
+    } else {
+        next()
+    }
+})
+
+app.use('/api/pupil', require('./routes/pupil.routes'))
+app.use('/api/psych', require('./routes/psych.routes'))
+app.use('/api/schools', require('./routes/school.routes'))
+app.use('/api/classes', require('./routes/class.routes'))
+
+app.use('/api/conditions', require('./routes/condition.routes'))
 app.use('/api/tests', require('./routes/test.routes'))
 
 if (process.env.NODE_ENV === 'production') {
@@ -31,18 +49,19 @@ async function start() {
         await mongoose.connect(config.get('mongoUri'), {
             useNewUrlParser: true,
             useUnifiedTopology: true,
-            useCreateIndex: true
+            useCreateIndex: true,
+            useFindAndModify: false
         })
 
         // Обновление тестов в базе данных
 
-        const tests = await Test.find()
+        const conditions = await Condition.find()
 
-        if (tests) {
-            for (let test of tests) { await test.remove() }
+        if (conditions) {
+            for (let condition of conditions) { await condition.remove() }
         }
 
-        const dir = path.resolve(__dirname, 'tests')
+        const dir = path.resolve(__dirname, 'conditions')
 
         fs.readdir(dir, (err, items) => {
             if (err) throw err
@@ -56,20 +75,19 @@ async function start() {
                     parser.parseString(data, async (err, result) => {
                         if (err) throw err
 
-                        const test = new Test({
+                        const condition = new Condition({
                             id: result.root.test[0].$.code,
                             name: result.root.test[0].$.name,
+                            desc: result.root.test[0].section[0].inst[0]['_'],
                             body: JSON.stringify(result),
                             xml: data
                         })
 
-                        await test.save()
+                        await condition.save()
                     })
                 })
             }
         })
-
-        //
 
         app.listen(PORT, () => { console.log(`App has been started on port ${PORT}...`) });
 

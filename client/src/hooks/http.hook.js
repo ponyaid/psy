@@ -19,17 +19,32 @@ export const useHttp = () => {
                 method, headers, body
             })
 
-            try {
-                const data = await response.json()
+            if (response.headers.get('content-type').includes('application/json')) {
+                try {
+                    const data = await response.json()
+                    if (!response.ok) {
+                        throw new Error(data.message || 'Что-то пошло не так')
+                    }
 
-                if (!response.ok) {
-                    throw new Error(data.message || 'Что-то пошло не так')
-                }
+                    setLoading(false)
+                    return data
+
+                } catch (e) { throw e }
+            }
+
+            try {
+                const data = await response.text()
                 
+                if (!response.ok) {
+                    throw new Error('Что-то пошло не так')
+                }
+
                 setLoading(false)
                 return data
 
             } catch (e) { throw e }
+
+
 
         } catch (e) {
             setLoading(false)

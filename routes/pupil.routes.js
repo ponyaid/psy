@@ -4,15 +4,18 @@ const config = require('config')
 const jwt = require('jsonwebtoken')
 const { check, validationResult } = require('express-validator')
 const Pupil = require('../models/Pupil')
+const Class = require('../models/Class')
+
 
 const router = Router()
 
-// /api/auth/register
+// /api/pupil/register
 router.post(
     '/register',
     [
         check('name', 'Отсутствует имя').notEmpty(),
         check('email', 'Некорректный email').isEmail(),
+        check('birthday', 'Некорректная дата рождения').isDate(),
         check('password', 'Минимальная длина пароля 8 символов').isLength({ min: 8 })
     ],
     async (req, res) => {
@@ -27,7 +30,7 @@ router.post(
                 })
             }
 
-            const { name, email, password, resolution, terms, sex } = req.body
+            const { name, email, password, resolution, terms, sex, birthday, classId } = req.body
 
             const condaidate = await Pupil.findOne({ email })
 
@@ -37,19 +40,23 @@ router.post(
 
             const hashedPassword = await bcrypt.hash(password, 12)
             const pupil = new Pupil({
-                name, email, password: hashedPassword, resolution, terms, sex
+                name, email, password: hashedPassword, resolution, terms, sex, birthday, class: classId
             })
+
+            const group = await Class.findById(classId)
+            await group.updateOne({ pupils: [...group.pupils, pupil] })
 
             await pupil.save()
 
             res.status(201).json({ message: "Пользователь создан" })
+
 
         } catch (e) {
             res.status(500).json({ message: "Что-то пошло не так, попробуйте снова" })
         }
     })
 
-// /api/auth/login
+// /api/pupil/login
 router.post(
     '/login',
     [
@@ -84,12 +91,12 @@ router.post(
 
             // Create jwt token
             const token = jwt.sign(
-                { pupilId: pupil.id },
+                { userId: pupil.id },
                 config.get('jwtSecret'),
-                { expiresIn: '1h' }
+                // { expiresIn: '1h' }
             )
 
-            res.json({ token, pupilId: pupil.id })
+            res.json({ token, pupilId: pupil.id, pupil, role: 'pupil' })
 
         } catch (e) {
             res.status(500).json({ message: "Что-то пошло не так, попробуйте снова" })

@@ -1,12 +1,15 @@
-import React, { useState, useEffect, useCallback } from 'react'
-import { Link, useParams } from 'react-router-dom'
+import React, { useState, useEffect, useCallback, useContext } from 'react'
+import { Link, useParams, useHistory } from 'react-router-dom'
 import { useHttp } from '../hooks/http.hook'
+import { AuthContext } from '../context/AuthContext'
 
 
 export const WalkthroughPage = () => {
+    const history = useHistory()
     const { request } = useHttp()
-    const [test, setTest] = useState(null)
+    const { user } = useContext(AuthContext)
 
+    const [condition, setCondition] = useState(null)
     const [questionId, setQuestionId] = useState(0)
     const [questions, setQuestions] = useState([])
     const [question, setQuestion] = useState(null)
@@ -14,19 +17,20 @@ export const WalkthroughPage = () => {
     const [results, setResults] = useState([])
     const [end, setEnd] = useState(false)
 
-    const testId = useParams().id
+    const conditionId = useParams().conditionId
+    const testId = useParams().testId
 
-    const getTest = useCallback(async () => {
+    const getCondition = useCallback(async () => {
         try {
-            const fetched = await request(`/api/tests/${testId}`)
-            setTest(fetched)
+            const fetched = await request(`/api/conditions/${conditionId}`)
+            setCondition(fetched)
         } catch (e) {
             console.log(e)
         }
-    }, [request, testId])
+    }, [request, conditionId])
 
-    const postTest = useCallback(async () => {
-        const xml = test.xml
+    const postSolution = useCallback(async () => {
+        const xml = condition.xml
         const parser = new DOMParser()
         const xmlDoc = parser.parseFromString(xml, 'text/xml')
 
@@ -36,44 +40,56 @@ export const WalkthroughPage = () => {
         }
 
         xmlDoc.querySelector('root').setAttribute('birthdate', '01.01.2000')
-        xmlDoc.querySelector('root').setAttribute('fio', 'Test Test')
-        xmlDoc.querySelector('root').setAttribute('gender', 1)
+        xmlDoc.querySelector('root').setAttribute('fio', user.name)
+        xmlDoc.querySelector('root').setAttribute('gender', user.sex)
 
 
         var oSerializer = new XMLSerializer()
         var sXML = oSerializer.serializeToString(xmlDoc)
 
         try {
-            // const encodedData = window.btoa('HTTP:1234567890')
-            // GET http://185.68.101.64/SychoDiag/hs/ConnectionTest/MakeTest
-            // POST http://185.68.101.64/SychoDiag/hs/TestsExchange/SendTests
-            const data = await request('http://185.68.101.64/SychoDiag/hs/TestsExchange/SendTests', 'POST', sXML,
-                {
-                    // 'Content-Type': 'application/xml',
-                    // 'Authorization': `Basic ${encodedData}`
-                })
-            console.log(data)
-            alert(data)
-        } catch (e) {
-            console.log(e)
-        }
 
-    }, [request, results, test])
+            await request('/api/tests/solution', 'POST',
+                JSON.stringify({ solution: sXML, testId }), {
+                'Content-Type': 'application/json',
+            })
 
-    useEffect(() => { getTest() }, [getTest])
+            alert('Тест пройден')
+
+
+
+        } catch (e) { }
+
+        // try {
+        //     // const encodedData = window.btoa('HTTP:1234567890')
+        //     // GET http://185.68.101.64/SychoDiag/hs/ConnectionTest/MakeTest
+        //     // POST http://185.68.101.64/SychoDiag/hs/TestsExchange/SendTests
+        //     const data = await request('http://185.68.101.64/SychoDiag/hs/TestsExchange/SendTests', 'POST', sXML,
+        //         {
+        //             // 'Content-Type': 'application/xml',
+        //             // 'Authorization': `Basic ${encodedData}`
+        //         })
+
+        // } catch (e) {
+        //     console.log(e)
+        // }
+
+    }, [request, results, condition, user])
+
+    useEffect(() => { getCondition() }, [getCondition])
 
     useEffect(() => {
         // eslint-disable-next-line no-unused-expressions
-        end ? postTest() : null
-    }, [end, postTest])
+        end ? postSolution() : null
+    }, [end, postSolution])
 
     useEffect(() => {
-        if (test) {
-            const body = JSON.parse(test.body)
+        if (condition) {
+            const body = JSON.parse(condition.body)
             const qws = body['root']['test'][0]['section'][0]['qw']
             setQuestions(qws)
         }
-    }, [test])
+    }, [condition])
 
     useEffect(() => {
         if (questions.length) {
@@ -103,15 +119,17 @@ export const WalkthroughPage = () => {
         return null
     }
 
+
     return (
         <div className="page walkthrough">
-            <div className="walkthrough__header">
-                <Link to='/' className="close-btn"></Link>
+            <header className="page__header">
+                <Link to='/' className="icon-btn page__icon-btn page__icon-btn_left icon-btn_close"></Link>
                 <div className="walkthrough__score">
                     <p>{questionId + 1}</p>
                     <p>{questions.length}</p>
                 </div>
-            </div>
+            </header>
+
             <div className="progress-bar walkthrough__progress-bar">
                 <span className="progress-bar__progress"
                     style={{ 'width': `${(questionId + 1) * 100 / questions.length}%` }}

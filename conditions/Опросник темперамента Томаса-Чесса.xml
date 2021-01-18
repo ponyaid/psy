@@ -1,0 +1,521 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root mode='0'>
+	<test code='231' name='Опросник темперамента Томаса-Чесса' time_limit='0' navigate='false' control_scroll='false' control='true' use_conclusion='false' use_stoping='false' time='0' guid='883455f5-71bf-11e1-8181-bcaec5d251ec' fill='0' conclusion='' mode='Не пройден' registered='false' fb_user_guid='' fb_user_name='' fb_link_guid='' fb_link_name='' grade_unit_guid='' grade_unit_name='' grade_post_guid='' grade_post_name=''>
+		<section id='231_0' code='0' name='Опросник темперамента Томаса-Чесса' shake='false' sample='0' time_limit='0' time='0'>
+			<inst img=''>Вам предлагаются высказывания, описывающие поведение ребенка в различных ситуациях повседневной жизни. Представьте, что речь идет о Вашем ребенке. Оцените, насколько каждое утверждение соответствует поведению Вашего ребенка, используя следующие оценки:
+&lt;BR&gt;&lt;/BR&gt;Никогда.
+&lt;BR&gt;&lt;/BR&gt;Редко.
+&lt;BR&gt;&lt;/BR&gt;Часто.
+&lt;BR&gt;&lt;/BR&gt;Всегда.
+&lt;BR&gt;&lt;/BR&gt;Если Вы, даже подумав, затрудняетесь ответить на какое-то высказывние (затрудняетесь оценить его), то Вы можете ответить «Не знаю».
+&lt;BR&gt;&lt;/BR&gt;Постарайтесь как можно объективнее оценить поведение Вашего ребенка!
+&lt;BR&gt;&lt;/BR&gt;Некоторые утверждения могут показаться Вам похожими, поскольку описывают сходные ситуации. Однако каждое из утверждений относится к отдельной области детского поведения. Поэтому Ваши ответы также могут быть различны при ответах на сложные вопросы.
+</inst>
+			<qw name='Мой ребенок активно играет и сильно брызгается во время купания.' id='231_0_1' code='1' valid_type='0' img='' time_limit='0' time='0'>
+				<an name='Никогда' id='231_0_1_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Редко' id='231_0_1_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Часто' id='231_0_1_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Всегда' id='231_0_1_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Не знаю' id='231_0_1_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+			</qw>
+			<qw name='Проводя время с другими детьми, мой ребенок испытывает удовольствие.' id='231_0_2' code='2' valid_type='0' img='' time_limit='0' time='0'>
+				<an name='Никогда' id='231_0_2_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Редко' id='231_0_2_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Часто' id='231_0_2_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Всегда' id='231_0_2_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Не знаю' id='231_0_2_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+			</qw>
+			<qw name='Мой ребенок чувствителен к запахам, он обращает внимание на неприятные запахи.' id='231_0_3' code='3' valid_type='0' img='' time_limit='0' time='0'>
+				<an name='Никогда' id='231_0_3_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Редко' id='231_0_3_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Часто' id='231_0_3_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Всегда' id='231_0_3_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Не знаю' id='231_0_3_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+			</qw>
+			<qw name='Мой ребенок застенчив и робок с незнакомыми взрослыми.' id='231_0_4' code='4' valid_type='0' img='' time_limit='0' time='0'>
+				<an name='Никогда' id='231_0_4_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Редко' id='231_0_4_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Часто' id='231_0_4_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Всегда' id='231_0_4_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Не знаю' id='231_0_4_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+			</qw>
+			<qw name='Когда мой ребенок увлечен каким-нибудь занятием (играет с конструктором, головоломкой, рисует и т.п.), то может без отдыха работать очень долго, пока не закончит.' id='231_0_5' code='5' valid_type='0' img='' time_limit='0' time='0'>
+				<an name='Никогда' id='231_0_5_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Редко' id='231_0_5_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Часто' id='231_0_5_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Всегда' id='231_0_5_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Не знаю' id='231_0_5_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+			</qw>
+			<qw name='Мой ребенок имеет стул каждый день, примерно в одно и то же время.' id='231_0_6' code='6' valid_type='0' img='' time_limit='0' time='0'>
+				<an name='Никогда' id='231_0_6_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Редко' id='231_0_6_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Часто' id='231_0_6_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Всегда' id='231_0_6_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Не знаю' id='231_0_6_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+			</qw>
+			<qw name='Мой ребенок ест пищу, которую раньше не любил.' id='231_0_7' code='7' valid_type='0' img='' time_limit='0' time='0'>
+				<an name='Никогда' id='231_0_7_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Редко' id='231_0_7_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Часто' id='231_0_7_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Всегда' id='231_0_7_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Не знаю' id='231_0_7_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+			</qw>
+			<qw name='Мой ребенок с большим удовольствием ест любимые блюда и отвергает нелюбимые.' id='231_0_8' code='8' valid_type='0' img='' time_limit='0' time='0'>
+				<an name='Никогда' id='231_0_8_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Редко' id='231_0_8_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Часто' id='231_0_8_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Всегда' id='231_0_8_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Не знаю' id='231_0_8_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+			</qw>
+			<qw name='Моего ребенка легко отвлечь от плохого настроения (с помощью шутки, ласки и пр.)' id='231_0_9' code='9' valid_type='0' img='' time_limit='0' time='0'>
+				<an name='Никогда' id='231_0_9_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Редко' id='231_0_9_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Часто' id='231_0_9_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Всегда' id='231_0_9_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Не знаю' id='231_0_9_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+			</qw>
+			<qw name='Мой ребенок застенчив и робок при встрече с незнакомым ребенком.' id='231_0_10' code='10' valid_type='0' img='' time_limit='0' time='0'>
+				<an name='Никогда' id='231_0_10_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Редко' id='231_0_10_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Часто' id='231_0_10_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Всегда' id='231_0_10_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Не знаю' id='231_0_10_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+			</qw>
+			<qw name='Мой ребенок обращает внимание на громкость звука (жалуется на слишком громкие звуки, музыку и т.п.)' id='231_0_11' code='11' valid_type='0' img='' time_limit='0' time='0'>
+				<an name='Никогда' id='231_0_11_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Редко' id='231_0_11_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Часто' id='231_0_11_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Всегда' id='231_0_11_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Не знаю' id='231_0_11_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+			</qw>
+			<qw name='Моего ребенка приходится долго уговаривать надеть нужную одежду, если сам выбрал другую.' id='231_0_12' code='12' valid_type='0' img='' time_limit='0' time='0'>
+				<an name='Никогда' id='231_0_12_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Редко' id='231_0_12_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Часто' id='231_0_12_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Всегда' id='231_0_12_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Не знаю' id='231_0_12_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+			</qw>
+			<qw name='Мой ребенок просит перекусить (бутерброды, фрукты, печенье) всегда в одно и то же время.' id='231_0_13' code='13' valid_type='0' img='' time_limit='0' time='0'>
+				<an name='Никогда' id='231_0_13_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Редко' id='231_0_13_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Часто' id='231_0_13_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Всегда' id='231_0_13_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Не знаю' id='231_0_13_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+			</qw>
+			<qw name='Мой ребенок пересказывает события прошедшего дня с упоемнием.' id='231_0_14' code='14' valid_type='0' img='' time_limit='0' time='0'>
+				<an name='Никогда' id='231_0_14_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Редко' id='231_0_14_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Часто' id='231_0_14_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Всегда' id='231_0_14_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Не знаю' id='231_0_14_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+			</qw>
+			<qw name='Мой ребенок ведет себя непринужденно в гостях после нескольких визитов.' id='231_0_15' code='15' valid_type='0' img='' time_limit='0' time='0'>
+				<an name='Никогда' id='231_0_15_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Редко' id='231_0_15_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Часто' id='231_0_15_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Всегда' id='231_0_15_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Не знаю' id='231_0_15_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+			</qw>
+			<qw name='Если мой ребенок расстроен или у него что-нибудь не получается, он может крикнуть, «хлопнуть дверью», швырнуть игрушку и т.п.' id='231_0_16' code='16' valid_type='0' img='' time_limit='0' time='0'>
+				<an name='Никогда' id='231_0_16_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Редко' id='231_0_16_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Часто' id='231_0_16_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Всегда' id='231_0_16_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Не знаю' id='231_0_16_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+			</qw>
+			<qw name='Если мой ребенок захочет игрушку или сладости в магазине, его легко уговорить на замену.' id='231_0_17' code='17' valid_type='0' img='' time_limit='0' time='0'>
+				<an name='Никогда' id='231_0_17_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Редко' id='231_0_17_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Часто' id='231_0_17_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Всегда' id='231_0_17_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Не знаю' id='231_0_17_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+			</qw>
+			<qw name='Мой ребенок чаще бегает, чем ходит, и дома, и на улице.' id='231_0_18' code='18' valid_type='0' img='' time_limit='0' time='0'>
+				<an name='Никогда' id='231_0_18_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Редко' id='231_0_18_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Часто' id='231_0_18_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Всегда' id='231_0_18_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Не знаю' id='231_0_18_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+			</qw>
+			<qw name='Мой ребенок получает удовольствие, когда ходит по магазинам с родителями.' id='231_0_19' code='19' valid_type='0' img='' time_limit='0' time='0'>
+				<an name='Никогда' id='231_0_19_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Редко' id='231_0_19_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Часто' id='231_0_19_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Всегда' id='231_0_19_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Не знаю' id='231_0_19_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+			</qw>
+			<qw name='Моему ребенку требуется одно и то же время, чтобы заснуть после того, как он ляжет в постель.' id='231_0_20' code='20' valid_type='0' img='' time_limit='0' time='0'>
+				<an name='Никогда' id='231_0_20_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Редко' id='231_0_20_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Часто' id='231_0_20_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Всегда' id='231_0_20_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Не знаю' id='231_0_20_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+			</qw>
+			<qw name='Мой ребенок любит пробовать новые блюда.' id='231_0_21' code='21' valid_type='0' img='' time_limit='0' time='0'>
+				<an name='Никогда' id='231_0_21_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Редко' id='231_0_21_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Часто' id='231_0_21_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Всегда' id='231_0_21_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Не знаю' id='231_0_21_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+			</qw>
+			<qw name='Когда мама занята и не может заниматься со своим ребенком, он уходит, занимается и играет один, а не пристает к маме.' id='231_0_22' code='22' valid_type='0' img='' time_limit='0' time='0'>
+				<an name='Никогда' id='231_0_22_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Редко' id='231_0_22_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Часто' id='231_0_22_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Всегда' id='231_0_22_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Не знаю' id='231_0_22_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+			</qw>
+			<qw name='Мой ребенок обращает внимание на цвет предметов, например, может сказать: «Какой красивый (или некрасивый) цвет».' id='231_0_23' code='23' valid_type='0' img='' time_limit='0' time='0'>
+				<an name='Никогда' id='231_0_23_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Редко' id='231_0_23_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Часто' id='231_0_23_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Всегда' id='231_0_23_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Не знаю' id='231_0_23_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+			</qw>
+			<qw name='На детской площадке мой ребенок бегает, падает, прыгает и постоянно находится в движении.' id='231_0_24' code='24' valid_type='0' img='' time_limit='0' time='0'>
+				<an name='Никогда' id='231_0_24_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Редко' id='231_0_24_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Часто' id='231_0_24_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Всегда' id='231_0_24_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Не знаю' id='231_0_24_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+			</qw>
+			<qw name='Если моему ребенку что-то не нравится (например, стрижка в парикмахерской, умывание и т.п.), он будет долго противиться.' id='231_0_25' code='25' valid_type='0' img='' time_limit='0' time='0'>
+				<an name='Никогда' id='231_0_25_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Редко' id='231_0_25_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Часто' id='231_0_25_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Всегда' id='231_0_25_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Не знаю' id='231_0_25_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+			</qw>
+			<qw name='Мой ребенок отвлекается на внезапный шум или оживление вокруг него, даже если он занят любимой игрой.' id='231_0_26' code='26' valid_type='0' img='' time_limit='0' time='0'>
+				<an name='Никогда' id='231_0_26_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Редко' id='231_0_26_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Часто' id='231_0_26_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Всегда' id='231_0_26_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Не знаю' id='231_0_26_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+			</qw>
+			<qw name='Если прервать любимое занятие моего ребенка, он лишь немного покапризиничает.' id='231_0_27' code='27' valid_type='0' img='' time_limit='0' time='0'>
+				<an name='Никогда' id='231_0_27_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Редко' id='231_0_27_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Часто' id='231_0_27_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Всегда' id='231_0_27_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Не знаю' id='231_0_27_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+			</qw>
+			<qw name='Если моему ребенку что-то пообещать, он постоянно будет напоминать об этом.' id='231_0_28' code='28' valid_type='0' img='' time_limit='0' time='0'>
+				<an name='Никогда' id='231_0_28_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Редко' id='231_0_28_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Часто' id='231_0_28_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Всегда' id='231_0_28_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Не знаю' id='231_0_28_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+			</qw>
+			<qw name='Мой ребенок ссорится, когда играет с другими детьми.' id='231_0_29' code='29' valid_type='0' img='' time_limit='0' time='0'>
+				<an name='Никогда' id='231_0_29_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Редко' id='231_0_29_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Часто' id='231_0_29_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Всегда' id='231_0_29_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Не знаю' id='231_0_29_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+			</qw>
+			<qw name='Мой ребенок боится подойти к чужим детям и играть с ними (на детской площадке, на елке, на празднике, в гостях и т.п.)' id='231_0_30' code='30' valid_type='0' img='' time_limit='0' time='0'>
+				<an name='Никогда' id='231_0_30_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Редко' id='231_0_30_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Часто' id='231_0_30_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Всегда' id='231_0_30_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Не знаю' id='231_0_30_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+			</qw>
+			<qw name='Длительность ночного сна моего ребенка не постоянна.' id='231_0_31' code='31' valid_type='0' img='' time_limit='0' time='0'>
+				<an name='Никогда' id='231_0_31_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Редко' id='231_0_31_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Часто' id='231_0_31_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Всегда' id='231_0_31_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Не знаю' id='231_0_31_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+			</qw>
+			<qw name='Мой ребенок замечает, какую пищу он ест (холодную или горячую).' id='231_0_32' code='32' valid_type='0' img='' time_limit='0' time='0'>
+				<an name='Никогда' id='231_0_32_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Редко' id='231_0_32_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Часто' id='231_0_32_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Всегда' id='231_0_32_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Не знаю' id='231_0_32_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+			</qw>
+			<qw name='Мой ребенок быстро преодолевает смущение перед незнакомым взрослым.' id='231_0_33' code='33' valid_type='0' img='' time_limit='0' time='0'>
+				<an name='Никогда' id='231_0_33_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Редко' id='231_0_33_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Часто' id='231_0_33_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Всегда' id='231_0_33_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Не знаю' id='231_0_33_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+			</qw>
+			<qw name='Мой ребенок спокойно сидит, когда слушает сказку или интересную книгу.' id='231_0_34' code='34' valid_type='0' img='' time_limit='0' time='0'>
+				<an name='Никогда' id='231_0_34_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Редко' id='231_0_34_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Часто' id='231_0_34_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Всегда' id='231_0_34_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Не знаю' id='231_0_34_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+			</qw>
+			<qw name='Когда ребенка ругают родители и делают ему замечание, он не плачет и не кричит, а лишь немного похнычет.' id='231_0_35' code='35' valid_type='0' img='' time_limit='0' time='0'>
+				<an name='Никогда' id='231_0_35_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Редко' id='231_0_35_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Часто' id='231_0_35_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Всегда' id='231_0_35_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Не знаю' id='231_0_35_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+			</qw>
+			<qw name='Если мой ребенок на что-то сердится, его трудно успокоить.' id='231_0_36' code='36' valid_type='0' img='' time_limit='0' time='0'>
+				<an name='Никогда' id='231_0_36_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Редко' id='231_0_36_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Часто' id='231_0_36_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Всегда' id='231_0_36_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Не знаю' id='231_0_36_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+			</qw>
+			<qw name='Когда мой ребенок учится какой-либо новой подвижной игре (например, катанию на коньках), он проводит много времени, практикуясь в этом.' id='231_0_37' code='37' valid_type='0' img='' time_limit='0' time='0'>
+				<an name='Никогда' id='231_0_37_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Редко' id='231_0_37_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Часто' id='231_0_37_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Всегда' id='231_0_37_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Не знаю' id='231_0_37_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+			</qw>
+			<qw name='Мой ребенок голоден каждый день в разное время.' id='231_0_38' code='38' valid_type='0' img='' time_limit='0' time='0'>
+				<an name='Никогда' id='231_0_38_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Редко' id='231_0_38_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Часто' id='231_0_38_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Всегда' id='231_0_38_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Не знаю' id='231_0_38_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+			</qw>
+			<qw name='Мой ребенок очень чувствителен к изменению яркости света.' id='231_0_39' code='39' valid_type='0' img='' time_limit='0' time='0'>
+				<an name='Никогда' id='231_0_39_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Редко' id='231_0_39_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Часто' id='231_0_39_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Всегда' id='231_0_39_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Не знаю' id='231_0_39_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+			</qw>
+			<qw name='Мой ребенок с трудом засыпает на новом месте в течение нескольких дней.' id='231_0_40' code='40' valid_type='0' img='' time_limit='0' time='0'>
+				<an name='Никогда' id='231_0_40_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Редко' id='231_0_40_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Часто' id='231_0_40_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Всегда' id='231_0_40_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Не знаю' id='231_0_40_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+			</qw>
+			<qw name='Мой ребенок с нетерпением ждет того дня, когда он сможет пойти в школу.' id='231_0_41' code='41' valid_type='0' img='' time_limit='0' time='0'>
+				<an name='Никогда' id='231_0_41_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Редко' id='231_0_41_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Часто' id='231_0_41_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Всегда' id='231_0_41_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Не знаю' id='231_0_41_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+			</qw>
+			<qw name='Мой ребенок чувствует себя свободно в новой обстановке (когда семья отправляется в путешествия, на отдых и т.п.)' id='231_0_42' code='42' valid_type='0' img='' time_limit='0' time='0'>
+				<an name='Никогда' id='231_0_42_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Редко' id='231_0_42_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Часто' id='231_0_42_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Всегда' id='231_0_42_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Не знаю' id='231_0_42_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+			</qw>
+			<qw name='Если ребенку не покупают в магазине того, что он просит, ребенок активно выражает свое недовольство.' id='231_0_43' code='43' valid_type='0' img='' time_limit='0' time='0'>
+				<an name='Никогда' id='231_0_43_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Редко' id='231_0_43_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Часто' id='231_0_43_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Всегда' id='231_0_43_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Не знаю' id='231_0_43_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+			</qw>
+			<qw name='Моего ребенка трудно успокоить, если он расстроен.' id='231_0_44' code='44' valid_type='0' img='' time_limit='0' time='0'>
+				<an name='Никогда' id='231_0_44_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Редко' id='231_0_44_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Часто' id='231_0_44_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Всегда' id='231_0_44_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Не знаю' id='231_0_44_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+			</qw>
+			<qw name='Когда погода плохая, и ребенок вынужден находиться дома, он носится по комнатам, и его трудно занять тихими, спокойными играми.' id='231_0_45' code='45' valid_type='0' img='' time_limit='0' time='0'>
+				<an name='Никогда' id='231_0_45_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Редко' id='231_0_45_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Часто' id='231_0_45_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Всегда' id='231_0_45_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Не знаю' id='231_0_45_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+			</qw>
+			<qw name='Мой ребенок ведет себя непринужденно с незнакомыми взрослыми, которые приходят к нам домой.' id='231_0_46' code='46' valid_type='0' img='' time_limit='0' time='0'>
+				<an name='Никогда' id='231_0_46_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Редко' id='231_0_46_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Часто' id='231_0_46_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Всегда' id='231_0_46_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Не знаю' id='231_0_46_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+			</qw>
+			<qw name='Моему ребенку свойственно есть мало в один день и много - в другой.' id='231_0_47' code='47' valid_type='0' img='' time_limit='0' time='0'>
+				<an name='Никогда' id='231_0_47_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Редко' id='231_0_47_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Часто' id='231_0_47_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Всегда' id='231_0_47_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Не знаю' id='231_0_47_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+			</qw>
+			<qw name='Если у ребенка что-то не получается (трудная игра, головоломка и т.п.), он быстро меняет занятие.' id='231_0_48' code='48' valid_type='0' img='' time_limit='0' time='0'>
+				<an name='Никогда' id='231_0_48_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Редко' id='231_0_48_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Часто' id='231_0_48_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Всегда' id='231_0_48_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Не знаю' id='231_0_48_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+			</qw>
+			<qw name='Мой ребенок обращает внимание на темепературу в доме или на улице.' id='231_0_49' code='49' valid_type='0' img='' time_limit='0' time='0'>
+				<an name='Никогда' id='231_0_49_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Редко' id='231_0_49_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Часто' id='231_0_49_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Всегда' id='231_0_49_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Не знаю' id='231_0_49_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+			</qw>
+			<qw name='Мой ребенок заметно расстраивается, когда ломается его любимая игрушка или игра.' id='231_0_50' code='50' valid_type='0' img='' time_limit='0' time='0'>
+				<an name='Никогда' id='231_0_50_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Редко' id='231_0_50_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Часто' id='231_0_50_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Всегда' id='231_0_50_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Не знаю' id='231_0_50_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+			</qw>
+			<qw name='В новой ситуации (например, в больнице, в детском саду) мой ребенок в течение нескольких дней чувствует себя некомофортно.' id='231_0_51' code='51' valid_type='0' img='' time_limit='0' time='0'>
+				<an name='Никогда' id='231_0_51_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Редко' id='231_0_51_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Часто' id='231_0_51_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Всегда' id='231_0_51_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Не знаю' id='231_0_51_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+			</qw>
+			<qw name='Мой ребенок легко соглашается на выполнение неприятных для него процедур (стрижка ногтей, причесывание и т.п.), если его чем-то занять (игрой, сказкой, телевизором).' id='231_0_52' code='52' valid_type='0' img='' time_limit='0' time='0'>
+				<an name='Никогда' id='231_0_52_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Редко' id='231_0_52_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Часто' id='231_0_52_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Всегда' id='231_0_52_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Не знаю' id='231_0_52_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+			</qw>
+			<qw name='Мой ребенок ведет себя спокойно во время просмотра детского кинофильма или телепрограммы.' id='231_0_53' code='53' valid_type='0' img='' time_limit='0' time='0'>
+				<an name='Никогда' id='231_0_53_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Редко' id='231_0_53_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Часто' id='231_0_53_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Всегда' id='231_0_53_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Не знаю' id='231_0_53_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+			</qw>
+			<qw name='Мой ребенок кричит, громко спорит, когда ему предлагают переодеться.' id='231_0_54' code='54' valid_type='0' img='' time_limit='0' time='0'>
+				<an name='Никогда' id='231_0_54_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Редко' id='231_0_54_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Часто' id='231_0_54_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Всегда' id='231_0_54_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Не знаю' id='231_0_54_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+			</qw>
+			<qw name='Мой ребенок просыпается в одно и то же время, даже в воскресные дни и праздники.' id='231_0_55' code='55' valid_type='0' img='' time_limit='0' time='0'>
+				<an name='Никогда' id='231_0_55_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Редко' id='231_0_55_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Часто' id='231_0_55_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Всегда' id='231_0_55_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Не знаю' id='231_0_55_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+			</qw>
+			<qw name='Когда у ребенка что-то не получается в игре, он идет жаловаться своим родителям на других детей.' id='231_0_56' code='56' valid_type='0' img='' time_limit='0' time='0'>
+				<an name='Никогда' id='231_0_56_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Редко' id='231_0_56_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Часто' id='231_0_56_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Всегда' id='231_0_56_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Не знаю' id='231_0_56_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+			</qw>
+			<qw name='Мой ребенок жалуется, когда ему неудобна одежда.' id='231_0_57' code='57' valid_type='0' img='' time_limit='0' time='0'>
+				<an name='Никогда' id='231_0_57_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Редко' id='231_0_57_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Часто' id='231_0_57_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Всегда' id='231_0_57_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Не знаю' id='231_0_57_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+			</qw>
+			<qw name='Мой ребенок быстро успокаивается, если был сердит или чем-то недоволен.' id='231_0_58' code='58' valid_type='0' img='' time_limit='0' time='0'>
+				<an name='Никогда' id='231_0_58_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Редко' id='231_0_58_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Часто' id='231_0_58_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Всегда' id='231_0_58_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Не знаю' id='231_0_58_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+			</qw>
+			<qw name='Мой ребенок быстро привыкает к новому распорядку дня, если происходит какое-то изменение в повседневной жизни (не может пойти в детский сад, изменения в занятиях и т.п.)' id='231_0_59' code='59' valid_type='0' img='' time_limit='0' time='0'>
+				<an name='Никогда' id='231_0_59_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Редко' id='231_0_59_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Часто' id='231_0_59_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Всегда' id='231_0_59_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Не знаю' id='231_0_59_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+			</qw>
+			<qw name='Мой ребенок спокойно играет с игрушками и куклами на детской площадке или в парке.' id='231_0_60' code='60' valid_type='0' img='' time_limit='0' time='0'>
+				<an name='Никогда' id='231_0_60_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Редко' id='231_0_60_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Часто' id='231_0_60_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Всегда' id='231_0_60_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Не знаю' id='231_0_60_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+			</qw>
+			<qw name='Мой ребенок ведет себя спокойно, когда другой ребенок берет его игрушки.' id='231_0_61' code='61' valid_type='0' img='' time_limit='0' time='0'>
+				<an name='Никогда' id='231_0_61_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Редко' id='231_0_61_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Часто' id='231_0_61_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Всегда' id='231_0_61_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Не знаю' id='231_0_61_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+			</qw>
+			<qw name='Мой ребенок расстраивается, когда остается один без родителей в незнакомой обстановке (в школе, поликлинике, детском саду, на уроке музыки, в лагере и т.п.)' id='231_0_62' code='62' valid_type='0' img='' time_limit='0' time='0'>
+				<an name='Никогда' id='231_0_62_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Редко' id='231_0_62_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Часто' id='231_0_62_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Всегда' id='231_0_62_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Не знаю' id='231_0_62_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+			</qw>
+			<qw name='Моего ребенка трудно отвлечь или заставить прекратить свое занятие, если он им увлечен.' id='231_0_63' code='63' valid_type='0' img='' time_limit='0' time='0'>
+				<an name='Никогда' id='231_0_63_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Редко' id='231_0_63_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Часто' id='231_0_63_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Всегда' id='231_0_63_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Не знаю' id='231_0_63_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+			</qw>
+			<qw name='Мой ребенок любит спокойные занятия (такие, как рукоделие, просмотр телепрограмм, чтение или рассматривание книжек).' id='231_0_64' code='64' valid_type='0' img='' time_limit='0' time='0'>
+				<an name='Никогда' id='231_0_64_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Редко' id='231_0_64_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Часто' id='231_0_64_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Всегда' id='231_0_64_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Не знаю' id='231_0_64_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+			</qw>
+			<qw name='Мой ребенок расстраивается, когда теряет свои игрушки.' id='231_0_65' code='65' valid_type='0' img='' time_limit='0' time='0'>
+				<an name='Никогда' id='231_0_65_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Редко' id='231_0_65_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Часто' id='231_0_65_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Всегда' id='231_0_65_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Не знаю' id='231_0_65_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+			</qw>
+			<qw name='Мой ребенок предпочитает знакомую одежду новой.' id='231_0_66' code='66' valid_type='0' img='' time_limit='0' time='0'>
+				<an name='Никогда' id='231_0_66_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Редко' id='231_0_66_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Часто' id='231_0_66_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Всегда' id='231_0_66_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Не знаю' id='231_0_66_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+			</qw>
+			<qw name='Мой ребенок обращает внимание на испачканную или промокшую одежду.' id='231_0_67' code='67' valid_type='0' img='' time_limit='0' time='0'>
+				<an name='Никогда' id='231_0_67_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Редко' id='231_0_67_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Часто' id='231_0_67_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Всегда' id='231_0_67_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Не знаю' id='231_0_67_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+			</qw>
+			<qw name='Мой ребенок с трудом привыкает к распорядку дня в другом месте.' id='231_0_68' code='68' valid_type='0' img='' time_limit='0' time='0'>
+				<an name='Никогда' id='231_0_68_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Редко' id='231_0_68_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Часто' id='231_0_68_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Всегда' id='231_0_68_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Не знаю' id='231_0_68_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+			</qw>
+			<qw name='Мой ребенок воспринимает события спокойно, без волнения.' id='231_0_69' code='69' valid_type='0' img='' time_limit='0' time='0'>
+				<an name='Никогда' id='231_0_69_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Редко' id='231_0_69_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Часто' id='231_0_69_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Всегда' id='231_0_69_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Не знаю' id='231_0_69_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+			</qw>
+			<qw name='Мой ребенок легко ждет, если завтрак, обед или ужин откладываются на час или более.' id='231_0_70' code='70' valid_type='0' img='' time_limit='0' time='0'>
+				<an name='Никогда' id='231_0_70_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Редко' id='231_0_70_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Часто' id='231_0_70_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Всегда' id='231_0_70_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Не знаю' id='231_0_70_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+			</qw>
+			<qw name='Мой ребенок быстро перестает надоедать, если ему предложить занятие.' id='231_0_71' code='71' valid_type='0' img='' time_limit='0' time='0'>
+				<an name='Никогда' id='231_0_71_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Редко' id='231_0_71_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Часто' id='231_0_71_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Всегда' id='231_0_71_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Не знаю' id='231_0_71_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+			</qw>
+			<qw name='Мой ребенок отказывается от посторонней помощи, когда он чем-то занят.' id='231_0_72' code='72' valid_type='0' img='' time_limit='0' time='0'>
+				<an name='Никогда' id='231_0_72_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Редко' id='231_0_72_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Часто' id='231_0_72_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Всегда' id='231_0_72_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+				<an name='Не знаю' id='231_0_72_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+			</qw>
+		</section>
+		<images/>
+	</test>
+</root>

@@ -7,8 +7,13 @@ const schema = new Schema({
     password: { type: String, required: true },
     terms: { type: Boolean },
     resolution: { type: Boolean },
+    birthday: {type: Date, required: true},
 
-    walkthroughs: [{ type: Types.ObjectId, ref: 'Walkthrough' }]
+    class: {type: Types.ObjectId, ref: 'Class'},
+
+    psych: {type: Types.ObjectId, ref: 'Psych'},
+
+    tests: [{ type: Types.ObjectId, ref: 'Test' }]
 
 })
 

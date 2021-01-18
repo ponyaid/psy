@@ -1,0 +1,309 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root mode='0'>
+    <test code='202' name='Опросник Басса - Дарки' time_limit='0' navigate='false' control_scroll='false' control='true' use_conclusion='false' use_stoping='false' time='0' guid='883455c4-71bf-11e1-8181-bcaec5d251ec' fill='0' conclusion='' mode='Не пройден' registered='false' fb_user_guid='' fb_user_name='' fb_link_guid='' fb_link_name='' grade_unit_guid='' grade_unit_name='' grade_post_guid='' grade_post_name=''>
+        <section id='202_0' code='0' name='Опросник Басса - Дарки' shake='false' sample='0' time_limit='0' time='0'>
+            <inst img=''>Внимательно прочитайте предложенные Вам утверждения и отметьте, согласны Вы с ним или нет.</inst>
+            <qw name='Временами я не могу справиться с желанием причинить вред другим.' id='202_0_1' code='1' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_1_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_1_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Иногда я сплетничаю о людях, которых не люблю.' id='202_0_2' code='2' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_2_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_2_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Я легко раздражаюсь, но быстро успокаиваюсь.' id='202_0_3' code='3' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_3_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_3_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Если меня не попросят по-хорошему, я не выполню просьбы.' id='202_0_4' code='4' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_4_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_4_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Я не всегда получаю то, что мне положено.' id='202_0_5' code='5' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_5_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_5_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Я знаю, что люди говорят обо мне за моей спиной.' id='202_0_6' code='6' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_6_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_6_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Если я не одобряю поведения друзей, я даю им это почувствовать.' id='202_0_7' code='7' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_7_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_7_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Если мне случалось обмануть кого-нибудь, я испытывал мучительные угрызения совести.' id='202_0_8' code='8' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_8_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_8_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Мне кажется, я не способен ударить человека.' id='202_0_9' code='9' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_9_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_9_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Я никогда не раздражаюсь настолько, чтобы кидаться предметами.' id='202_0_10' code='10' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_10_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_10_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Я всегда снисходителен к чужим недостаткам.' id='202_0_11' code='11' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_11_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_11_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Если мне не нравится установленное правило, мне хочется нарушить его.' id='202_0_12' code='12' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_12_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_12_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Другие почти всегда умеют пользоваться благоприятными обстоятельствами.' id='202_0_13' code='13' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_13_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_13_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Я держусь настороженно с людьми, которые относятся ко мне несколько более дружественно, чем я ожидал.' id='202_0_14' code='14' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_14_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_14_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Я часто бываю не согласен с людьми.' id='202_0_15' code='15' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_15_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_15_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Иногда мне на ум приходят мысли, которых я стыжусь.' id='202_0_16' code='16' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_16_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_16_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Если кто-нибудь ударит меня первым, я не отвечу ему.' id='202_0_17' code='17' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_17_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_17_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Когда я раздражаюсь, я хлопаю дверьми.' id='202_0_18' code='18' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_18_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_18_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Я гораздо более раздражителен, чем кажется.' id='202_0_19' code='19' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_19_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_19_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Если кто-нибудь корчит из себя начальника, я всегда поступаю ему наперекор.' id='202_0_20' code='20' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_20_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_20_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Меня немного огорчает моя судьба.' id='202_0_21' code='21' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_21_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_21_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Я думаю, что многие люди не любят меня.' id='202_0_22' code='22' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_22_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_22_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Я не могу удержаться от спора, если люди не согласны со мной.' id='202_0_23' code='23' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_23_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_23_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Люди, увиливающие от работы, должны испытывать чувство вины.' id='202_0_24' code='24' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_24_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_24_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Тот, кто оскорбляет меня или мою семью, напрашивается на драку.' id='202_0_25' code='25' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_25_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_25_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Я не способен на грубые шутки.' id='202_0_26' code='26' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_26_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_26_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Меня охватывает ярость, когда надо мной насмехаются.' id='202_0_27' code='27' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_27_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_27_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Когда люди строят из себя начальников, я делаю все, чтобы они не зазнавались.' id='202_0_28' code='28' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_28_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_28_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Почти каждую неделю я вижу кого-нибудь, кто мне не нравится.' id='202_0_29' code='29' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_29_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_29_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Довольно много людей завидуют мне.' id='202_0_30' code='30' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_30_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_30_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Я требую, чтобы люди уважали мои права.' id='202_0_31' code='31' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_31_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_31_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Меня угнетает то, что я мало делаю для своих родителей.' id='202_0_32' code='32' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_32_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_32_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Люди, которые постоянно изводят нас, заслуживают, чтобы их щелкнули по носу.' id='202_0_33' code='33' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_33_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_33_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='От злости я иногда бываю мрачен,' id='202_0_34' code='34' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_34_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_34_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Если ко мне относятся хуже, чем я того заслуживаю, я не расстраиваюсь.' id='202_0_35' code='35' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_35_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_35_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Если кто-то выводит меня из себя, я не обращаю на него внимания.' id='202_0_36' code='36' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_36_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_36_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Хотя я и не показываю этого, но иногда меня гложет зависть.' id='202_0_37' code='37' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_37_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_37_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Иногда мне кажется, что надо мной смеются.' id='202_0_38' code='38' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_38_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_38_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Даже если я злюсь, я не прибегаю к «сильным» выражениям.' id='202_0_39' code='39' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_39_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_39_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Мне хочется, чтобы мои грехи были прощены.' id='202_0_40' code='40' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_40_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_40_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Я редко даю сдачи, даже если кто-нибудь ударит меня,' id='202_0_41' code='41' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_41_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_41_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Когда получается не по-моему, я иногда обижаюсь.' id='202_0_42' code='42' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_42_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_42_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Иногда люди раздражают меня просто своим присутствием.' id='202_0_43' code='43' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_43_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_43_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Нет людей, которых бы я по-настоящему ненавидел.' id='202_0_44' code='44' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_44_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_44_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Мой принцип: «Никогда не доверять чужакам».' id='202_0_45' code='45' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_45_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_45_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Если кто-нибудь раздражает меня, я готов сказать все, что я о нем думаю.' id='202_0_46' code='46' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_46_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_46_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Я делаю много такого, о чем в последствии сожалею.' id='202_0_47' code='47' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_47_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_47_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Если я разозлюсь, я могу ударить кого-нибудь.' id='202_0_48' code='48' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_48_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_48_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='С десяти лет я никогда не проявлял вспышек гнева.' id='202_0_49' code='49' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_49_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_49_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Я часто чувствую себя как пороховая бочка, готовая взорваться.' id='202_0_50' code='50' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_50_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_50_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Если бы все знали, что я чувствую, меня бы считали человеком, с которым нелегко ладить.' id='202_0_51' code='51' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_51_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_51_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Я всегда думаю о том, какие тайные причины заставляют людей делать что-нибудь приятное для меня' id='202_0_52' code='52' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_52_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_52_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Когда на меня кричат, я начинаю кричать в ответ.' id='202_0_53' code='53' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_53_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_53_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Неудачи огорчают меня.' id='202_0_54' code='54' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_54_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_54_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Я дерусь не реже и не чаще, чем другие.' id='202_0_55' code='55' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_55_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_55_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Я могу вспомнить случаи, когда я был настолько зол, что хватал попавшуюся мне под руку вещь и ломал ее.' id='202_0_56' code='56' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_56_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_56_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Иногда я чувствую, что готов первым начать драку.' id='202_0_57' code='57' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_57_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_57_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Иногда я чувствую, что жизнь поступает со мной несправедливо.' id='202_0_58' code='58' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_58_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_58_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Раньше я думал, что большинство людей говорит правду, но теперь в это не верю.' id='202_0_59' code='59' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_59_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_59_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Я ругаюсь только со злости.' id='202_0_60' code='60' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_60_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_60_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Когда я поступаю неправильно, меня мучает совесть.' id='202_0_61' code='61' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_61_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_61_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Если для защиты своих прав мне надо применить физическую силу, применяю ее.' id='202_0_62' code='62' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_62_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_62_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Иногда я выражаю свой гнев тем, что стучу по столу кулаком.' id='202_0_63' code='63' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_63_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_63_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Я бываю грубоват по отношению к людям, которые мне не нравятся.' id='202_0_64' code='64' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_64_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_64_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='У меня нет врагов, которые хотели бы мне навредить.' id='202_0_65' code='65' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_65_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_65_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Я не умею поставить человека на место, даже если он того заслуживает.' id='202_0_66' code='66' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_66_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_66_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Я часто думаю, что жил неправильно.' id='202_0_67' code='67' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_67_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_67_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Я знаю людей, которые способны довести меня до драки.' id='202_0_68' code='68' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_68_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_68_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Я не огорчаюсь из-за мелочей.' id='202_0_69' code='69' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_69_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_69_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Мне редко приходит в голову, что люди пытаются разозлить или оскорбить меня.' id='202_0_70' code='70' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_70_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_70_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Я часто просто угрожаю людям, хотя и не собираюсь приводить угрозу в исполнение.' id='202_0_71' code='71' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_71_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_71_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Последнее время я стал занудой.' id='202_0_72' code='72' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_72_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_72_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='В споре я часто повышаю голос.' id='202_0_73' code='73' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_73_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_73_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Я стараюсь обычно скрывать плохое отношение к людям.' id='202_0_74' code='74' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_74_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_74_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Я лучше соглашусь с чем-либо, чем стану спорить.' id='202_0_75' code='75' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='202_0_75_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='202_0_75_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+        </section>
+        <images/>
+    </test>
+</root>

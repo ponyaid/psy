@@ -1,0 +1,38 @@
+.school-page {
+    &__wrapper {
+        flex-grow: 1;
+        display: flex;
+        flex-flow: column;
+    }
+
+    &__plug {
+        margin: auto 0;
+        max-width: 170px;
+        font-size: 16px;
+        line-height: 22px;
+        text-align: center;
+        letter-spacing: 0.32px;
+        color: #122443;
+        align-self: center;
+    }
+
+    &__qr-icon {
+        display: block;
+        position: absolute;
+        top: 1.5rem;
+        right: 1rem;
+        width: 2rem;
+        height: 2rem;
+        padding: 6px;
+        background: #f4f7f9;
+        border-radius: 7px;
+
+        &::after {
+            content: "";
+            width: 100%;
+            height: 100%;
+            display: block;
+            background: url(../img/ic-qr.svg) no-repeat center;
+        }
+    }
+}

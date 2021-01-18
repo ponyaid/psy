@@ -1,0 +1,356 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root mode='0'>
+    <test code='211' name='Опросник жалоб ребенка' time_limit='0' navigate='false' control_scroll='false' control='true' use_conclusion='false' use_stoping='false' time='0' guid='883455d2-71bf-11e1-8181-bcaec5d251ec' fill='0' conclusion='' mode='Не пройден' registered='false' fb_user_guid='' fb_user_name='' fb_link_guid='' fb_link_name='' grade_unit_guid='' grade_unit_name='' grade_post_guid='' grade_post_name=''>
+        <section id='211_0' code='0' name='Опросник жалоб ребенка' shake='false' sample='0' time_limit='0' time='0'>
+            <inst img=''>Уважаемые родители! Данный опросник направлен на определение состояния здоровья Вашего ребенка.&lt;br&gt;&lt;/br&gt;&lt;br&gt;&lt;/br&gt;Отметьте, пожалуйста, симптомы, которые наблюдаются или отсутствуют у Вашего ребенка.&lt;br&gt;&lt;/br&gt;&lt;br&gt;&lt;/br&gt;Неразглашаемость результатов гарантируется.</inst>
+            <qw name='Расстройства зрения.' id='211_0_1' code='1' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_1_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_1_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Прочие глазные болезни.' id='211_0_2' code='2' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_2_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_2_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Снижение слуха.' id='211_0_3' code='3' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_3_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_3_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Ушные заболевания.' id='211_0_4' code='4' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_4_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_4_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Частые насморки и дыхание ртом.' id='211_0_5' code='5' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_5_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_5_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Сенная лихорадка (поллиноз).' id='211_0_6' code='6' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_6_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_6_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Частые носовые кровотечения.' id='211_0_7' code='7' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_7_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_7_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Увеличение шейных лимфоузлов.' id='211_0_8' code='8' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_8_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_8_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Боль в горле, покраснение зева, боль при глотании.' id='211_0_9' code='9' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_9_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_9_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Частые зубные боли.' id='211_0_10' code='10' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_10_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_10_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Скрежетание зубами.' id='211_0_11' code='11' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_11_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_11_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Одышка при нагрузке.' id='211_0_12' code='12' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_12_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_12_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Склонность к бронхиту.' id='211_0_13' code='13' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_13_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_13_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Бронхиальная астма.' id='211_0_14' code='14' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_14_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_14_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Сердцебиение, боли в сердце.' id='211_0_15' code='15' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_15_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_15_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Головокружение, слабость.' id='211_0_16' code='16' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_16_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_16_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Онемение рук или ног.' id='211_0_17' code='17' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_17_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_17_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Склонность к покраснению.' id='211_0_18' code='18' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_18_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_18_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Лихорадка.' id='211_0_19' code='19' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_19_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_19_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Снижение аппетита.' id='211_0_20' code='20' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_20_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_20_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Тошнота, рвота.' id='211_0_21' code='21' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_21_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_21_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Нарушения пищеварения.' id='211_0_22' code='22' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_22_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_22_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Прожорливость, «волчий голод».' id='211_0_23' code='23' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_23_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_23_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Злоупотребление сладким.' id='211_0_24' code='24' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_24_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_24_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Повышенная жажда.' id='211_0_25' code='25' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_25_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_25_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Сосание пальца.' id='211_0_26' code='26' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_26_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_26_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Обгрызание ногтей и заусениц.' id='211_0_27' code='27' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_27_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_27_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Ожирение или похудание.' id='211_0_28' code='28' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_28_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_28_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Боли, чувство тяжести в желудке.' id='211_0_29' code='29' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_29_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_29_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Боли в животе, колотье в боку.' id='211_0_30' code='30' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_30_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_30_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Боли в правой подвздошной области.' id='211_0_31' code='31' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_31_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_31_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Желтуха.' id='211_0_32' code='32' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_32_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_32_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Запоры.' id='211_0_33' code='33' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_33_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_33_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Жидкий или учащенный стул.' id='211_0_34' code='34' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_34_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_34_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Недержание кала.' id='211_0_35' code='35' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_35_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_35_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Задержка стула.' id='211_0_36' code='36' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_36_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_36_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Глисты.' id='211_0_37' code='37' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_37_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_37_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Затруднение мочеиспускания, мочеиспускание каплями.' id='211_0_38' code='38' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_38_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_38_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Ночное или дневное недержание мочи.' id='211_0_39' code='39' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_39_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_39_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Боли при мочеиспускании.' id='211_0_40' code='40' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_40_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_40_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Сексуальные нарушения.' id='211_0_41' code='41' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_41_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_41_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Мигание, тики, подергивание плеч.' id='211_0_42' code='42' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_42_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_42_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Дрожание рук, писчий спазм.' id='211_0_43' code='43' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_43_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_43_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Нарушение походки, пошатывания.' id='211_0_44' code='44' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_44_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_44_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Боли в конечностях.' id='211_0_45' code='45' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_45_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_45_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Подергивание головой и верхней частью туловища.' id='211_0_46' code='46' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_46_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_46_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Судороги.' id='211_0_47' code='47' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_47_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_47_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Нарушения осанки.' id='211_0_48' code='48' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_48_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_48_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Леворукость.' id='211_0_49' code='49' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_49_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_49_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Выдергивание волос.' id='211_0_50' code='50' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_50_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_50_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Повышенная чувствительность кожи.' id='211_0_51' code='51' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_51_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_51_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Сыпи, экземы, частая ранимость кожи.' id='211_0_52' code='52' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_52_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_52_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Зуд.' id='211_0_53' code='53' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_53_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_53_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Фурункулы, прыщи.' id='211_0_54' code='54' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_54_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_54_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Истощаемость, утомляемость.' id='211_0_55' code='55' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_55_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_55_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Головная боль.' id='211_0_56' code='56' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_56_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_56_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Нарушение сна.' id='211_0_57' code='57' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_57_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_57_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Вскрикивание во сне.' id='211_0_58' code='58' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_58_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_58_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Склонность к частым заболеваниям.' id='211_0_59' code='59' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_59_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_59_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Раздражительность, вспыльчивость.' id='211_0_60' code='60' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_60_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_60_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Заикание, другие расстройства речи.' id='211_0_61' code='61' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_61_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_61_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Остановки речи, страх говорить, немота.' id='211_0_62' code='62' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_62_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_62_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Снохождение.' id='211_0_63' code='63' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_63_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_63_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Беспокойство, непоседливость, несдержанность.' id='211_0_64' code='64' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_64_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_64_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Чувство малоценности, неуверенность в себе.' id='211_0_65' code='65' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_65_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_65_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Трудности контакта с детьми, взрослыми.' id='211_0_66' code='66' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_66_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_66_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Депрессивные настроения, плаксивость.' id='211_0_67' code='67' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_67_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_67_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Тенденции к самоубийству.' id='211_0_68' code='68' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_68_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_68_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Пугливость.' id='211_0_69' code='69' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_69_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_69_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Страх темноты.' id='211_0_70' code='70' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_70_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_70_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Страх воды, животных и др.' id='211_0_71' code='71' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_71_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_71_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Страх школы, ответа у доски.' id='211_0_72' code='72' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_72_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_72_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Отказ ходить в школу.' id='211_0_73' code='73' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_73_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_73_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Забывчивость. трудность сосредоточения.' id='211_0_74' code='74' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_74_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_74_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Склонность к бесплодным мечтаниям.' id='211_0_75' code='75' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_75_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_75_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Нарушение игры.' id='211_0_76' code='76' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_76_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_76_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='«Умственная жвачка».' id='211_0_77' code='77' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_77_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_77_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Педантичность.' id='211_0_78' code='78' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_78_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_78_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Фанатичная приверженность к чистоте.' id='211_0_79' code='79' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_79_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_79_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Чудаковатость, любовь к одиночеству.' id='211_0_80' code='80' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_80_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_80_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Упрямство, непослушание.' id='211_0_81' code='81' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_81_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_81_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Шутовство, кривляние.' id='211_0_82' code='82' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_82_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_82_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Трудности в соблюдении дисциплины.' id='211_0_83' code='83' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_83_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_83_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Мошенничество, лживость.' id='211_0_84' code='84' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_84_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_84_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Воровство, обман.' id='211_0_85' code='85' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_85_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_85_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Прогулы в школе.' id='211_0_86' code='86' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='211_0_86_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='211_0_86_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Имеются ли расстройства, не включенные в анкету? Напечатайте ниже, какие именно.' id='211_0_87' code='87' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='' id='211_0_87_1' code='1' type='ar' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+        </section>
+        <images/>
+    </test>
+</root>

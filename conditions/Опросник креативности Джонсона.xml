@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root mode='0'>
+    <test code='223' name='Опросник креативности Джонсона' time_limit='0' navigate='false' control_scroll='false' control='true' use_conclusion='false' use_stoping='false' time='0' guid='883455e9-71bf-11e1-8181-bcaec5d251ec' fill='0' conclusion='' mode='Не пройден' registered='false' fb_user_guid='' fb_user_name='' fb_link_guid='' fb_link_name='' grade_unit_guid='' grade_unit_name='' grade_post_guid='' grade_post_name=''>
+        <section id='223_0' code='0' name='Опросник креативности Джонсона' shake='false' sample='0' time_limit='0' time='0'>
+            <inst img=''>В опроснике приведены восемь характеристики творческого проявления личности (креативности). Пожалуйста, оцените, используя пятибалльную шкалу, в какой степени ученик обладает этими характеристиками.</inst>
+            <qw name='Способен ощущать тонкие, неопределенные, сложные особенности окружающего мира (чувствительность к проблеме, предпочтение сложностей).' id='223_0_1' code='1' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='1. никогда' id='223_0_1_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2. редко' id='223_0_1_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3. иногда' id='223_0_1_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4. часто' id='223_0_1_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5. постоянно' id='223_0_1_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Способен выдвигать и выражать большое количество различных идей в данных условиях (беглость).' id='223_0_2' code='2' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='1. никогда' id='223_0_2_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2. редко' id='223_0_2_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3. иногда' id='223_0_2_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4. часто' id='223_0_2_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5. постоянно' id='223_0_2_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Способен предлагать разные виды, типы, категории идей (гибкость).' id='223_0_3' code='3' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='1. никогда' id='223_0_3_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2. редко' id='223_0_3_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3. иногда' id='223_0_3_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4. часто' id='223_0_3_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5. постоянно' id='223_0_3_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Способен предлагать дополнительные детали, идеи, версии или решения (находчивость, изобретательность, разработанность).' id='223_0_4' code='4' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='1. никогда' id='223_0_4_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2. редко' id='223_0_4_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3. иногда' id='223_0_4_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4. часто' id='223_0_4_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5. постоянно' id='223_0_4_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Способен проявлять воображение, чувство юмора и развивать гипотетические возможности (воображение, способности к структурированию).' id='223_0_5' code='5' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='1. никогда' id='223_0_5_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2. редко' id='223_0_5_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3. иногда' id='223_0_5_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4. часто' id='223_0_5_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5. постоянно' id='223_0_5_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Способен демонстрировать поведение, которое является неожиданным, оригинальным, но полезным для решения проблемы (оригинальность, изобретательность и продуктивность).' id='223_0_6' code='6' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='1. никогда' id='223_0_6_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2. редко' id='223_0_6_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3. иногда' id='223_0_6_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4. часто' id='223_0_6_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5. постоянно' id='223_0_6_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Способен воздержаться от принятия первой пришедшей в голову, типичной, общепринятой позиции, выдвигать различные идеи и выбрать лучшую (независимость).' id='223_0_7' code='7' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='1. никогда' id='223_0_7_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2. редко' id='223_0_7_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3. иногда' id='223_0_7_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4. часто' id='223_0_7_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5. постоянно' id='223_0_7_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Способен проявлять уверенность в своем решении, несмотря на возникшие затруднения, брать на себя ответственность за нестандартную позицию, мнение, содействующее решению проблемы (уверенный стиль поведения с опорой на себя, самодостаточное поведение).' id='223_0_8' code='8' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='1. никогда' id='223_0_8_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2. редко' id='223_0_8_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3. иногда' id='223_0_8_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4. часто' id='223_0_8_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5. постоянно' id='223_0_8_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+        </section>
+        <images/>
+    </test>
+</root>

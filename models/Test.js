@@ -1,11 +1,18 @@
-const {Schema, model, Types} = require('mongoose')
+const { Schema, model, Types } = require('mongoose')
 
 const schema = new Schema({
-    id: {type: Number, required: true, unique: true},
-    name: {type: String, required: true},
-    body: {type: Object, required: true},
-    xml: {type: String, required: true}
+    date: { type: Date, default: Date.now },
+    solution: { type: String },
+    conditionId: { type: Number, required: true },
+    pupil: { type: Types.ObjectId, ref: 'Pupil' },
+}, { toJSON: { virtuals: true } })
 
+
+schema.virtual('condition', {
+    ref: 'Condition',
+    localField: 'conditionId',
+    foreignField: 'id',
+    justOne: true,
 })
 
 

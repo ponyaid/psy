@@ -1,0 +1,241 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root mode='0'>
+    <test code='203' name='Опросник Филлипса' time_limit='0' navigate='false' control_scroll='false' control='true' use_conclusion='false' use_stoping='false' time='0' guid='ec15f1b2-6116-11e1-85eb-bcaec5d251ec' fill='0' conclusion='' mode='Не пройден' registered='false' fb_user_guid='' fb_user_name='' fb_link_guid='' fb_link_name='' grade_unit_guid='' grade_unit_name='' grade_post_guid='' grade_post_name=''>
+        <section id='203_0' code='0' name='Опросник Филлипса' shake='false' sample='0' time_limit='0' time='0'>
+            <inst img=''>Сейчас Вам будет предложен опросник, который состоит из вопросов о том, как Вы себя чувствуете в школе. Старайтесь отвечать искренне и правдиво, здесь нет верных или неверных, хороших или плохих ответов. Над вопросами долго не задумывайтесь.&lt;br&gt;&lt;/br&gt;Отвечая на вопрос, давайте ответ «Да», если Вы согласны с ним, или «Нет», если не согласны.</inst>
+            <qw name='Трудно ли тебе держаться на одном уровне со всем классом?' id='203_0_1' code='1' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='203_0_1_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='203_0_1_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Волнуешься ли ты, когда учитель говорит, что собирается проверить, насколько ты знаешь материал?' id='203_0_2' code='2' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='203_0_2_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='203_0_2_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Трудно ли тебе работать в классе так, как этого хочет учитель?' id='203_0_3' code='3' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='203_0_3_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='203_0_3_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Снится ли тебе временами, что учитель в ярости от того, что ты не знаешь урок?' id='203_0_4' code='4' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='203_0_4_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='203_0_4_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Случалось ли, что кто-нибудь из твоего класса бил или ударял тебя?' id='203_0_5' code='5' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='203_0_5_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='203_0_5_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Часто ли тебе хочется, чтобы учитель не торопился при объяснении нового материала, пока ты не поймешь, что он говорит?' id='203_0_6' code='6' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='203_0_6_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='203_0_6_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Сильно ли ты волнуешься при ответе или выполнении задания?' id='203_0_7' code='7' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='203_0_7_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='203_0_7_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Случается ли с тобой, что ты боишься высказываться на уроке, потому что боишься сделать глупую ошибку?' id='203_0_8' code='8' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='203_0_8_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='203_0_8_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Дрожат ли у тебя колени, когда тебя вызывают отвечать?' id='203_0_9' code='9' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='203_0_9_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='203_0_9_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Часто ли твои одноклассники смеются над тобой, когда вы играете в разные игры?' id='203_0_10' code='10' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='203_0_10_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='203_0_10_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Случается ли, что тебе ставят более низкую оценку, чем ты ожидал?' id='203_0_11' code='11' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='203_0_11_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='203_0_11_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Волнует ли тебя вопрос о том, не оставят ли тебя на второй год?' id='203_0_12' code='12' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='203_0_12_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='203_0_12_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Стараешься ли ты избегать игр, в которых делается выбор, потому что тебя, как правило, не выбирают?' id='203_0_13' code='13' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='203_0_13_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='203_0_13_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Бывает ли временами, что ты весь дрожишь, когда тебя вызывают отвечать?' id='203_0_14' code='14' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='203_0_14_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='203_0_14_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Часто ли у тебя возникает ощущение, что никто из этих одноклассников не хочет делать то, что хочешь ты?' id='203_0_15' code='15' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='203_0_15_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='203_0_15_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Сильно ли ты волнуешься перед тем, как начать выполнять задание?' id='203_0_16' code='16' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='203_0_16_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='203_0_16_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Трудно ли тебе получать такие отметки, каких ждут от тебя родители?' id='203_0_17' code='17' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='203_0_17_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='203_0_17_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Боишься ли ты временами, что тебе станет дурно в классе?' id='203_0_18' code='18' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='203_0_18_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='203_0_18_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Будут ли твои одноклассники смеяться над тобой, если ты сделаешь ошибку при ответе?' id='203_0_19' code='19' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='203_0_19_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='203_0_19_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Похож ли ты на своих одноклассников?' id='203_0_20' code='20' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='203_0_20_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='203_0_20_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Выполнив задание, беспокоишься ли ты о том, хорошо ли с ним справился?' id='203_0_21' code='21' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='203_0_21_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='203_0_21_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Когда ты работаешь в классе, уверен ли ты в том, что все хорошо запомнишь?' id='203_0_22' code='22' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='203_0_22_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='203_0_22_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Снится ли тебе иногда, что ты в школе и не можешь ответить на вопрос учителя?' id='203_0_23' code='23' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='203_0_23_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='203_0_23_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Верно ли, что большинство ребят относится к тебе дружески?' id='203_0_24' code='24' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='203_0_24_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='203_0_24_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Работаешь ли ты более усердно, если знаешь, что результаты твоей работы будут сравниваться в классе с результатами твоих одноклассников?' id='203_0_25' code='25' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='203_0_25_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='203_0_25_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Часто ли ты мечтаешь о том, чтобы поменьше волноваться, когда тебя спрашивают?' id='203_0_26' code='26' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='203_0_26_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='203_0_26_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Боишься ли ты временами вступать в спор?' id='203_0_27' code='27' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='203_0_27_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='203_0_27_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Чувствуешь ли ты, что твое сердце начинает сильно биться, когда учитель говорит, что собирается проверить твою готовность к уроку?' id='203_0_28' code='28' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='203_0_28_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='203_0_28_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Когда ты получаешь хорошие отметки, думает ли кто-нибудь из твоих друзей, что ты хочешь выслужиться?' id='203_0_29' code='29' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='203_0_29_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='203_0_29_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Хорошо ли ты себя чувствуешь с теми из твоих одноклассников, к которым ребята относятся с особым вниманием?' id='203_0_30' code='30' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='203_0_30_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='203_0_30_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Бывает ли, что некоторые ребята в классе говорят что-то, что тебя задевает?' id='203_0_31' code='31' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='203_0_31_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='203_0_31_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Как ты думаешь, теряют ли расположение учителя те из учеников, которые не справляются с учебой?' id='203_0_32' code='32' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='203_0_32_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='203_0_32_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Похоже ли на то, что большинство твоих одноклассников не обращают на тебя внимание?' id='203_0_33' code='33' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='203_0_33_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='203_0_33_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Часто ли ты боишься выглядеть нелепо?' id='203_0_34' code='34' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='203_0_34_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='203_0_34_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Доволен ли ты тем, как к тебе относятся учителя?' id='203_0_35' code='35' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='203_0_35_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='203_0_35_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Помогает ли твоя мама в организации школьных вечеров, как некоторые мамы твоих одноклассников?' id='203_0_36' code='36' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='203_0_36_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='203_0_36_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Волновало ли тебя когда-нибудь, что думают о тебе окружающие?' id='203_0_37' code='37' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='203_0_37_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='203_0_37_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Надеешься ли ты в будущем учиться лучше, чем раньше?' id='203_0_38' code='38' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='203_0_38_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='203_0_38_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Считаешь ли ты, что одеваешься в школу также хорошо, как и твои одноклассники?' id='203_0_39' code='39' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='203_0_39_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='203_0_39_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Часто ли ты задумываешься, отвечая на уроке, что думают о тебе в это время другие?' id='203_0_40' code='40' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='203_0_40_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='203_0_40_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Обладают ли способные ученики какими-то особыми правами, которых нет у других ребят в классе?' id='203_0_41' code='41' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='203_0_41_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='203_0_41_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Злятся ли некоторые из твоих одноклассников, когда тебе удается быть лучше их?' id='203_0_42' code='42' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='203_0_42_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='203_0_42_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Доволен ли ты тем, как к тебе относятся одноклассники?' id='203_0_43' code='43' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='203_0_43_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='203_0_43_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Хорошо ли ты себя чувствуешь, когда остаешься один на один с учителем?' id='203_0_44' code='44' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='203_0_44_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='203_0_44_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Высмеивают ли временами твои одноклассники твою внешность и поведение?' id='203_0_45' code='45' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='203_0_45_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='203_0_45_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Думаешь ли ты, что беспокоишься о своих школьных делах больше, чем другие ребята?' id='203_0_46' code='46' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='203_0_46_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='203_0_46_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Если ты не можешь ответить, когда тебя спрашивают, чувствуешь ли ты, что вот-вот расплачешься?' id='203_0_47' code='47' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='203_0_47_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='203_0_47_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Когда вечером ты лежишь в постели, думаешь ли ты временами с беспокойством о том, что будет завтра в школе?' id='203_0_48' code='48' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='203_0_48_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='203_0_48_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Работая над трудным заданием, чувствуешь ли ты порой, что совершенно забыл вещи, которые хорошо знал раньше?' id='203_0_49' code='49' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='203_0_49_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='203_0_49_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Дрожит ли слегка твоя рука, когда ты работаешь над заданием?' id='203_0_50' code='50' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='203_0_50_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='203_0_50_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Чувствуешь ли ты, что начинаешь нервничать, когда учитель говорит, что собирается дать классу задание?' id='203_0_51' code='51' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='203_0_51_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='203_0_51_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Пугает ли тебя проверка твоих знаний в школе?' id='203_0_52' code='52' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='203_0_52_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='203_0_52_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Когда учитель говорит, что собирается дать классу задание, чувствуешь ли ты страх, что не справишься ним?' id='203_0_53' code='53' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='203_0_53_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='203_0_53_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Снилось ли тебе временами, что твои одноклассники могут сделать то, что не можешь ты?' id='203_0_54' code='54' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='203_0_54_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='203_0_54_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Когда учитель объясняет материал, кажется ли тебе, что твои одноклассники понимают его лучше, чем ты?' id='203_0_55' code='55' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='203_0_55_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='203_0_55_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Беспокоишься ли ты по дороге в школу, что учитель может дать классу проверочную работу?' id='203_0_56' code='56' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='203_0_56_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='203_0_56_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Когда ты выполняешь задание, чувствуешь ли ты обычно, что делаешь это плохо?' id='203_0_57' code='57' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='203_0_57_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='203_0_57_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Дрожит ли слегка твоя рука, когда учитель просит тебя сделать задание на доске перед всем классом?' id='203_0_58' code='58' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Да' id='203_0_58_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Нет' id='203_0_58_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+        </section>
+        <images/>
+    </test>
+</root>

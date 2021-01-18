@@ -6,13 +6,18 @@ import { AuthContext } from './context/AuthContext'
 
 
 function App() {
-  const { token, login, logout, userId } = useAuth()
+  const { token, login, logout, userId, user, ready, role, updateUser } = useAuth()
   const isAuthenticated = !!token
   const routes = useRoutes(isAuthenticated)
+
+  if (!ready) {
+    return (
+      <div>Loading...</div>
+    )
+  }
+
   return (
-    <AuthContext.Provider value={{
-      token, login, logout, userId, isAuthenticated
-    }}>
+    <AuthContext.Provider value={{ login, logout, token, userId, isAuthenticated, user, role, updateUser }}>
       <Router>
         <div className="main">
           {routes}
