@@ -57,22 +57,23 @@ export const WalkthroughPage = () => {
             alert('Тест пройден')
 
 
-
         } catch (e) { }
 
-        // try {
-        //     // const encodedData = window.btoa('HTTP:1234567890')
-        //     // GET http://185.68.101.64/SychoDiag/hs/ConnectionTest/MakeTest
-        //     // POST http://185.68.101.64/SychoDiag/hs/TestsExchange/SendTests
-        //     const data = await request('http://185.68.101.64/SychoDiag/hs/TestsExchange/SendTests', 'POST', sXML,
-        //         {
-        //             // 'Content-Type': 'application/xml',
-        //             // 'Authorization': `Basic ${encodedData}`
-        //         })
+        try {
+            // const encodedData = window.btoa('HTTP:1234567890')
+            // GET http://185.68.101.64/SychoDiag/hs/ConnectionTest/MakeTest
+            // POST http://185.68.101.64/SychoDiag/hs/TestsExchange/SendTests
+            await request('http://185.68.101.64/SychoDiag/hs/TestsExchange/SendTests', 'POST', sXML,
+                {
+                    // 'Content-Type': 'application/xml',
+                    // 'Authorization': `Basic ${encodedData}`
+                })
 
-        // } catch (e) {
-        //     console.log(e)
-        // }
+                history.push('/')
+
+        } catch (e) {
+            console.log(e)
+        }
 
     }, [request, results, condition, user])
 

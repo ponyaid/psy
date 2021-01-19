@@ -1,12 +1,21 @@
+@keyframes selectionUp {
+    from {
+        transform: translateY(100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
 .profile-page {
     position: relative;
     padding-bottom: 0;
+    background-image: $gradient-blue;
 
     &__main {
         padding-top: 5rem;
-        padding-bottom: 2.5rem;
         margin: -5rem -24px 0;
-        background-image: linear-gradient(to bottom, #00c6ff, #0072ff 75%);
+        padding-bottom: 2.5rem;
     }
 
     &__title {
@@ -60,6 +69,10 @@
         padding: 1.5rem;
         background: #fff;
         border-radius: 20px 20px 0px 0px;
+
+        animation-name: selectionUp;
+        animation-duration: 0.6s;
+        animation-timing-function: ease-out;
     }
 }
 

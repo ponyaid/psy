@@ -1,7 +1,9 @@
 import { useState, useCallback } from 'react'
+import { useAuth } from './auth.hook'
 
 
 export const useHttp = () => {
+    const { logout } = useAuth()
     const [loading, setLoading] = useState(false)
     const [error, setError] = useState(null)
     const request = useCallback(async (url, method = 'GET', body = null, headers = {}) => {
@@ -19,6 +21,11 @@ export const useHttp = () => {
                 method, headers, body
             })
 
+            if (response.status === 401) {
+                logout()
+
+            }
+
             if (response.headers.get('content-type').includes('application/json')) {
                 try {
                     const data = await response.json()
@@ -34,7 +41,7 @@ export const useHttp = () => {
 
             try {
                 const data = await response.text()
-                
+
                 if (!response.ok) {
                     throw new Error('Что-то пошло не так')
                 }
@@ -44,14 +51,12 @@ export const useHttp = () => {
 
             } catch (e) { throw e }
 
-
-
         } catch (e) {
             setLoading(false)
             setError(e.message)
             throw e
         }
-    }, [])
+    }, [logout])
 
     const clearError = useCallback(() => setError(null), [])
 
