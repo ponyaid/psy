@@ -46,7 +46,7 @@ router.post('/create', auth,
 
             await school.save()
 
-            res.status(201).json({ school })
+            res.status(201).json({ school, message: "Школа успешно создана" })
 
 
         } catch (e) {

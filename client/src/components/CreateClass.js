@@ -1,24 +1,17 @@
-import React, { useContext, useEffect, useState } from 'react'
-import { Link, useHistory, useParams } from 'react-router-dom'
-import { AuthContext } from '../context/AuthContext'
-import { useHttp } from '../hooks/http.hook'
+import React, { useState } from 'react'
+import { useDispatch, useSelector } from 'react-redux'
+import { createClass } from '../redux/actions'
+import { FINISH_CLASS_CREATING } from '../redux/types'
 
 
-export const CreateClassPage = () => {
-    const { token } = useContext(AuthContext)
-    const { loading, error, request, clearError } = useHttp()
-    const history = useHistory()
-    const schoolId = useParams().id
+export const CreateClass = ({ schoolId }) => {
+    const dispatch = useDispatch()
+    const { loading, alert } = useSelector(state => state.app)
 
     const [form, setForm] = useState({
         number: '',
         letter: ''
     })
-
-    useEffect(() => {
-        if (error) { alert(error) }
-        clearError()
-    }, [error, clearError])
 
     const changeHandler = event => {
         setForm({ ...form, [event.target.name]: event.target.value })
@@ -30,21 +23,16 @@ export const CreateClassPage = () => {
     }
 
     const createHandler = async () => {
-        try {
-            await request('/api/classes/create', 'POST',
-                JSON.stringify({ ...form, schoolId: schoolId }), {
-                'Content-Type': 'application/json',
-                'Authorization': `Bearer ${token}`
-            })
-            history.push(`/schools/${schoolId}`)
-
-        } catch (e) { }
+        dispatch(createClass({ ...form, schoolId }))
     }
 
     return (
         <div className="page">
             <header className="page__header">
-                <Link to={`/schools/${schoolId}`} className="icon-btn page__icon-btn page__icon-btn_left icon-btn_back"></Link>
+                <button
+                    onClick={() => dispatch({ type: FINISH_CLASS_CREATING })}
+                    className="icon-btn page__icon-btn page__icon-btn_left icon-btn_back">
+                </button>
                 <p className="page__title">Добавить класс</p>
             </header>
 
@@ -62,7 +50,7 @@ export const CreateClassPage = () => {
                 </div>
             </div>
 
-            <button onClick={createHandler} className="main-btn" disabled={loading}>Добавить класс</button>
+            <button onClick={createHandler} className="main-btn" disabled={loading || alert}>Добавить класс</button>
         </div>
     )
 }

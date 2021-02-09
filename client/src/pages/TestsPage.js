@@ -1,29 +1,29 @@
-import React, { useState, useContext, useCallback, useEffect } from 'react'
+import React, { useCallback, useEffect } from 'react'
+import { useDispatch, useSelector } from 'react-redux'
 import { Link } from 'react-router-dom'
-import { useHttp } from '../hooks/http.hook'
-import { AuthContext } from '../context/AuthContext'
+import { getTests } from '../redux/actions'
 
 
 export const TestsPage = () => {
-    const [tests, setTests] = useState(null)
-    const { request } = useHttp()
-    const { token } = useContext(AuthContext)
-
-    const getTests = useCallback(async () => {
-        try {
-            const fetched = await request(`/api/tests`, 'GET', null, {
-                'Authorization': `Bearer ${token}`
-            })
-            setTests(fetched)
-        } catch (e) {
-        }
-    }, [request, token])
+    const dispatch = useDispatch()
+    const { tests } = useSelector(state => state.test)
 
     useEffect(() => {
-        getTests()
-    }, [getTests])
+        dispatch(getTests())
+    }, [dispatch])
 
-    if (!tests) {
+    const formatDate = useCallback(date => {
+        const newDate = new Date(date).toLocaleString('ru', {
+            hour: 'numeric',
+            minute: 'numeric',
+            year: 'numeric',
+            month: 'short',
+            day: 'numeric',
+        })
+        return newDate
+    }, [])
+
+    if (!tests.length) {
         return null
     }
 
@@ -60,7 +60,7 @@ export const TestsPage = () => {
                         if (test.solution) {
                             return (
                                 <div key={index} className="tests-page__passed-test">
-                                    <p className="list__desc tests-page__date">{test.date}</p>
+                                    <p className="list__desc tests-page__date">{formatDate(test.date)}</p>
                                     <div className="list__item">
                                         <p>{test.condition.name}</p>
                                         <p className="list__desc"

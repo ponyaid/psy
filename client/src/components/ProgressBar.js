@@ -1,10 +1,10 @@
 import React from 'react'
 
 
-export const ProgressBar = props => {
+export const ProgressBar = ({color, step, total}) => {
     return (
-        <div className={`progress-bar ${props.color ? 'progress-bar_' + props.color : null}`}>
-            <span style={{ 'width': `${props.step * 100 / props.total}%` }} />
+        <div className={`progress-bar ${color ? 'progress-bar_' + color : null}`}>
+            <span style={{ 'width': `${step * 100 / total}%` }} />
         </div>
     )
 }

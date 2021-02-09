@@ -3,6 +3,7 @@ const bcrypt = require('bcryptjs')
 const config = require('config')
 const jwt = require('jsonwebtoken')
 const { check, validationResult } = require('express-validator')
+const auth = require('../middleware/auth.middleware')
 const Psych = require('../models/Psych')
 
 const router = Router()
@@ -18,9 +19,7 @@ router.post(
     ],
     async (req, res) => {
         try {
-
             const errors = validationResult(req)
-
             if (!errors.isEmpty()) {
                 return res.status(400).json({
                     errors: errors.array(),
@@ -29,9 +28,7 @@ router.post(
             }
 
             const { sex, name, surname, patronymic, about, email, password, terms, birthday } = req.body
-
             const condaidate = await Psych.findOne({ email })
-
             if (condaidate) {
                 return res.status(400).json({ message: "Такой пользователь уже существует" })
             }
@@ -42,7 +39,6 @@ router.post(
             })
 
             await psych.save()
-
             res.status(201).json({ message: "Пользователь создан" })
 
         } catch (e) {
@@ -59,9 +55,7 @@ router.post(
     ],
     async (req, res) => {
         try {
-
             const errors = validationResult(req)
-
             if (!errors.isEmpty) {
                 return res.status(400).json({
                     errors: errors.array(),
@@ -70,15 +64,12 @@ router.post(
             }
 
             const { email, password } = req.body
-
-            const psych = await Psych.findOne({ email }).populate('schools')
-
+            const psych = await Psych.findOne({ email })
             if (!psych) {
                 return res.status(400).json({ message: "Пользователь не найден" })
             }
 
             const isMatch = await bcrypt.compare(password, psych.password)
-
             if (!isMatch) {
                 return res.status(400).json({ message: "Неверный пароль, попробуйте снова" })
             }
@@ -96,5 +87,37 @@ router.post(
             res.status(500).json({ message: "Что-то пошло не так, попробуйте снова" })
         }
     })
+
+
+router.post('/update', auth,
+    [
+        check('email', 'Введите корректный email').normalizeEmail().isEmail(),
+    ],
+    async (req, res) => {
+        try {
+
+            const errors = validationResult(req)
+            if (!errors.isEmpty) {
+                return res.status(400).json({
+                    errors: errors.array(),
+                    message: "Некорректные данные при внесении изменений"
+                })
+            }
+
+            const { sex, name, surname, birthday, email, id } = req.body
+
+            await Psych.findByIdAndUpdate(id, { sex, name, surname, birthday, email },
+                { new: true },
+                (e, psych) => {
+                    if (e) throw new Error(e)
+                    return res.json({ psych })
+                }
+            )
+
+        } catch (e) {
+            res.status(500).json({ message: "Что-то пошло не так, попробуйте снова" })
+        }
+    })
+
 
 module.exports = router

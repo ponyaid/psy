@@ -1,13 +1,17 @@
-import React, { useContext } from 'react'
+import React from 'react'
+import { useDispatch, useSelector } from 'react-redux'
 import { Link } from 'react-router-dom'
-import { AuthContext } from '../context/AuthContext'
+import { Schools } from '../components/Schools'
+import { START_SCHOOL_CREATING } from '../redux/types'
+import { CreateSchool } from '../components/CreateSchool'
 
 
 export const SchoolsPage = () => {
-    const { user } = useContext(AuthContext)
+    const dispatch = useDispatch()
+    const { createSchoolInitial } = useSelector(state => state.school)
 
-    if (!user) {
-        return null
+    if (createSchoolInitial) {
+        return <CreateSchool />
     }
 
     return (
@@ -15,23 +19,16 @@ export const SchoolsPage = () => {
             <header className="page__header">
                 <Link to="/" className="icon-btn page__icon-btn page__icon-btn_left icon-btn_back"></Link>
                 <p className="page__title">Школы</p>
-                <Link to="/schools/create" className="icon-btn page__icon-btn page__icon-btn_right icon-btn_add"></Link>
+                <button
+                    onClick={() => dispatch({ type: START_SCHOOL_CREATING })}
+                    className="icon-btn page__icon-btn page__icon-btn_right icon-btn_add"></button>
             </header>
-
             <div className="school-page__wrapper">
-
-                {user.schools.length ?
-                    <div className="list">
-                        {user.schools.map((school, index) =>
-                            <Link to={`/schools/${school._id}`} key={index} className="list__item">
-                                <p>{school.name}</p>
-                                <p className="list__desc">{school.city}</p>
-                            </Link>)}
-                    </div>
-                    : <p className="school-page__plug">У вас еще нет школ под управлением</p>
-                }
+                <div className="list"> <Schools /> </div>
             </div>
-            <Link to="/schools/create" className="main-btn">Добавить школу</Link>
+            <button
+                onClick={() => dispatch({ type: START_SCHOOL_CREATING })}
+                className="main-btn">Добавить школу</button>
         </div>
     )
 }

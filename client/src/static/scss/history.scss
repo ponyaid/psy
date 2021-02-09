@@ -1,0 +1,86 @@
+.histories {
+    flex-grow: 1;
+    margin: -1rem -1.5rem 0;
+    border-radius: 20px 20px 0px 0px;
+    background: #f4f7f9;
+
+    &__wrapper {
+        padding: 1.5rem 1.5rem 106px;
+    }
+
+    &__title {
+        color: #122443;
+        font-size: 20px;
+        line-height: 28px;
+        letter-spacing: 0.4px;
+        margin-bottom: 1rem;
+    }
+
+    &__plug {
+        opacity: 0.4;
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: 0.3px;
+        color: #122443;
+    }
+}
+
+.history {
+    &__date {
+        opacity: 0.4;
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: 0.3px;
+        color: #122443;
+        margin-bottom: 0.5rem;
+    }
+
+    &__wrapper {
+        padding: 1rem;
+        background: #fff;
+        border-radius: 16px;
+        box-shadow: 0px 2px 10px -3px rgba(38, 51, 73, 0.1);
+    }
+
+    &__tag {
+        display: inline-block;
+        padding: 0 0.5rem;
+        color: #fff;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+        margin-bottom: 12px;
+        border-radius: 5px;
+        background: $gradient-red;
+    }
+
+    &__title {
+        font-size: 16px;
+        line-height: 22px;
+        letter-spacing: 0.3px;
+        color: #122443;
+        margin-bottom: 4px;
+    }
+
+    &__desc {
+        opacity: 0.4;
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: 0.2625px;
+        color: #122443;
+    }
+
+    &__pupils {
+        opacity: 0.4;
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: 0.233333px;
+        color: #122443;
+        margin-top: 1.5rem;
+    }
+
+    & + & {
+        margin-top: 20px;
+    }
+}

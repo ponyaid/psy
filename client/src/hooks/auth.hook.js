@@ -31,6 +31,8 @@ export const useAuth = () => {
     const logout = useCallback(() => {
         setToken(null)
         setUserId(null)
+        setRole(null)
+        setUser(null)
         localStorage.removeItem(storageName)
         window.location.reload()
     }, [])
@@ -45,5 +47,4 @@ export const useAuth = () => {
     }, [login])
 
     return { login, logout, token, userId, ready, user, role, updateUser }
-
 }

@@ -1,31 +1,23 @@
-import React, { useContext, useCallback, useState, useEffect } from 'react'
+import React, { useCallback, useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import { AuthContext } from '../context/AuthContext'
+import { useSelector, useDispatch } from 'react-redux'
 import { Tools } from '../components/Tools'
-import { useHttp } from '../hooks/http.hook'
+import { Histories } from '../components/Histories'
+import { Loader } from '../components/Loader'
+import { getSchools, getTests } from '../redux/actions'
 
 
 export const ProfilePage = () => {
-    const { request } = useHttp()
-    const [tests, setTests] = useState(null)
-    const { user, role, token } = useContext(AuthContext)
-
-    const getTests = useCallback(async () => {
-        try {
-            const fetched = await request(`/api/tests/not-passed`, 'GET', null, {
-                'Authorization': `Bearer ${token}`
-            })
-            setTests(fetched)
-        } catch (e) {
-        }
-    }, [request, token])
+    const dispatch = useDispatch()
+    const { notPassedTests } = useSelector(state => state.test)
+    const { role, user } = useSelector(state => state.auth)
+    const { schools } = useSelector(state => state.school)
+    const { loading } = useSelector(state => state.app)
 
     useEffect(() => {
-        if (role === 'pupil') {
-            getTests()
-        }
-
-    }, [getTests, role])
+        if (role === 'pupil') dispatch(getTests())
+        dispatch(getSchools())
+    }, [dispatch, role])
 
     const yearsOldCounter = useCallback((birthday) => {
         const nowDate = Date.now()
@@ -34,19 +26,11 @@ export const ProfilePage = () => {
         return `${Math.floor(days / 365)}`
     }, [])
 
-    if (!user) {
-        return null
-    }
-
-    if (role === 'pupil' && !tests) {
-        return null
-    }
-
     return (
         <div className={`page profile-page ${role === 'pupil' ? 'profile-page_pupil' : 'profile-page_psych'}`}>
             <Tools />
             <header className="page__header">
-                <Link to='#' className="icon-btn page__icon-btn page__icon-btn_right icon-btn_settings"></Link>
+                <Link to='/settings' className="icon-btn page__icon-btn page__icon-btn_right icon-btn_settings"></Link>
                 <p className="page__title profile-page__title">{role === 'pupil' ? 'Ученик' : 'Психолог'}</p>
             </header>
 
@@ -61,41 +45,48 @@ export const ProfilePage = () => {
             </div>
             {role === 'pupil' ?
                 <div className="profile-page__entities">
-                    <Link to="/tests"
-                        className={`entity ${tests.length ? 'entity_test' : null}`}>
-                        <p className={`entity__title ${tests.length ? 'entity__title_white' : null}`}>Тесты</p>
-                        {!tests.length ? <p className="entity__description">У вас пока нет тестов</p> : null}
-                        <span className={`entity__extra ${!tests.length ? 'entity__extra_pupil-null' : null}`}>
-                            {tests.length}</span>
-                    </Link>
-                    <div className="entity">
-                        <p className="entity__title">Встречи</p>
-                        <p className="entity__description">У вас пока нет встреч</p>
-                        <span className="entity__extra entity__extra_pupil-null">0</span>
-                    </div>
+                    {loading ? <Loader style={`margin-top: calc(100%/2 - 5rem);`} /> :
+                        <div className="profile-page__entities-wrapper">
+                            <Link to="/tests"
+                                className={`entity ${!!notPassedTests && 'entity_test'}`}>
+                                <p className={`entity__title ${!!notPassedTests && 'entity__title_white'}`}>Тесты</p>
+                                {!notPassedTests && <p className="entity__description">У вас пока нет тестов</p>}
+                                <span className={`entity__extra ${!notPassedTests && 'entity__extra_pupil-null'}`}>
+                                    {notPassedTests}</span>
+                            </Link>
+                            <div className="entity">
+                                <p className="entity__title">Встречи</p>
+                                <p className="entity__description">У вас пока нет встреч</p>
+                                <span className="entity__extra entity__extra_pupil-null">0</span>
+                            </div>
+                        </div>}
                 </div>
                 :
                 <div className="profile-page__entities">
-                    <Link to="/schools" className={`entity ${user.schools.length ? 'entity_school' : null}`}>
-                        <p className={`entity__title ${user.schools.length ? 'entity__title_white' : null}`}>Школы</p>
-                        {!user.schools.length ? <p className="entity__description">Добавьте школу</p> : null}
-                        <span className={`entity__extra ${!user.schools.length ? 'entity__extra_psych-null' : null}`}>
-                            {user.schools.length ? user.schools.length : null}</span>
-                    </Link>
-                    <div className={`entity ${user.meets.length ? 'entity_meet' : null}`}>
-                        <p className={`entity__title ${user.meets.length ? 'entity__title_white' : null}`}>Встречи</p>
-                        {!user.meets.length ? <p className="entity__description">Добавьте встречу</p> : null}
-                        <span className={`entity__extra ${!user.meets.length ? 'entity__extra_psych-null' : null}`}>
-                            {user.meets.length ? user.meets.length : null}</span>
-                    </div>
-                    <div className="entity">
-                        <p className="entity__title">Статистика</p>
-                        <p className="entity__description">Нет данных для анализа</p>
-                        <span className="entity__extra entity__extra_psych"></span>
-                    </div>
+                    {loading ? <Loader /> :
+                        <div className="profile-page__entities-wrapper">
+                            <Link to="/schools" className={`entity ${schools.length ? 'entity_school' : null}`}>
+                                <p className={`entity__title ${schools.length ? 'entity__title_white' : null}`}>Школы</p>
+                                {!schools.length ? <p className="entity__description">Добавьте школу</p> : null}
+                                <span className={`entity__extra ${!schools.length ? 'entity__extra_psych-null' : null}`}>
+                                    {schools.length ? schools.length : null}</span>
+                            </Link>
+                            <div className={`entity ${user.meets.length ? 'entity_meet' : null}`}>
+                                <p className={`entity__title ${user.meets.length ? 'entity__title_white' : null}`}>Встречи</p>
+                                {!user.meets.length ? <p className="entity__description">Добавьте встречу</p> : null}
+                                <span className={`entity__extra ${!user.meets.length ? 'entity__extra_psych-null' : null}`}>
+                                    {user.meets.length ? user.meets.length : null}</span>
+                            </div>
+                            <div className="entity">
+                                <p className="entity__title">Статистика</p>
+                                <p className="entity__description">Нет данных для анализа</p>
+                                <span className="entity__extra entity__extra_psych"></span>
+                            </div>
+                        </div>
+                    }
                 </div>
             }
-
+            {role === 'psych' && <Histories />}
         </div>
     )
 }

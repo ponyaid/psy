@@ -30,6 +30,7 @@ app.use('/api/pupil', require('./routes/pupil.routes'))
 app.use('/api/psych', require('./routes/psych.routes'))
 app.use('/api/schools', require('./routes/school.routes'))
 app.use('/api/classes', require('./routes/class.routes'))
+app.use('/api/history', require('./routes/history.routes'))
 
 app.use('/api/conditions', require('./routes/condition.routes'))
 app.use('/api/tests', require('./routes/test.routes'))

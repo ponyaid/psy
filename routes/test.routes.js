@@ -2,33 +2,53 @@ const { Router } = require('express')
 const auth = require('../middleware/auth.middleware')
 const Test = require('../models/Test')
 const Pupil = require('../models/Pupil')
+const History = require('../models/History')
+const Condition = require('../models/Condition')
 
 
 const router = Router()
 
-router.post('/create', async (req, res) => {
-    try {
-        const { conditionId, pupils } = req.body
+router.post('/create', auth,
+    async (req, res) => {
+        try {
+            const { conditionId, pupils } = req.body
 
-        for (let pupilId of pupils) {
-            const test = new Test({ conditionId, pupil: pupilId })
-            await test.save()
+            if (!pupils.length) {
+                throw new Error('Выберите хотя бы одного ученика')
+            }
 
-            await Pupil.findById(pupilId, function (err, pupil) {
+            for (let pupilId of pupils) {
+                const test = new Test({ conditionId, pupil: pupilId })
+                await test.save()
+
+                await Pupil.findById(pupilId, function (err, pupil) {
+                    if (!err) {
+                        pupil.tests = [...pupil.tests, test._id]
+                        pupil.save()
+                    }
+                })
+            }
+
+            await Condition.findOne({ id: conditionId }, function (err, condition) {
                 if (!err) {
-                    pupil.tests = [...pupil.tests, test._id]
-                    pupil.save()
+                    const history = new History({
+                        type: 'Тест',
+                        psych: req.user.userId,
+                        title: condition.name,
+                        desc: condition.desc,
+                        docId: condition._id,
+                        pupils: pupils
+                    })
+                    history.save()
                 }
             })
+
+            res.status(201).json({ message: "Тесты успешно отправлены" })
+
+        } catch (e) {
+            res.status(500).json({ message: e.message })
         }
-
-        res.status(201).json({ message: "Success" })
-
-    } catch (e) {
-        console.log(e)
-        res.status(500).json({ message: "Что-то пошло не так, попробуйте снова" })
-    }
-})
+    })
 
 router.post('/solution', async (req, res) => {
     try {
@@ -47,19 +67,9 @@ router.post('/solution', async (req, res) => {
 router.get('/', auth,
     async (req, res) => {
         try {
-            const tests = await Test.find({ pupil: req.user.userId }).populate('condition')
-            res.json(tests)
-
-        } catch (e) {
-            console.log(e)
-            res.status(500).json({ message: "Что-то пошло не так, попробуйте снова" })
-        }
-    })
-
-router.get('/not-passed', auth,
-    async (req, res) => {
-        try {
-            const tests = await Test.find({ pupil: req.user.userId, solution: null })
+            const tests = await Test.find({ pupil: req.user.userId })
+                .sort({ date: 'desc' })
+                .populate('condition')
             res.json(tests)
 
         } catch (e) {

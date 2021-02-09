@@ -1,28 +1,29 @@
-import React, { useContext, useEffect, useState, useCallback } from 'react'
+import React, { useEffect, useState, useCallback } from 'react'
 import { Link, useParams } from 'react-router-dom'
-import { AuthContext } from '../context/AuthContext'
+
+import { useDispatch } from 'react-redux'
+import { login, showAlert } from '../redux/actions'
 import { useHttp } from '../hooks/http.hook'
 
 
-export const AuthPage = props => {
-    const role = props.role
+export const AuthPage = ({ role, reg }) => {
+    const dispatch = useDispatch()
+
     const classId = useParams().classId
-    const auth = useContext(AuthContext)
     const { loading, error, request, clearError } = useHttp()
 
     const [group, setGroup] = useState(null)
-    const [isReg, setIsReg] = useState(!!props.isReg)
+    const [isReg, setIsReg] = useState(!!reg)
 
     const [form, setForm] = useState({
         sex: '1',
-        surname: '',
         name: '',
+        surname: '',
         birthday: '',
         email: '',
         password: '',
-
         terms: true,
-        resolution: false,
+        resolution: true,
     })
 
     const getGroup = useCallback(async () => {
@@ -40,9 +41,11 @@ export const AuthPage = props => {
     }, [getGroup])
 
     useEffect(() => {
-        if (error) { alert(error) }
+        if (error) {
+            dispatch(showAlert({ type: 'error', text: error }))
+        }
         clearError()
-    }, [error, clearError])
+    }, [error, clearError, dispatch])
 
     const changeHandler = event => {
         setForm({ ...form, [event.target.name]: event.target.value })
@@ -52,7 +55,7 @@ export const AuthPage = props => {
         try {
             const data = await request(`/api/${role}/register`, 'POST',
                 JSON.stringify({ ...form, classId: classId }), { 'Content-Type': 'application/json' })
-            alert(data.message)
+            dispatch(showAlert({ type: 'success', text: data.message }))
             setIsReg(false)
         } catch (e) { }
     }
@@ -61,7 +64,7 @@ export const AuthPage = props => {
         try {
             const data = await request(`/api/${role}/login`, 'POST',
                 JSON.stringify({ ...form }), { 'Content-Type': 'application/json' })
-            auth.login(data.token, data[`${role}Id`], data[role], data['role'])
+            dispatch(login(data['role'], data[role], data.token))
         } catch (e) { }
     }
 
@@ -102,7 +105,7 @@ export const AuthPage = props => {
                     <div className="auth-page__header">
                         <h3>Регистрация</h3>
                         {role === 'psych' ? <button className="auth-page__header-btn"
-                            onClick={() => { setIsReg(!isReg) }}>Нет аккаунта?</button> : null}
+                            onClick={() => { setIsReg(!isReg) }}>Есть аккаунт?</button> : null}
                     </div>
                     {
                         role === 'psych' ? null :
@@ -193,4 +196,3 @@ export const AuthPage = props => {
         </div>
     )
 }
-

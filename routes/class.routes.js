@@ -1,9 +1,7 @@
 const { Router } = require('express')
 const { check, validationResult } = require('express-validator')
 const auth = require('../middleware/auth.middleware')
-const Psych = require('../models/Psych')
 const School = require('../models/School')
-
 const Class = require('../models/Class')
 
 

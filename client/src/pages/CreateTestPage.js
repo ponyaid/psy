@@ -1,108 +1,60 @@
-import React, { useState, useCallback, useEffect, useContext } from 'react'
+import React, { useState, useEffect, useCallback } from 'react'
+import { useDispatch, useSelector } from 'react-redux'
 import { useHistory } from 'react-router-dom'
 import { useHttp } from '../hooks/http.hook'
 import { ProgressBar } from '../components/ProgressBar'
-import { AuthContext } from '../context/AuthContext'
+import { Loader } from '../components/Loader'
+import {
+    getConditionsINedded,
+    getSchoolsINedded,
+    changeConditionId,
+    getSchoolINedded,
+    getClassINedded,
+    stepUp,
+    stepDown,
+    showAlert,
+    hideAlert
+} from '../redux/actions'
+import { STEP_RESET } from '../redux/types'
 
 
 export const CreateTestPage = () => {
-    const [step, setStep] = useState(1)
-    const [conditionId, setConditionId] = useState(null)
-    const [schoolId, setSchoolId] = useState(null)
-    const [classId, setClassId] = useState(null)
-
-    const [conditions, setConditions] = useState([])
-    const [schools, setSchools] = useState([])
-    const [classes, setClasses] = useState([])
-    const [group, setGroup] = useState(null)
-    const [pupils, setPupils] = useState([])
-    const [selectAll, setSelectAll] = useState(false)
-
-    const { token } = useContext(AuthContext)
     const history = useHistory()
+    const dispatch = useDispatch()
+    const { step, conditions, conditionId } = useSelector(state => state.test)
+    const { schools, schoolData, classData } = useSelector(state => state.school)
+    const { loading } = useSelector(state => state.app)
+    const { token } = useSelector(state => state.auth)
+    const [selectAll, setSelectAll] = useState(false)
+    const [pupils, setPupils] = useState([])
     const { request } = useHttp()
 
-    const getConditions = useCallback(async () => {
-        try {
-            const fetched = await request('/api/conditions', 'GET', null)
-            setConditions(fetched)
-        } catch (e) { }
-    }, [request, setConditions])
-
-    const getSchools = useCallback(async () => {
-        try {
-            const fetched = await request('/api/schools', 'GET', null,
-                { 'Authorization': `Bearer ${token}` })
-            setSchools(fetched)
-        } catch (e) { }
-    }, [request, token])
-
-    const getClasses = useCallback(async () => {
-        try {
-            const fetched = await request(`/api/schools/${schoolId}`, 'GET', null,
-                { 'Authorization': `Bearer ${token}` })
-            setClasses(fetched.classes)
-        } catch (e) { }
-    }, [request, token, schoolId])
-
-    const getGroup = useCallback(async () => {
-        try {
-            const fetched = await request(`/api/classes/${classId}`, 'GET', null,
-                { 'Authorization': `Bearer ${token}` })
-            setGroup(fetched)
-        } catch (e) { }
-    }, [request, token, classId])
-
-    const postTests = useCallback(async () => {
-        try {
-            const fetched = await request('/api/tests/create', 'POST',
-                JSON.stringify({ conditionId, pupils }), {
-                'Content-Type': 'application/json',
-                'Authorization': `Bearer ${token}`
-            })
-            alert(fetched.message)
-            history.push('/')
-        } catch (e) { }
-    }, [conditionId, history, pupils, request, token])
-
-
     useEffect(() => {
-        getConditions()
-        getSchools()
-    }, [getConditions, getSchools])
-
-    useEffect(() => {
-        if (schoolId) {
-            getClasses()
-        }
-    }, [getClasses, schoolId])
-
-    useEffect(() => {
-        if (classId) {
-            getGroup()
-        }
-    }, [getGroup, classId])
-
-    const conditionsHandler = (evt) => {
-        setConditionId(evt.currentTarget.id)
-        setStep(step + 1)
-    }
-
-    const schoolsHandler = (evt) => {
-        setSchoolId(evt.currentTarget.id)
-        setStep(step + 1)
-    }
-
-    const classesHandler = (evt) => {
-        setClassId(evt.currentTarget.id)
-        setStep(step + 1)
-    }
+        dispatch(getConditionsINedded())
+        dispatch(getSchoolsINedded())
+    }, [dispatch])
 
     const backBtnHandler = () => {
         if (step < 2) {
             history.push(`/`)
+        } else {
+            dispatch(stepDown())
         }
-        setStep(step - 1)
+    }
+
+    const conditionsHandler = (evt) => {
+        dispatch(changeConditionId(evt.currentTarget.id))
+        dispatch(stepUp())
+    }
+
+    const schoolsHandler = (evt) => {
+        dispatch(getSchoolINedded(evt.currentTarget.id))
+        dispatch(stepUp())
+    }
+
+    const classesHandler = (evt) => {
+        dispatch(getClassINedded(evt.currentTarget.id))
+        dispatch(stepUp())
     }
 
     const checkboxHandler = evt => {
@@ -124,13 +76,33 @@ export const CreateTestPage = () => {
             setSelectAll(false)
         } else {
             const array = []
-            for (let pupil of group.pupils) {
+            for (let pupil of classData.pupils) {
                 array.push(pupil._id)
             }
             setSelectAll(true)
             setPupils(array)
         }
     }
+
+    const postTests = useCallback(async () => {
+        try {
+            const fetched = await request('/api/tests/create', 'POST',
+                JSON.stringify({ conditionId, pupils }), {
+                'Content-Type': 'application/json',
+                'Authorization': `Bearer ${token}`
+            })
+
+            dispatch(showAlert({ type: 'success', text: fetched.message }))
+
+            setTimeout(() => {
+                dispatch(hideAlert())
+                dispatch({ type: STEP_RESET })
+            }, 2000)
+
+        } catch (e) {
+            dispatch(showAlert({ type: 'error', text: e.message }))
+        }
+    }, [conditionId, pupils, request, token, dispatch])
 
     const sendHandler = () => {
         postTests()
@@ -146,14 +118,18 @@ export const CreateTestPage = () => {
 
             <ProgressBar step={step} total={5} color='red' />
 
-            <TestsStep step={step} conditions={conditions} clickHandler={conditionsHandler} />
+            <TestsStep step={step} loading={loading} conditions={conditions} clickHandler={conditionsHandler} />
 
-            <SchoolsStep step={step} schools={schools} clickHandler={schoolsHandler} />
+            <SchoolsStep step={step} loading={loading} schools={schools} clickHandler={schoolsHandler} />
 
-            <ClassesStep step={step} classes={classes} clickHandler={classesHandler} />
+            <ClassesStep loading={loading} step={step} schoolData={schoolData} clickHandler={classesHandler} />
 
-            <PupilsStep step={step} group={group} pupils={pupils} selectAllHandler={selectAllHandler}
-                checkboxHandler={checkboxHandler} clickHandler={sendHandler} selectAll={selectAll} />
+            <PupilsStep step={step} classData={classData} pupils={pupils} loading={loading}
+                selectAllHandler={selectAllHandler}
+                checkboxHandler={checkboxHandler}
+                clickHandler={sendHandler}
+                selectAll={selectAll}
+            />
 
         </div>
     )
@@ -161,9 +137,9 @@ export const CreateTestPage = () => {
 
 
 const TestsStep = props => {
-    if (props.step !== 1) {
-        return null
-    }
+    if (props.step !== 1) { return null }
+
+    if (props.loading) { return <Loader /> }
 
     return (
         <div className="page__content">
@@ -173,8 +149,7 @@ const TestsStep = props => {
                     props.conditions.map((condition) => {
                         return (
                             <li onClick={props.clickHandler} className="list__item"
-                                key={condition.id} id={condition.id}>
-                                <p>{condition.name}</p>
+                                key={condition.id} id={condition.id}><p>{condition.name}</p>
                             </li>
                         )
                     })
@@ -185,9 +160,9 @@ const TestsStep = props => {
 }
 
 const SchoolsStep = props => {
-    if (props.step !== 2) {
-        return null
-    }
+    if (props.step !== 2) { return null }
+
+    if (props.loading) { return <Loader /> }
 
     return (
         <div className="page__content">
@@ -211,12 +186,14 @@ const SchoolsStep = props => {
 const ClassesStep = props => {
     if (props.step !== 3) { return null }
 
+    if (props.loading || !props.schoolData) { return <Loader /> }
+
     return (
         <div className="page__content">
             <h3>Выберете класс</h3>
             <ul className="list">
                 {
-                    props.classes.map((group) => {
+                    props.schoolData.classes.map((group) => {
                         return (
                             <li onClick={props.clickHandler} className="list__item"
                                 key={group._id} id={group._id}>
@@ -232,20 +209,22 @@ const ClassesStep = props => {
 }
 
 const PupilsStep = props => {
-    if (props.step !== 4 || !props.group) {
-        return null
-    }
+    if (props.step !== 4) { return null }
+
+    if (props.loading || !props.classData) { return <Loader /> }
+
+    const group = props.classData
 
     return (
         <div className="page__content">
             <h3>Выберете учеников</h3>
             <p className="page__desc">
-                {props.group.number}{props.group.letter}, всего {props.group.pupils.length} учеников</p>
+                {group.number}{group.letter}, всего {group.pupils.length} учеников</p>
             <p className={`select-all ${props.selectAll ? 'select-all_active' : null}`}
                 onClick={props.selectAllHandler}>Выбрать всех</p>
             <div className="list">
                 {
-                    props.group.pupils.map((pupil) => {
+                    group.pupils.map((pupil) => {
                         return (
                             <div key={pupil._id} className="list__checkbox">
                                 <input id={pupil._id} type="checkbox" name={pupil._id}
@@ -254,8 +233,8 @@ const PupilsStep = props => {
                                 <label htmlFor={pupil._id}>
                                     <div>
                                         <p>{pupil.name} {pupil.surname}</p>
-                                        <p className="list__desc">{props.group.school.name},&nbsp;
-                                        {props.group.number}{props.group.letter}</p>
+                                        <p className="list__desc">{group.school.name},&nbsp;
+                                        {group.number}{group.letter}</p>
                                     </div>
                                 </label>
                             </div>

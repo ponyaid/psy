@@ -23,7 +23,6 @@ export const useHttp = () => {
 
             if (response.status === 401) {
                 logout()
-
             }
 
             if (response.headers.get('content-type').includes('application/json')) {

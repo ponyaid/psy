@@ -1,13 +1,15 @@
-import React, { useState, useEffect, useCallback, useContext } from 'react'
+import React, { useState, useEffect, useCallback } from 'react'
 import { Link, useParams, useHistory } from 'react-router-dom'
 import { useHttp } from '../hooks/http.hook'
-import { AuthContext } from '../context/AuthContext'
+import { useDispatch, useSelector } from 'react-redux'
+import { showAlert } from '../redux/actions'
 
 
 export const WalkthroughPage = () => {
+    const dispatch = useDispatch()
     const history = useHistory()
     const { request } = useHttp()
-    const { user } = useContext(AuthContext)
+    const { user } = useSelector(state => state.auth)
 
     const [condition, setCondition] = useState(null)
     const [questionId, setQuestionId] = useState(0)
@@ -54,7 +56,7 @@ export const WalkthroughPage = () => {
                 'Content-Type': 'application/json',
             })
 
-            alert('Тест пройден')
+            dispatch(showAlert({ type: 'success', text: 'Тест пройден' }))
 
 
         } catch (e) { }
@@ -63,19 +65,15 @@ export const WalkthroughPage = () => {
             // const encodedData = window.btoa('HTTP:1234567890')
             // GET http://185.68.101.64/SychoDiag/hs/ConnectionTest/MakeTest
             // POST http://185.68.101.64/SychoDiag/hs/TestsExchange/SendTests
-            await request('http://185.68.101.64/SychoDiag/hs/TestsExchange/SendTests', 'POST', sXML,
-                {
-                    // 'Content-Type': 'application/xml',
-                    // 'Authorization': `Basic ${encodedData}`
-                })
+            await request('http://185.68.101.64/SychoDB/hs/TestsExchange/SendTests', 'POST', sXML)
 
-                history.push('/')
+            history.push('/')
 
         } catch (e) {
             console.log(e)
         }
 
-    }, [request, results, condition, user])
+    }, [request, results, condition, user, history, testId, dispatch])
 
     useEffect(() => { getCondition() }, [getCondition])
 
@@ -119,7 +117,6 @@ export const WalkthroughPage = () => {
     if (!question) {
         return null
     }
-
 
     return (
         <div className="page walkthrough">

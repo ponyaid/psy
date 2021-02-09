@@ -1,29 +1,39 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { BrowserRouter as Router } from 'react-router-dom'
+import { useSelector, useDispatch } from 'react-redux'
+import { isExpired } from 'react-jwt'
 import { useRoutes } from './routes'
-import { useAuth } from './hooks/auth.hook'
-import { AuthContext } from './context/AuthContext'
+import { login, logout } from './redux/actions'
+import { Alert } from './components/Alert'
 
 
 function App() {
-  const { token, login, logout, userId, user, ready, role, updateUser } = useAuth()
+  const dispatch = useDispatch()
+  const token = useSelector(state => state.auth.token)
+  const alert = useSelector(state => state.app.alert)
+
+  useEffect(() => {
+    const data = JSON.parse(localStorage.getItem('userData'))
+    if (data && data.token) {
+      const isMyTokenExpired = isExpired(data.token)
+      if (isMyTokenExpired) {
+        dispatch(logout())
+      } else {
+        dispatch(login(data.role, data.user, data.token))
+      }
+    }
+  }, [dispatch])
+
   const isAuthenticated = !!token
   const routes = useRoutes(isAuthenticated)
 
-  if (!ready) {
-    return (
-      <div>Loading...</div>
-    )
-  }
-
   return (
-    <AuthContext.Provider value={{ login, logout, token, userId, isAuthenticated, user, role, updateUser }}>
-      <Router>
-        <div className="main">
-          {routes}
-        </div>
-      </Router>
-    </AuthContext.Provider>
+    <Router>
+      <div className="main">
+        {!!alert && <Alert text={alert.text} type={alert.type} />}
+        {routes}
+      </div>
+    </Router>
   )
 }
 
