@@ -1,35 +1,30 @@
 import React, { useState, useEffect, useCallback } from 'react'
-import { Link, useParams, useHistory } from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
 import { useHttp } from '../hooks/http.hook'
 import { useDispatch, useSelector } from 'react-redux'
-import { showAlert } from '../redux/actions'
+import { getCondition, showAlert } from '../redux/actions'
 
 
 export const WalkthroughPage = () => {
     const dispatch = useDispatch()
-    const history = useHistory()
     const { request } = useHttp()
-    const { user } = useSelector(state => state.auth)
 
-    const [condition, setCondition] = useState(null)
+    const { user } = useSelector(state => state.auth)
+    const { condition } = useSelector(state => state.test)
+
     const [questionId, setQuestionId] = useState(0)
     const [questions, setQuestions] = useState([])
     const [question, setQuestion] = useState(null)
-    const [answer, setAnswer] = useState([])
     const [results, setResults] = useState([])
+    const [answer, setAnswer] = useState([])
     const [end, setEnd] = useState(false)
 
     const conditionId = useParams().conditionId
     const testId = useParams().testId
 
-    const getCondition = useCallback(async () => {
-        try {
-            const fetched = await request(`/api/conditions/${conditionId}`)
-            setCondition(fetched)
-        } catch (e) {
-            console.log(e)
-        }
-    }, [request, conditionId])
+    useEffect(() => {
+        dispatch(getCondition(conditionId))
+    }, [conditionId, dispatch])
 
     const postSolution = useCallback(async () => {
         const xml = condition.xml
@@ -45,41 +40,47 @@ export const WalkthroughPage = () => {
         xmlDoc.querySelector('root').setAttribute('fio', user.name)
         xmlDoc.querySelector('root').setAttribute('gender', user.sex)
 
-
         var oSerializer = new XMLSerializer()
         var sXML = oSerializer.serializeToString(xmlDoc)
 
-        try {
+        // try {
+        //     await request('/api/tests/solution', 'POST',
+        //         JSON.stringify({ solution: sXML, testId }), {
+        //         'Content-Type': 'application/json',
+        //     })
 
-            await request('/api/tests/solution', 'POST',
-                JSON.stringify({ solution: sXML, testId }), {
-                'Content-Type': 'application/json',
-            })
+        //     dispatch(showAlert({ type: 'success', text: 'Тест пройден' }))
 
-            dispatch(showAlert({ type: 'success', text: 'Тест пройден' }))
-
-
-        } catch (e) { }
+        // } catch (e) { }
 
         try {
             // const encodedData = window.btoa('HTTP:1234567890')
             // GET http://185.68.101.64/SychoDiag/hs/ConnectionTest/MakeTest
             // POST http://185.68.101.64/SychoDiag/hs/TestsExchange/SendTests
-            await request('http://185.68.101.64/SychoDB/hs/TestsExchange/SendTests', 'POST', sXML)
+            fetch('http://185.68.101.64/SychoDB/hs/TestsExchange/SendTests', {
+                method: 'POST',
+                body: sXML
+            })
+                .then(res => res.text())
+                .then(res => {
+                    request('/api/tests/solution', 'POST',
+                        JSON.stringify({ solution: res, testId }), {
+                        'Content-Type': 'application/json',
+                    })
 
-            history.push('/')
+                    dispatch(showAlert({ type: 'success', text: 'Тест пройден' }))
+                })
+
+            // window.location.href = '/'
 
         } catch (e) {
-            console.log(e)
+            alert(e)
         }
 
-    }, [request, results, condition, user, history, testId, dispatch])
-
-    useEffect(() => { getCondition() }, [getCondition])
+    }, [condition, user, results, request, testId, dispatch])
 
     useEffect(() => {
-        // eslint-disable-next-line no-unused-expressions
-        end ? postSolution() : null
+        !!end && postSolution()
     }, [end, postSolution])
 
     useEffect(() => {

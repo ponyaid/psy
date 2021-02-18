@@ -1,3 +1,4 @@
+import fetch from './fetch'
 import {
     GET_SCHOOLS,
     LOGIN, LOGOUT,
@@ -9,6 +10,7 @@ import {
     SHOW_ALERT,
     HIDE_ALERT,
     CREATE_CLASS,
+    GET_CONDITION,
     GET_CONDITIONS,
     CHANGE_CONDITION_ID,
     STEP_UP, STEP_DOWN,
@@ -40,23 +42,16 @@ export function logout() {
 
 export function updateUser(data) {
     return async (dispatch, getState) => {
-        const { token, role, user } = getState().auth
+        const { role, user } = getState().auth
 
         try {
             dispatch(startLoading())
-            const response = await fetch(`/api/${role}/update`, {
+
+            const json = await fetch(`/api/${role}/update`, {
                 method: 'POST',
                 body: JSON.stringify({ ...data, id: user._id }),
-                headers: {
-                    'Content-Type': 'application/json',
-                    'Authorization': `Bearer ${token}`
-                }
-            })
-            const json = await response.json()
-
-            if (!response.ok) {
-                throw new Error(json.message || 'Что-то пошло не так')
-            }
+                headers: { 'Content-Type': 'application/json' }
+            }, getState, dispatch)
 
             const storage = JSON.parse(localStorage.getItem(storageName))
             localStorage.setItem(storageName, JSON.stringify({ ...storage, user: json[role] }))
@@ -114,20 +109,12 @@ export function getSchoolsINedded() {
 
 export function getSchools() {
     return async (dispatch, getState) => {
-        const token = getState().auth.token
-
         try {
             dispatch(startLoading())
-            const response = await fetch(`/api/schools/`, {
-                method: 'GET',
-                headers: { 'Authorization': `Bearer ${token}` }
-            })
-            const json = await response.json()
+            const json = await fetch(`/api/schools/`, { method: 'GET' }, getState, dispatch)
 
-            setTimeout(() => {
-                dispatch({ type: GET_SCHOOLS, payload: json })
-                dispatch(finishLoading())
-            }, 1000)
+            dispatch({ type: GET_SCHOOLS, payload: json })
+            dispatch(finishLoading())
 
         } catch (e) {
             dispatch(finishLoading())
@@ -148,21 +135,12 @@ export function getSchoolINedded(id) {
 
 export function getSchool(id) {
     return async (dispatch, getState) => {
-        const token = getState().auth.token
-
         try {
             dispatch(startLoading())
+            const json = await fetch(`/api/schools/${id}`, { method: 'GET' }, getState, dispatch)
 
-            const response = await fetch(`/api/schools/${id}`, {
-                method: 'GET',
-                headers: { 'Authorization': `Bearer ${token}` }
-            })
-            const json = await response.json()
-
-            setTimeout(() => {
-                dispatch({ type: GET_SCHOOL, payload: json })
-                dispatch(finishLoading())
-            }, 1000)
+            dispatch({ type: GET_SCHOOL, payload: json })
+            dispatch(finishLoading())
 
         } catch (e) {
             dispatch(finishLoading())
@@ -183,21 +161,12 @@ export function getClassINedded(id) {
 
 export function getClass(id) {
     return async (dispatch, getState) => {
-        const token = getState().auth.token
-
         try {
             dispatch(startLoading())
+            const json = await fetch(`/api/classes/${id}`, { method: 'GET' }, getState, dispatch)
 
-            const response = await fetch(`/api/classes/${id}`, {
-                method: 'GET',
-                headers: { 'Authorization': `Bearer ${token}` }
-            })
-            const json = await response.json()
-
-            setTimeout(() => {
-                dispatch({ type: GET_CLASS, payload: json })
-                dispatch(finishLoading())
-            }, 1000)
+            dispatch({ type: GET_CLASS, payload: json })
+            dispatch(finishLoading())
 
         } catch (e) {
             dispatch(finishLoading())
@@ -208,29 +177,18 @@ export function getClass(id) {
 
 export function createSchool(form) {
     return async (dispatch, getState) => {
-        const token = getState().auth.token
-
         try {
             dispatch(startLoading())
 
-            const response = await fetch('/api/schools/create', {
+            const json = await fetch('/api/schools/create', {
                 method: 'POST',
                 body: JSON.stringify({ ...form }),
-                headers: {
-                    'Content-Type': 'application/json',
-                    'Authorization': `Bearer ${token}`
-                }
-            })
-
-            const json = await response.json()
-
-            if (!response.ok) {
-                throw new Error(json.message || 'Что-то пошло не так')
-            }
+                headers: { 'Content-Type': 'application/json', }
+            }, getState, dispatch)
 
             dispatch({ type: CREATE_SCHOOL, payload: json.school })
-            dispatch(finishLoading())
             dispatch({ type: FINISH_SCHOOL_CREATING })
+            dispatch(finishLoading())
             dispatch(showAlert({ type: 'success', text: 'Школа успешно создана' }))
 
         } catch (e) {
@@ -243,29 +201,18 @@ export function createSchool(form) {
 
 export function createClass(data) {
     return async (dispatch, getState) => {
-        const token = getState().auth.token
-
         try {
             dispatch(startLoading())
 
-            const response = await fetch('/api/classes/create', {
+            const json = await fetch('/api/classes/create', {
                 method: 'POST',
                 body: JSON.stringify({ ...data }),
-                headers: {
-                    'Content-Type': 'application/json',
-                    'Authorization': `Bearer ${token}`
-                }
-            })
-
-            const json = await response.json()
-
-            if (!response.ok) {
-                throw new Error(json.message || 'Что-то пошло не так')
-            }
+                headers: { 'Content-Type': 'application/json', }
+            }, getState, dispatch)
 
             dispatch({ type: CREATE_CLASS, payload: json.newClass })
-            dispatch(finishLoading())
             dispatch({ type: FINISH_CLASS_CREATING })
+            dispatch(finishLoading())
             dispatch(showAlert({ type: 'success', text: 'Класс успешно создан' }))
 
         } catch (e) {
@@ -274,8 +221,6 @@ export function createClass(data) {
         }
     }
 }
-
-
 
 export function getConditionsINedded() {
     return (dispatch, getState) => {
@@ -289,21 +234,12 @@ export function getConditionsINedded() {
 
 export function getConditions() {
     return async (dispatch, getState) => {
-        const token = getState().auth.token
-
         try {
             dispatch(startLoading())
+            const json = await fetch('/api/conditions', { method: 'GET' }, getState, dispatch)
 
-            const response = await fetch('/api/conditions', {
-                method: 'GET',
-                headers: { 'Authorization': `Bearer ${token}` }
-            })
-            const json = await response.json()
-
-            setTimeout(() => {
-                dispatch({ type: GET_CONDITIONS, payload: json })
-                dispatch(finishLoading())
-            }, 1000)
+            dispatch({ type: GET_CONDITIONS, payload: json })
+            dispatch(finishLoading())
 
         } catch (e) {
             dispatch(finishLoading())
@@ -333,21 +269,13 @@ export function stepDown() {
 
 export function getHistory() {
     return async (dispatch, getState) => {
-        const token = getState().auth.token
 
         try {
             dispatch(startLoading())
+            const json = await fetch('/api/history', { method: 'GET' }, getState, dispatch)
 
-            const response = await fetch('/api/history', {
-                method: 'GET',
-                headers: { 'Authorization': `Bearer ${token}` }
-            })
-            const json = await response.json()
-
-            setTimeout(() => {
-                dispatch({ type: GET_HISTORY, payload: json })
-                dispatch(finishLoading())
-            }, 1000)
+            dispatch({ type: GET_HISTORY, payload: json })
+            dispatch(finishLoading())
 
         } catch (e) {
             dispatch(finishLoading())
@@ -358,26 +286,32 @@ export function getHistory() {
 
 export function getTests() {
     return async (dispatch, getState) => {
-        const token = getState().auth.token
-
         try {
             dispatch(startLoading())
-
-            const response = await fetch(`/api/tests/`, {
-                method: 'GET',
-                headers: { 'Authorization': `Bearer ${token}` }
-            })
-            const json = await response.json()
+            const json = await fetch(`/api/tests/`, { method: 'GET' }, getState, dispatch)
 
             let quantity = 0
             json.forEach((test => { !test.solution && quantity++ }))
 
             dispatch({ type: SET_NOT_PASSED_TESTS, payload: quantity })
+            dispatch({ type: GET_TESTS, payload: json })
+            dispatch(finishLoading())
 
-            setTimeout(() => {
-                dispatch({ type: GET_TESTS, payload: json })
-                dispatch(finishLoading())
-            }, 1000)
+        } catch (e) {
+            dispatch(finishLoading())
+            dispatch(showAlert({ type: 'error', text: e.message }))
+        }
+    }
+}
+
+export function getCondition(id) {
+    return async (dispatch, getState) => {
+        try {
+            dispatch(startLoading())
+            const json = await fetch(`/api/conditions/${id}`, { method: 'GET' }, getState, dispatch)
+
+            dispatch({ type: GET_CONDITION, payload: json })
+            dispatch(finishLoading())
 
         } catch (e) {
             dispatch(finishLoading())

@@ -59,14 +59,14 @@ export const TestsPage = () => {
                     {tests.map((test, index) => {
                         if (test.solution) {
                             return (
-                                <div key={index} className="tests-page__passed-test">
+                                <Link to={`/solutions/${test._id}`} key={index} className="tests-page__passed-test">
                                     <p className="list__desc tests-page__date">{formatDate(test.date)}</p>
                                     <div className="list__item">
                                         <p>{test.condition.name}</p>
                                         <p className="list__desc"
                                             dangerouslySetInnerHTML={{ __html: test.condition.desc.slice(0, 64) + ' ...' }} />
                                     </div>
-                                </div>)
+                                </Link>)
                         }
                         return null
                     })}

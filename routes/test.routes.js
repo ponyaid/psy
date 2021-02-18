@@ -52,6 +52,7 @@ router.post('/create', auth,
 
 router.post('/solution', async (req, res) => {
     try {
+        console.log(req.body)
         const { testId, solution } = req.body
 
         const test = await Test.findByIdAndUpdate(testId, { solution })

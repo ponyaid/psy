@@ -10,6 +10,7 @@ import { SchoolPage } from './pages/SchoolPage'
 import { CodePage } from './pages/CodePage'
 import { CreateTestPage } from './pages/CreateTestPage'
 import { SettingsPage } from './pages/SettingsPage'
+import { LandingPage } from './pages/LandingPage'
 
 
 export const useRoutes = isAuthenticated => {
@@ -37,8 +38,14 @@ export const useRoutes = isAuthenticated => {
 
     return (
         <Switch>
+            <Route path="/" exact>
+                <LandingPage />
+            </Route>
             <Route path="/psych/" exact>
                 <AuthPage role='psych' />
+            </Route>
+            <Route path="/psych/register" exact>
+                <AuthPage role='psych' reg />
             </Route>
             <Route path="/pupil/" exact>
                 <AuthPage role='pupil' />
@@ -46,7 +53,7 @@ export const useRoutes = isAuthenticated => {
             <Route path="/pupil/:classId">
                 <AuthPage role='pupil' reg />
             </Route>
-            <Redirect to="/psych" />
+            <Redirect to="/" />
         </Switch>
     )
 }

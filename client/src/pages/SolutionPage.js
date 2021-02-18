@@ -6,34 +6,35 @@ import { useHttp } from '../hooks/http.hook'
 export const SolutionPage = () => {
     const { request } = useHttp()
 
-    const [solution, setSolution] = useState(null)
+    const [test, setTest] = useState(null)
     const [html, setHtml] = useState(null)
 
-    const solutionId = useParams().id
+    const testId = useParams().id
 
-    const getSolution = useCallback(async () => {
+    const getTest = useCallback(async () => {
         try {
-            const fetched = await request(`/api/solutions/${solutionId}`)
-            setSolution(fetched)
+            const fetched = await request(`/api/tests/${testId}`)
+            setTest(fetched)
         } catch (e) {
             console.log(e)
         }
-    }, [request, solutionId])
+    }, [request, testId])
 
-    useEffect(() => { getSolution() }, [getSolution])
+    useEffect(() => { getTest() }, [getTest])
 
     useEffect(() => {
-        if (solution) {
-            const html = solution.html
+        if (test) {
+            const html = test.solution
             const parser = new DOMParser()
             const htmlDoc = parser.parseFromString(html, 'text/html')
             setHtml(htmlDoc)
         }
-    }, [solution])
+    }, [test])
 
     if (!html) {
         return null
     }
+    console.log(html)
 
     return (
         <div>

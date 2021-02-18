@@ -65,11 +65,11 @@ export const ProfilePage = () => {
                 <div className="profile-page__entities">
                     {loading ? <Loader /> :
                         <div className="profile-page__entities-wrapper">
-                            <Link to="/schools" className={`entity ${schools.length ? 'entity_school' : null}`}>
-                                <p className={`entity__title ${schools.length ? 'entity__title_white' : null}`}>Школы</p>
-                                {!schools.length ? <p className="entity__description">Добавьте школу</p> : null}
-                                <span className={`entity__extra ${!schools.length ? 'entity__extra_psych-null' : null}`}>
-                                    {schools.length ? schools.length : null}</span>
+                            <Link to="/schools" className={`entity ${!!schools.length && 'entity_school'}`}>
+                                <p className={`entity__title ${!!schools.length && 'entity__title_white'}`}>Школы</p>
+                                {!schools.length && <p className="entity__description">Добавьте школу</p>}
+                                <span className={`entity__extra ${!schools.length && 'entity__extra_psych-null'}`}>
+                                    {!!schools.length && schools.length}</span>
                             </Link>
                             <div className={`entity ${user.meets.length ? 'entity_meet' : null}`}>
                                 <p className={`entity__title ${user.meets.length ? 'entity__title_white' : null}`}>Встречи</p>

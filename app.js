@@ -8,9 +8,7 @@ const Condition = require('./models/Condition')
 
 
 const parser = new xml2js.Parser()
-
 const app = express()
-
 
 app.use(express.json({ extended: true }))
 

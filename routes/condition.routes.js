@@ -1,10 +1,11 @@
 const { Router } = require('express')
+const auth = require('../middleware/auth.middleware')
 const Condition = require('../models/Condition')
 
 
 const router = Router()
 
-router.get('/', async (req, res) => {
+router.get('/', auth, async (req, res) => {
     try {
         const conditions = await Condition.find()
         res.json(conditions)
@@ -14,11 +15,11 @@ router.get('/', async (req, res) => {
 })
 
 
-router.get('/:id', async (req, res) => {
+router.get('/:id', auth, async (req, res) => {
     try {
         const condition = await Condition.findOne({ id: req.params.id })
-        res.json(condition) 
-        
+        res.json(condition)
+
     } catch (e) {
         res.status(500).json({ message: "Что-то пошло не так, попробуйте снова" })
     }

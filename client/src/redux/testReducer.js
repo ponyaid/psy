@@ -5,6 +5,7 @@ import {
     GET_CONDITIONS,
     CHANGE_CONDITION_ID,
     GET_TESTS,
+    GET_CONDITION,
     SET_NOT_PASSED_TESTS
 } from './types'
 
@@ -13,6 +14,7 @@ const initialState = {
     step: 1,
     conditionId: null,
     conditions: [],
+    condition: null,
     tests: [],
     notPassedTests: 0
 }
@@ -33,6 +35,8 @@ export const testReducer = (state = initialState, action) => {
             return { ...state, tests: action.payload }
         case SET_NOT_PASSED_TESTS:
             return { ...state, notPassedTests: action.payload }
+        case GET_CONDITION:
+            return { ...state, condition: action.payload }
 
         default:
             return state
