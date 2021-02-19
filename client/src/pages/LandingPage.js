@@ -29,10 +29,18 @@ export const LandingPage = () => {
     })
 
     useEffect(() => {
-        setTimeout(() => {
-            service === 3 ? setService(1) : setService(service + 1)
-        }, 4000)
+        if (window.innerWidth > 640) {
+            setTimeout(() => {
+                service === 3 ? setService(1) : setService(service + 1)
+            }, 4000)
+        }
     }, [service])
+
+    const clickHandler = () => {
+        if (window.innerWidth <= 640) {
+            service === 3 ? setService(1) : setService(service + 1)
+        }
+    }
 
     const changeHandler = event => {
         setForm({ ...form, [event.target.name]: event.target.value })
@@ -86,7 +94,7 @@ export const LandingPage = () => {
 
             <section className="landing-main" id="landing-main">
                 <h1 className="landing-main__title">Мы развиваем системы автоматизации школьной психодиагностики</h1>
-                <button className="landing-main__btn">Оставить заявку</button>
+                <HashLink to="#landing-contacts" className="landing-main__btn">Оставить заявку</HashLink>
                 <div className="landing-main__bnr">
                     <img src={bnr} alt="bnr" />
                 </div>
@@ -128,9 +136,12 @@ export const LandingPage = () => {
                 </div>
                 <div className="landing-services__content">
                     <div className="landing-services__steps">
-                        <span className={`landing-services__step ${service === 1 && "landing-services__step_blue"}`}>01</span>
-                        <span className={`landing-services__step ${service === 2 && "landing-services__step_yellow"}`}>02</span>
-                        <span className={`landing-services__step ${service === 3 && "landing-services__step_orange"}`}>03</span>
+                        <span onClick={clickHandler}
+                            className={`landing-services__step ${service === 1 && "landing-services__step_blue"}`}>01</span>
+                        <span onClick={clickHandler}
+                            className={`landing-services__step ${service === 2 && "landing-services__step_yellow"}`}>02</span>
+                        <span onClick={clickHandler}
+                            className={`landing-services__step ${service === 3 && "landing-services__step_orange"}`}>03</span>
                     </div>
                     {service === 1 && <p>Мы создаем комфортную цифровую среду для взаимодействия школьника и психолога.</p>}
                     {service === 2 && <p>Обеспечиваем конфиденциальность личных данных и безопасность на высоком уровне.</p>}
@@ -149,7 +160,7 @@ export const LandingPage = () => {
                 с другой стороны даём школьникам удобный современный инструмент прохождения психологических тестов.</p>
             </section>
 
-            <section className="landing-contacts">
+            <section className="landing-contacts" id="landing-contacts">
                 <h2 className="landing-contacts__title">Сделайте несколько шагов, чтобы познакомиться с нашим решением.</h2>
                 <div className="landing-contacts__content">
                     <div className="landing-contacts__contacts">

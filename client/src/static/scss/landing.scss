@@ -11,7 +11,7 @@
     padding: 2.5rem;
 
     @media (max-width: 640px) {
-        padding: 1rem;
+        padding: 1.5rem;
     }
 
     &__logo-wrapper {
@@ -86,7 +86,7 @@
     }
 
     @media (max-width: 640px) {
-        padding: 3.5rem 1rem 0;
+        padding: 90px 1.5rem 0;
     }
 
     &__title {
@@ -106,9 +106,10 @@
         }
 
         @media (max-width: 640px) {
-            font-weight: 500;
-            font-size: 32px;
-            line-height: 150%;
+            font-weight: 600;
+            font-size: 26px;
+            line-height: 110%;
+            margin-bottom: 1.5rem;
         }
     }
 
@@ -130,6 +131,10 @@
         &:hover {
             opacity: 0.7;
         }
+
+        @media (max-width: 640px) {
+            margin-bottom: 4rem;
+        }
     }
 
     &__bnr {
@@ -138,6 +143,16 @@
         border-radius: 42px;
         img {
             width: 100%;
+        }
+
+        @media (max-width: 640px) {
+            height: 235px;
+            border-radius: 28px;
+
+            img {
+                height: 100%;
+                object-fit: cover;
+            }
         }
     }
 }
@@ -154,12 +169,12 @@
     }
 
     @media (max-width: 640px) {
-        padding: 3.5rem 1rem;
+        padding: 5rem 1.5rem 20px;
     }
 }
 
 .landing-bullet {
-    margin: 0 auto 1.5rem;
+    margin: 0 auto 5rem;
     width: 260px;
     display: flex;
     flex-flow: column;
@@ -198,9 +213,8 @@
     }
 
     @media (max-width: 640px) {
-        padding: 3.5rem 1rem;
-        font-size: 28px;
-        letter-spacing: initial;
+        font-size: 18px;
+        padding: 5rem 19px 100px 1.5rem;
     }
 
     &__title {
@@ -211,15 +225,11 @@
         margin-bottom: 1.5rem;
 
         @media (max-width: 1024px) {
-            font-weight: 600;
             font-size: 56px;
-            line-height: 110%;
         }
 
         @media (max-width: 640px) {
-            font-weight: 500;
-            font-size: 32px;
-            line-height: 110%;
+            font-size: 48px;
         }
     }
 }
@@ -244,7 +254,7 @@
     }
 
     @media (max-width: 640px) {
-        padding: 3.5rem 1rem;
+        padding: 5rem 1.5rem;
     }
 
     &__cover {
@@ -255,11 +265,13 @@
         margin-right: 2.5rem;
 
         @media (max-width: 1024px) {
-            order: 1;
             width: 100%;
             height: auto;
-            margin-top: 2.5rem;
             margin-right: initial;
+        }
+
+        @media (max-width: 640px) {
+            border-radius: 29px;
         }
 
         img {
@@ -272,7 +284,6 @@
 
     &__content {
         max-width: 570px;
-
         padding-top: 3rem;
         font-size: 28px;
         line-height: 150%;
@@ -280,14 +291,29 @@
         color: #2330ba;
 
         @media (max-width: 1024px) {
-            padding-top: 0;
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+            padding-top: 2rem;
             max-width: initial;
+            text-align: center;
+        }
+
+        @media (max-width: 640px) {
+            font-size: 18px;
+            font-weight: 500;
         }
     }
 
     &__steps {
         display: flex;
         margin-bottom: 2.5rem;
+
+        @media (max-width: 1024px) {
+            order: 1;
+            margin-top: 2.5rem;
+            margin-bottom: 0;
+        }
     }
 
     &__step {
@@ -305,11 +331,17 @@
         letter-spacing: 0.08em;
         color: #2330ba;
 
+        @media (max-width: 640px) {
+            width: 62px;
+            height: 62px;
+            font-size: 26px;
+        }
+
         & + & {
             margin-left: 60px;
 
             @media (max-width: 640px) {
-                margin-left: 1.5rem;
+                margin-left: 2.5rem;
             }
         }
 
@@ -343,7 +375,7 @@
     }
 
     @media (max-width: 640px) {
-        padding: 3.5rem 1rem 0;
+        padding: 5rem 1.5rem 0;
     }
 
     &__title {
@@ -358,9 +390,9 @@
         }
 
         @media (max-width: 640px) {
-            font-size: 32px;
-            font-weight: 500;
-            line-height: 150%;
+            font-size: 26px;
+            font-weight: 600;
+            line-height: 110%;
             margin-bottom: 3.5rem;
         }
     }
@@ -431,7 +463,7 @@
         border-radius: 32px;
 
         @media (max-width: 1024px) {
-            padding: 1.5rem;
+            padding: 1rem;
             border-radius: 1rem;
         }
     }
