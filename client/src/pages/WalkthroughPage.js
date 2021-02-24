@@ -2,7 +2,9 @@ import React, { useState, useEffect, useCallback } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { useHttp } from '../hooks/http.hook'
 import { useDispatch, useSelector } from 'react-redux'
-import { getCondition, showAlert } from '../redux/actions'
+import { getCondition, hideAlert, showAlert } from '../redux/actions'
+import { Loader } from '../components/Loader'
+import { FINISH_LOADING, START_LOADING } from '../redux/types'
 
 
 export const WalkthroughPage = () => {
@@ -11,6 +13,7 @@ export const WalkthroughPage = () => {
 
     const { user } = useSelector(state => state.auth)
     const { condition } = useSelector(state => state.test)
+    const { loading } = useSelector(state => state.app)
 
     const [questionId, setQuestionId] = useState(0)
     const [questions, setQuestions] = useState([])
@@ -27,6 +30,7 @@ export const WalkthroughPage = () => {
     }, [conditionId, dispatch])
 
     const postSolution = useCallback(async () => {
+        dispatch({ type: START_LOADING })
         const xml = condition.xml
         const parser = new DOMParser()
         const xmlDoc = parser.parseFromString(xml, 'text/xml')
@@ -43,20 +47,7 @@ export const WalkthroughPage = () => {
         var oSerializer = new XMLSerializer()
         var sXML = oSerializer.serializeToString(xmlDoc)
 
-        // try {
-        //     await request('/api/tests/solution', 'POST',
-        //         JSON.stringify({ solution: sXML, testId }), {
-        //         'Content-Type': 'application/json',
-        //     })
-
-        //     dispatch(showAlert({ type: 'success', text: 'Тест пройден' }))
-
-        // } catch (e) { }
-
         try {
-            // const encodedData = window.btoa('HTTP:1234567890')
-            // GET http://185.68.101.64/SychoDiag/hs/ConnectionTest/MakeTest
-            // POST http://185.68.101.64/SychoDiag/hs/TestsExchange/SendTests
             fetch('http://185.68.101.64/SychoDB/hs/TestsExchange/SendTests', {
                 method: 'POST',
                 body: sXML
@@ -68,13 +59,19 @@ export const WalkthroughPage = () => {
                         'Content-Type': 'application/json',
                     })
 
+                    dispatch({ type: FINISH_LOADING })
+
                     dispatch(showAlert({ type: 'success', text: 'Тест пройден' }))
+
+                    setTimeout(() => {
+                        dispatch(hideAlert())
+                        window.location.href = `/solutions/${testId}`
+                    }, 2000)
                 })
 
-            // window.location.href = '/'
-
         } catch (e) {
-            alert(e)
+            dispatch({ type: FINISH_LOADING })
+            dispatch(showAlert({ type: 'error', text: e }))
         }
 
     }, [condition, user, results, request, testId, dispatch])
@@ -115,9 +112,9 @@ export const WalkthroughPage = () => {
         }
     }
 
-    if (!question) {
-        return null
-    }
+    if (!question) { return null }
+
+    if (loading) { return <Loader /> }
 
     return (
         <div className="page walkthrough">

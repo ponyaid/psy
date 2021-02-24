@@ -52,13 +52,9 @@ router.post('/create', auth,
 
 router.post('/solution', async (req, res) => {
     try {
-        console.log(req.body)
         const { testId, solution } = req.body
-
         const test = await Test.findByIdAndUpdate(testId, { solution })
-
         res.status(201).json({ test })
-
     } catch (e) {
         console.log(e)
         res.status(500).json({ message: "Что-то пошло не так, попробуйте снова" })
@@ -81,7 +77,7 @@ router.get('/', auth,
 
 router.get('/:id', async (req, res) => {
     try {
-        const test = await Test.findById(req.params.id)
+        const test = await Test.findById(req.params.id).populate('condition')
         res.json(test)
 
     } catch (e) {

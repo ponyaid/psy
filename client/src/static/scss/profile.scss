@@ -7,7 +7,9 @@
     }
 }
 
-.profile-page, .settings-page {
+.profile-page,
+.settings-page,
+.solution-page {
     position: relative;
     padding-bottom: 0;
     background-image: $gradient-blue;

@@ -23,7 +23,7 @@
                 <an name='Да' id='202_0_5_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
                 <an name='Нет' id='202_0_5_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
             </qw>
-            <qw name='Я знаю, что люди говорят обо мне за моей спиной.' id='202_0_6' code='6' valid_type='0' img='' time_limit='0' time='0'>
+            <!-- <qw name='Я знаю, что люди говорят обо мне за моей спиной.' id='202_0_6' code='6' valid_type='0' img='' time_limit='0' time='0'>
                 <an name='Да' id='202_0_6_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
                 <an name='Нет' id='202_0_6_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
             </qw>
@@ -302,7 +302,7 @@
             <qw name='Я лучше соглашусь с чем-либо, чем стану спорить.' id='202_0_75' code='75' valid_type='0' img='' time_limit='0' time='0'>
                 <an name='Да' id='202_0_75_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
                 <an name='Нет' id='202_0_75_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
-            </qw>
+            </qw> -->
         </section>
         <images/>
     </test>
