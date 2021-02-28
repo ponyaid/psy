@@ -42,7 +42,7 @@ export const SolutionPage = () => {
                 rows.push({
                     name: tds[0].innerText,
                     score: tds[1].innerText,
-                    norm: tds[1].querySelector('font').getAttribute('color') === 'black'
+                    norm: !tds[1].querySelector('font') || tds[1].querySelector('font').getAttribute('color') === 'black'
                 })
             }
 

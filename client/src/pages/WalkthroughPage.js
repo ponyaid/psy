@@ -62,12 +62,17 @@ export const WalkthroughPage = () => {
                     const table = document.querySelectorAll('table')[1]
                     const array = Array.from(table.querySelectorAll('tr')).slice(1)
 
-
                     for (let item of array) {
+                        let status = normStatus
                         const tds = item.querySelectorAll('td')
-                        if (tds[1].querySelector('font').getAttribute('color') !== 'black') {
-                            setNormStatus(false)
+                        if (!tds[1].querySelector('font')) {
+                            status = false
+                        } else {
+                            if (tds[1].querySelector('font').getAttribute('color') !== 'black') {
+                                status = false
+                            }
                         }
+                        setNormStatus(status)
                     }
 
                     request('/api/tests/solution', 'POST',
