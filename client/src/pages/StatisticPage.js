@@ -136,14 +136,14 @@ const StatisticDitails = ({ conditionId, handler }) => {
                         <div>
                             {
                                 nullNorm.map((pupil, index) =>
-                                    <div key={index} className="statistic-pupils__item">
+                                    <Link to={`/solutions/${pupil._id}`} key={index} className="statistic-pupils__item">
                                         {/* <img src="" alt="pic" className="statistic-pupils__pic" /> */}
                                         <div>
                                             <p className="statistic-pupils__name">{pupil.pupil[0].name} {pupil.pupil[0].surname}</p>
                                             <p className="statistic-pupils__details">
                                                 {pupil.school[0].name}, {pupil.class[0].number}{pupil.class[0].letter}</p>
                                         </div>
-                                    </div>
+                                    </Link>
                                 )
                             }
                         </div>
@@ -157,14 +157,14 @@ const StatisticDitails = ({ conditionId, handler }) => {
                         <div>
                             {
                                 norm.map((pupil, index) =>
-                                    <div key={index} className="statistic-pupils__item">
+                                    <Link to={`/solutions/${pupil._id}`} key={index} className="statistic-pupils__item">
                                         {/* <img src="" alt="pic" className="statistic-pupils__pic" /> */}
                                         <div>
                                             <p className="statistic-pupils__name">{pupil.pupil[0].name} {pupil.pupil[0].surname}</p>
                                             <p className="statistic-pupils__details">
                                                 {pupil.school[0].name}, {pupil.class[0].number}{pupil.class[0].letter}</p>
                                         </div>
-                                    </div>
+                                    </Link>
                                 )
                             }
                         </div>
