@@ -10,6 +10,7 @@ export const SolutionPage = () => {
     const { user } = useSelector(state => state.auth)
     const [test, setTest] = useState(null)
     const [html, setHtml] = useState(null)
+    const [isDocPage, setIsDocPage] = useState(false)
     const [rows, setRows] = useState([])
 
     const testId = useParams().id
@@ -57,8 +58,16 @@ export const SolutionPage = () => {
         return `${Math.floor(days / 365)}`
     }, [])
 
+    const docBtnHandler = useCallback(() => {
+        setIsDocPage(!isDocPage)
+    }, [isDocPage])
+
     if (!html) {
         return null
+    }
+
+    if (isDocPage) {
+        return <DocPage handler={docBtnHandler} doc={html} />
     }
 
     return (
@@ -81,6 +90,9 @@ export const SolutionPage = () => {
                     <p className="solution-results__name">{test.condition.name}</p>
                     <p className="solution-results__desc">{test.condition.desc}</p>
 
+                    <span onClick={docBtnHandler}
+                        className="solution-results__doc-btn">Информация о тесте</span>
+
                     <div className="solution-results__items">
                         {rows.map((row, index) =>
                             <div className="solution-result" key={index}>
@@ -98,12 +110,23 @@ export const SolutionPage = () => {
                             </div>
                         )}
                     </div>
-
-                    {/* <div dangerouslySetInnerHTML={{ __html: html.body.innerHTML }}></div> */}
                 </div>
             </div>
 
 
+        </div>
+    )
+}
+
+const DocPage = ({ handler, doc }) => {
+    return (
+        <div className='page'>
+            <header className="page__header">
+                <button onClick={handler}
+                    className="icon-btn page__icon-btn page__icon-btn_left icon-btn_close"></button>
+                <p className="page__title">Подробности теста</p>
+            </header>
+            <div dangerouslySetInnerHTML={{ __html: doc.body.innerHTML }}></div>
         </div>
     )
 }

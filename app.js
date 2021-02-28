@@ -32,6 +32,7 @@ app.use('/api/history', require('./routes/history.routes'))
 
 app.use('/api/conditions', require('./routes/condition.routes'))
 app.use('/api/tests', require('./routes/test.routes'))
+app.use('/api/statistic', require('./routes/statistic.routes'))
 
 if (process.env.NODE_ENV === 'production') {
     app.use('/', express.static(path.join(__dirname, 'client', 'build')))

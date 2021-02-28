@@ -111,6 +111,7 @@ $gradient-blue: linear-gradient(270deg, #00c6ff 0%, #0072ff 100%);
 $gradient-purple: linear-gradient(90deg, #4e54c8 0%, #8f94fb 100%);
 $gradient-green: linear-gradient(90deg, #11998e 0%, #38ef7d 100%);
 $gradient-yellow: linear-gradient(90deg, #ff8008 0%, #ffc837 100%);
+$gradient-orange: linear-gradient(315deg, #ffe53b 0%, #ff2525 100%);
 
 .main {
     width: 100%;
@@ -199,6 +200,26 @@ $gradient-yellow: linear-gradient(90deg, #ff8008 0%, #ffc837 100%);
         &::after {
             background-image: url(../img/ic-settings.svg);
         }
+    }
+}
+
+.range {
+    width: 100%;
+    height: 5px;
+    display: flex;
+    overflow: hidden;
+    border-radius: 2.5px;
+    background: #4ca2ff;
+    margin-bottom: 0.5rem;
+
+    &__norm {
+        height: 100%;
+        background: #52c22b;
+    }
+
+    &__not-norm {
+        height: 100%;
+        background: #ff5a52;
     }
 }
 

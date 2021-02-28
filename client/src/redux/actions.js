@@ -284,11 +284,31 @@ export function getHistory() {
     }
 }
 
-export function getTests() {
+export function getTestsBiPupilId() {
     return async (dispatch, getState) => {
         try {
             dispatch(startLoading())
-            const json = await fetch(`/api/tests/`, { method: 'GET' }, getState, dispatch)
+            const json = await fetch(`/api/tests/by-pupil-id`, { method: 'GET' }, getState, dispatch)
+
+            let quantity = 0
+            json.forEach((test => { !test.solution && quantity++ }))
+
+            dispatch({ type: SET_NOT_PASSED_TESTS, payload: quantity })
+            dispatch({ type: GET_TESTS, payload: json })
+            dispatch(finishLoading())
+
+        } catch (e) {
+            dispatch(finishLoading())
+            dispatch(showAlert({ type: 'error', text: e.message }))
+        }
+    }
+}
+
+export function getTestsBiPsychId() {
+    return async (dispatch, getState) => {
+        try {
+            dispatch(startLoading())
+            const json = await fetch(`/api/tests/by-psych-id`, { method: 'GET' }, getState, dispatch)
 
             let quantity = 0
             json.forEach((test => { !test.solution && quantity++ }))

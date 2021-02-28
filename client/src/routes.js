@@ -11,6 +11,7 @@ import { CodePage } from './pages/CodePage'
 import { CreateTestPage } from './pages/CreateTestPage'
 import { SettingsPage } from './pages/SettingsPage'
 import { LandingPage } from './pages/LandingPage'
+import { StatisticPage } from './pages/StatisticPage'
 
 
 export const useRoutes = isAuthenticated => {
@@ -29,7 +30,8 @@ export const useRoutes = isAuthenticated => {
                 <Route path="/tests/:testId/:conditionId/"><WalkthroughPage /></Route>
                 <Route path="/solutions/:id"><SolutionPage /></Route>
 
-                <Route path="/settings/"><SettingsPage /></Route>
+                <Route path="/settings/" exact><SettingsPage /></Route>
+                <Route path="/statistic/" exact><StatisticPage /></Route>
 
                 <Redirect to="/" />
             </Switch>

@@ -18,7 +18,7 @@ router.post('/create', auth,
             }
 
             for (let pupilId of pupils) {
-                const test = new Test({ conditionId, pupil: pupilId })
+                const test = new Test({ conditionId, pupil: pupilId, psych: req.user.userId })
                 await test.save()
 
                 await Pupil.findById(pupilId, function (err, pupil) {
@@ -52,8 +52,8 @@ router.post('/create', auth,
 
 router.post('/solution', async (req, res) => {
     try {
-        const { testId, solution } = req.body
-        const test = await Test.findByIdAndUpdate(testId, { solution })
+        const { testId, solution, normStatus } = req.body
+        const test = await Test.findByIdAndUpdate(testId, { solution, normStatus })
         res.status(201).json({ test })
     } catch (e) {
         console.log(e)
@@ -61,10 +61,24 @@ router.post('/solution', async (req, res) => {
     }
 })
 
-router.get('/', auth,
+router.get('/by-pupil-id', auth,
     async (req, res) => {
         try {
             const tests = await Test.find({ pupil: req.user.userId })
+                .sort({ date: 'desc' })
+                .populate('condition')
+            res.json(tests)
+
+        } catch (e) {
+            console.log(e)
+            res.status(500).json({ message: "Что-то пошло не так, попробуйте снова" })
+        }
+    })
+
+router.get('/by-psych-id', auth,
+    async (req, res) => {
+        try {
+            const tests = await Test.find({ psych: req.user.userId })
                 .sort({ date: 'desc' })
                 .populate('condition')
             res.json(tests)

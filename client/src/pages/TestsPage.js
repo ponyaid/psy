@@ -1,7 +1,7 @@
 import React, { useCallback, useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { Link } from 'react-router-dom'
-import { getTests } from '../redux/actions'
+import { getTestsBiPupilId } from '../redux/actions'
 
 
 export const TestsPage = () => {
@@ -9,7 +9,7 @@ export const TestsPage = () => {
     const { tests } = useSelector(state => state.test)
 
     useEffect(() => {
-        dispatch(getTests())
+        dispatch(getTestsBiPupilId())
     }, [dispatch])
 
     const formatDate = useCallback(date => {

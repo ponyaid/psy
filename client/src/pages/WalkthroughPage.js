@@ -21,6 +21,7 @@ export const WalkthroughPage = () => {
     const [results, setResults] = useState([])
     const [answer, setAnswer] = useState([])
     const [end, setEnd] = useState(false)
+    const [normStatus, setNormStatus] = useState(true)
 
     const conditionId = useParams().conditionId
     const testId = useParams().testId
@@ -54,8 +55,23 @@ export const WalkthroughPage = () => {
             })
                 .then(res => res.text())
                 .then(res => {
+
+                    const parser = new DOMParser()
+                    const document = parser.parseFromString(res, 'text/html')
+
+                    const table = document.querySelectorAll('table')[1]
+                    const array = Array.from(table.querySelectorAll('tr')).slice(1)
+
+
+                    for (let item of array) {
+                        const tds = item.querySelectorAll('td')
+                        if (tds[1].querySelector('font').getAttribute('color') !== 'black') {
+                            setNormStatus(false)
+                        }
+                    }
+
                     request('/api/tests/solution', 'POST',
-                        JSON.stringify({ solution: res, testId }), {
+                        JSON.stringify({ solution: res, testId, normStatus }), {
                         'Content-Type': 'application/json',
                     })
 
@@ -74,7 +90,7 @@ export const WalkthroughPage = () => {
             dispatch(showAlert({ type: 'error', text: e }))
         }
 
-    }, [condition, user, results, request, testId, dispatch])
+    }, [condition, user, results, request, testId, dispatch, normStatus])
 
     useEffect(() => {
         !!end && postSolution()

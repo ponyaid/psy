@@ -4,18 +4,19 @@ import { useSelector, useDispatch } from 'react-redux'
 import { Tools } from '../components/Tools'
 import { Histories } from '../components/Histories'
 import { Loader } from '../components/Loader'
-import { getSchools, getTests } from '../redux/actions'
+import { getSchools, getTestsBiPsychId, getTestsBiPupilId } from '../redux/actions'
 
 
 export const ProfilePage = () => {
     const dispatch = useDispatch()
-    const { notPassedTests } = useSelector(state => state.test)
+    const { notPassedTests, tests } = useSelector(state => state.test)
     const { role, user } = useSelector(state => state.auth)
     const { schools } = useSelector(state => state.school)
     const { loading } = useSelector(state => state.app)
 
     useEffect(() => {
-        if (role === 'pupil') dispatch(getTests())
+        if (role === 'pupil') dispatch(getTestsBiPupilId())
+        if (role === 'psych') dispatch(getTestsBiPsychId())
         dispatch(getSchools())
     }, [dispatch, role])
 
@@ -77,11 +78,11 @@ export const ProfilePage = () => {
                                 <span className={`entity__extra ${!user.meets.length ? 'entity__extra_psych-null' : null}`}>
                                     {user.meets.length ? user.meets.length : null}</span>
                             </div>
-                            <div className="entity">
-                                <p className="entity__title">Статистика</p>
-                                <p className="entity__description">Нет данных для анализа</p>
-                                <span className="entity__extra entity__extra_psych"></span>
-                            </div>
+                            <Link to="/statistic" className={`entity ${!!tests.length && 'entity_statistic'}`}>
+                                <p className={`entity__title ${tests.length ? 'entity__title_white' : null}`}>Статистика</p>
+                                {!tests.length && <p className="entity__description">Нет данных для анализа</p>}
+                                {!!tests.length && <span className="entity__extra entity__extra_statistic"></span>}
+                            </Link>
                         </div>
                     }
                 </div>
