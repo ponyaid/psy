@@ -31,7 +31,7 @@ router.post(
                 })
             }
 
-            const { name, email, password, resolution, terms, sex, birthday, classId } = req.body
+            const { name, surname, email, password, resolution, terms, sex, birthday, classId } = req.body
 
             const condaidate = await Pupil.findOne({ email })
 
@@ -41,7 +41,7 @@ router.post(
 
             const hashedPassword = await bcrypt.hash(password, 12)
             const pupil = new Pupil({
-                name, email, password: hashedPassword, resolution, terms, sex, birthday, class: classId
+                name, surname, email, password: hashedPassword, resolution, terms, sex, birthday, class: classId
             })
 
             const group = await Class.findById(classId)
@@ -53,6 +53,8 @@ router.post(
 
 
         } catch (e) {
+            console.log('TYT')
+            console.log(e)
             res.status(500).json({ message: "Что-то пошло не так, попробуйте снова" })
         }
     })
