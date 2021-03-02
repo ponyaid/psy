@@ -15,6 +15,7 @@ router.post(
     '/register',
     [
         check('name', 'Отсутствует имя').notEmpty(),
+        check('surname', 'Отсутствует фамилия').notEmpty(),
         check('email', 'Некорректный email').isEmail(),
         check('birthday', 'Некорректная дата рождения').isDate(),
         check('password', 'Минимальная длина пароля 8 символов').isLength({ min: 8 })
@@ -44,17 +45,14 @@ router.post(
                 name, surname, email, password: hashedPassword, resolution, terms, sex, birthday, class: classId
             })
 
-            const group = await Class.findById(classId)
-            await group.updateOne({ pupils: [...group.pupils, pupil] })
-
             await pupil.save()
+
+            const group = await Class.findById(classId)
+            group.updateOne({ pupils: [...group.pupils, pupil] })
 
             res.status(201).json({ message: "Пользователь создан" })
 
-
         } catch (e) {
-            console.log('TYT')
-            console.log(e)
             res.status(500).json({ message: "Что-то пошло не так, попробуйте снова" })
         }
     })
