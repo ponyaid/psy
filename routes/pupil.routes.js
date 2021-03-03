@@ -61,15 +61,15 @@ router.post(
 router.post(
     '/login',
     [
-        check('email', 'Введите корректный email').normalizeEmail().isEmail(),
-        check('password', 'Введите пароль').exists()
+        check('email', 'Введите корректный email').isEmail(),
+        check('password', 'Введите пароль').notEmpty()
     ],
     async (req, res) => {
         try {
 
             const errors = validationResult(req)
 
-            if (!errors.isEmpty) {
+            if (!errors.isEmpty()) {
                 return res.status(400).json({
                     errors: errors.array(),
                     message: "Некорректные данные при входе в систему"
@@ -113,7 +113,7 @@ router.post('/update', auth,
         try {
 
             const errors = validationResult(req)
-            if (!errors.isEmpty) {
+            if (!errors.isEmpty()) {
                 return res.status(400).json({
                     errors: errors.array(),
                     message: "Некорректные данные при внесении изменений"
