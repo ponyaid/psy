@@ -91,7 +91,7 @@ router.get('/by-psych-id', auth,
 
 router.get('/:id', async (req, res) => {
     try {
-        const test = await Test.findById(req.params.id).populate('condition')
+        const test = await Test.findById(req.params.id).populate('condition').populate('pupil')
         res.json(test)
 
     } catch (e) {

@@ -1,0 +1,504 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root mode='0'>
+    <test code='4' name='Якоря карьеры' time_limit='0' navigate='false' control_scroll='false' control='true' use_conclusion='false' use_stoping='false' time='0' guid='239eba6f-6117-11e1-85eb-bcaec5d251ec' fill='0' conclusion='' mode='Не пройден' registered='false' fb_user_guid='' fb_user_name='' fb_link_guid='' fb_link_name='' grade_unit_guid='' grade_unit_name='' grade_post_guid='' grade_post_name=''>
+        <section id='4_1' name='Первый этап' code='1' shake='false' sample='0' time_limit='0' time='0'>
+            <inst img=''>Вам будет предложено двадцать одно утверждение. Оцените, насколько важным является для Вас каждое утверждение. Для этого выберите соответствующее число. Чем больше число, тем важнее утверждение.</inst>
+            <qw name='Строить свою карьеру в пределах конкретной научной или технической сферы.' id='4_1_1' code='1' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='1. Совершенно неважно' id='4_1_1_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='4_1_1_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='4_1_1_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='4_1_1_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='4_1_1_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='4_1_1_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='4_1_1_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='4_1_1_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='4_1_1_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10. Исключительно важно' id='4_1_1_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Осуществлять наблюдение, влияние и контроль над людьми на всех уровнях.' id='4_1_2' code='2' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='1. Совершенно неважно' id='4_1_2_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='4_1_2_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='4_1_2_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='4_1_2_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='4_1_2_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='4_1_2_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='4_1_2_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='4_1_2_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='4_1_2_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10. Исключительно важно' id='4_1_2_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Иметь возможность делать все по-своему и не быть стесненным правилами какой-либо организации.' id='4_1_3' code='3' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='1. Совершенно неважно' id='4_1_3_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='4_1_3_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='4_1_3_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='4_1_3_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='4_1_3_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='4_1_3_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='4_1_3_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='4_1_3_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='4_1_3_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10. Исключительно важно' id='4_1_3_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Иметь постоянное место работы с гарантированным окладом и социальной защищенностью.' id='4_1_4' code='4' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='1. Совершенно неважно' id='4_1_4_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='4_1_4_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='4_1_4_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='4_1_4_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='4_1_4_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='4_1_4_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='4_1_4_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='4_1_4_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='4_1_4_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10. Исключительно важно' id='4_1_4_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Использовать свое умение общаться и помогать другим, чтобы приносить людям пользу.' id='4_1_5' code='5' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='1. Совершенно неважно' id='4_1_5_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='4_1_5_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='4_1_5_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='4_1_5_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='4_1_5_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='4_1_5_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='4_1_5_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='4_1_5_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='4_1_5_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10. Исключительно важно' id='4_1_5_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Работать над проблемами, которые представляются почти неразрешимыми.' id='4_1_6' code='6' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='1. Совершенно неважно' id='4_1_6_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='4_1_6_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='4_1_6_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='4_1_6_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='4_1_6_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='4_1_6_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='4_1_6_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='4_1_6_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='4_1_6_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10. Исключительно важно' id='4_1_6_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Вести такой образ жизни, чтобы семья и карьера взаимно уравновешивали друг друга.' id='4_1_7' code='7' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='1. Совершенно неважно' id='4_1_7_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='4_1_7_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='4_1_7_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='4_1_7_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='4_1_7_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='4_1_7_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='4_1_7_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='4_1_7_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='4_1_7_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10. Исключительно важно' id='4_1_7_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Создать и построить нечто, что будет всецело моим произведением или идеей.' id='4_1_8' code='8' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='1. Совершенно неважно' id='4_1_8_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='4_1_8_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='4_1_8_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='4_1_8_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='4_1_8_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='4_1_8_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='4_1_8_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='4_1_8_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='4_1_8_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10. Исключительно важно' id='4_1_8_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Продолжать работу в области своей специальности, чем получить более высокую должность, не связанную с моей специальностью.' id='4_1_9' code='9' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='1. Совершенно неважно' id='4_1_9_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='4_1_9_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='4_1_9_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='4_1_9_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='4_1_9_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='4_1_9_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='4_1_9_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='4_1_9_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='4_1_9_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10. Исключительно важно' id='4_1_9_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Быть первым руководителем в организации.' id='4_1_10' code='10' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='1. Совершенно неважно' id='4_1_10_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='4_1_10_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='4_1_10_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='4_1_10_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='4_1_10_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='4_1_10_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='4_1_10_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='4_1_10_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='4_1_10_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10. Исключительно важно' id='4_1_10_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Иметь работу, не связанную с режимом или другими организационными ограничениями.' id='4_1_11' code='11' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='1. Совершенно неважно' id='4_1_11_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='4_1_11_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='4_1_11_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='4_1_11_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='4_1_11_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='4_1_11_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='4_1_11_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='4_1_11_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='4_1_11_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10. Исключительно важно' id='4_1_11_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Работать в организации, которая обеспечит мне стабильность на длительный период времени.' id='4_1_12' code='12' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='1. Совершенно неважно' id='4_1_12_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='4_1_12_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='4_1_12_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='4_1_12_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='4_1_12_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='4_1_12_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='4_1_12_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='4_1_12_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='4_1_12_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10. Исключительно важно' id='4_1_12_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Употребить свои умения и способности на то, чтобы сделать мир лучше.' id='4_1_13' code='13' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='1. Совершенно неважно' id='4_1_13_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='4_1_13_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='4_1_13_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='4_1_13_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='4_1_13_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='4_1_13_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='4_1_13_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='4_1_13_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='4_1_13_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10. Исключительно важно' id='4_1_13_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Соревноваться и побеждать других.' id='4_1_14' code='14' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='1. Совершенно неважно' id='4_1_14_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='4_1_14_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='4_1_14_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='4_1_14_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='4_1_14_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='4_1_14_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='4_1_14_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='4_1_14_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='4_1_14_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10. Исключительно важно' id='4_1_14_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Развивать карьеру, которая позволит мне продолжать следовать моему образу жизни.' id='4_1_15' code='15' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='1. Совершенно неважно' id='4_1_15_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='4_1_15_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='4_1_15_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='4_1_15_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='4_1_15_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='4_1_15_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='4_1_15_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='4_1_15_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='4_1_15_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10. Исключительно важно' id='4_1_15_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Создать новое коммерческое предприятие.' id='4_1_16' code='16' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='1. Совершенно неважно' id='4_1_16_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='4_1_16_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='4_1_16_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='4_1_16_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='4_1_16_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='4_1_16_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='4_1_16_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='4_1_16_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='4_1_16_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10. Исключительно важно' id='4_1_16_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Посвятить свою жизнь избранной профессии.' id='4_1_17' code='17' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='1. Совершенно неважно' id='4_1_17_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='4_1_17_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='4_1_17_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='4_1_17_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='4_1_17_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='4_1_17_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='4_1_17_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='4_1_17_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='4_1_17_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10. Исключительно важно' id='4_1_17_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Достичь высокой руководящей должности.' id='4_1_18' code='18' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='1. Совершенно неважно' id='4_1_18_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='4_1_18_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='4_1_18_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='4_1_18_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='4_1_18_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='4_1_18_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='4_1_18_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='4_1_18_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='4_1_18_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10. Исключительно важно' id='4_1_18_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Иметь работу, которая предоставляет максимум свободы и автономии в выборе характера занятий, времени выполнения и т.д.' id='4_1_19' code='19' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='1. Совершенно неважно' id='4_1_19_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='4_1_19_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='4_1_19_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='4_1_19_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='4_1_19_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='4_1_19_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='4_1_19_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='4_1_19_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='4_1_19_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10. Исключительно важно' id='4_1_19_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Оставаться на одном месте жительства, чем переехать, в связи с повышением.' id='4_1_20' code='20' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='1. Совершенно неважно' id='4_1_20_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='4_1_20_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='4_1_20_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='4_1_20_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='4_1_20_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='4_1_20_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='4_1_20_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='4_1_20_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='4_1_20_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10. Исключительно важно' id='4_1_20_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Иметь возможность использовать свои умения и таланты для служения важной цели.' id='4_1_21' code='21' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='1. Совершенно неважно' id='4_1_21_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='4_1_21_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='4_1_21_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='4_1_21_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='4_1_21_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='4_1_21_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='4_1_21_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='4_1_21_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='4_1_21_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10. Исключительно важно' id='4_1_21_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+        </section>
+        <section id='4_2' name='Второй этап' code='2' shake='false' sample='0' time_limit='0' time='0'>
+            <inst img=''>Вам будет предложено двадцать утверждений. Оцените, насколько Вы согласны с каждым утверждений. Для этого выберите соответствующее число. Чем больше число, тем скорее Вы готовы согласиться с утверждением.</inst>
+            <qw name='Единственная цель моей карьеры - находить и решать трудные проблемы, независимо от того, в какой области они возникали.' id='4_2_22' code='22' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='1. Совершенно не согласен' id='4_2_22_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='4_2_22_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='4_2_22_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='4_2_22_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='4_2_22_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='4_2_22_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='4_2_22_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='4_2_22_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='4_2_22_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10. Полностью согласен' id='4_2_22_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Я всегда стремлюсь уделять одинаковое внимание моей семье и моей карьере.' id='4_2_23' code='23' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='1. Совершенно не согласен' id='4_2_23_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='4_2_23_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='4_2_23_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='4_2_23_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='4_2_23_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='4_2_23_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='4_2_23_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='4_2_23_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='4_2_23_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10. Полностью согласен' id='4_2_23_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Я всегда нахожусь в поиске идей, которые дают мне возможность начать и построить свое собственное дело.' id='4_2_24' code='24' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='1. Совершенно не согласен' id='4_2_24_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='4_2_24_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='4_2_24_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='4_2_24_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='4_2_24_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='4_2_24_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='4_2_24_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='4_2_24_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='4_2_24_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10. Полностью согласен' id='4_2_24_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Я соглашусь на руководящую должность только в том случае, если она находится в сфере моей профессиональной компетенции.' id='4_2_25' code='25' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='1. Совершенно не согласен' id='4_2_25_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='4_2_25_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='4_2_25_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='4_2_25_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='4_2_25_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='4_2_25_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='4_2_25_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='4_2_25_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='4_2_25_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10. Полностью согласен' id='4_2_25_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Я хотел бы достичь такого положения в организации, которое давало бы возможность наблюдать за работой других и интегрировать их деятельность.' id='4_2_26' code='26' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='1. Совершенно не согласен' id='4_2_26_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='4_2_26_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='4_2_26_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='4_2_26_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='4_2_26_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='4_2_26_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='4_2_26_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='4_2_26_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='4_2_26_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10. Полностью согласен' id='4_2_26_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='В моей профессиональной деятельности я более всего заботился о своей свободе и автономии.' id='4_2_27' code='27' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='1. Совершенно не согласен' id='4_2_27_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='4_2_27_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='4_2_27_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='4_2_27_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='4_2_27_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='4_2_27_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='4_2_27_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='4_2_27_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='4_2_27_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10. Полностью согласен' id='4_2_27_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Для меня важнее остаться на нынешнем месте жительства, чем получить повышение или новую работу в другой местности.' id='4_2_28' code='28' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='1. Совершенно не согласен' id='4_2_28_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='4_2_28_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='4_2_28_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='4_2_28_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='4_2_28_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='4_2_28_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='4_2_28_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='4_2_28_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='4_2_28_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10. Полностью согласен' id='4_2_28_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Я всегда искал работу, на которой мог бы приносить пользу другим.' id='4_2_29' code='29' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='1. Совершенно не согласен' id='4_2_29_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='4_2_29_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='4_2_29_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='4_2_29_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='4_2_29_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='4_2_29_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='4_2_29_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='4_2_29_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='4_2_29_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10. Полностью согласен' id='4_2_29_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Соревнование и выигрыш - это наиболее важные и волнующие стороны моей карьеры.' id='4_2_30' code='30' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='1. Совершенно не согласен' id='4_2_30_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='4_2_30_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='4_2_30_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='4_2_30_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='4_2_30_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='4_2_30_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='4_2_30_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='4_2_30_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='4_2_30_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10. Полностью согласен' id='4_2_30_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Карьера имеет смысл только в том случае, если она позволяет мне вести жизнь, которая нравится.' id='4_2_31' code='31' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='1. Совершенно не согласен' id='4_2_31_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='4_2_31_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='4_2_31_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='4_2_31_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='4_2_31_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='4_2_31_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='4_2_31_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='4_2_31_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='4_2_31_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10. Полностью согласен' id='4_2_31_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Предпринимательская деятельность составляет центральную часть моей карьеры.' id='4_2_32' code='32' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='1. Совершенно не согласен' id='4_2_32_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='4_2_32_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='4_2_32_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='4_2_32_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='4_2_32_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='4_2_32_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='4_2_32_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='4_2_32_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='4_2_32_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10. Полностью согласен' id='4_2_32_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Я бы скорее ушел из организации, чем стал заниматься работой, не связанной с моей профессией.' id='4_2_33' code='33' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='1. Совершенно не согласен' id='4_2_33_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='4_2_33_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='4_2_33_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='4_2_33_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='4_2_33_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='4_2_33_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='4_2_33_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='4_2_33_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='4_2_33_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10. Полностью согласен' id='4_2_33_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Я буду считать, что достиг успеха в карьере, только тогда, когда стану руководителем высокого уровня в солидной организации.' id='4_2_34' code='34' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='1. Совершенно не согласен' id='4_2_34_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='4_2_34_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='4_2_34_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='4_2_34_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='4_2_34_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='4_2_34_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='4_2_34_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='4_2_34_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='4_2_34_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10. Полностью согласен' id='4_2_34_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Я не хочу, чтобы меня стесняла какая-нибудь организация или мир бизнеса.' id='4_2_35' code='35' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='1. Совершенно не согласен' id='4_2_35_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='4_2_35_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='4_2_35_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='4_2_35_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='4_2_35_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='4_2_35_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='4_2_35_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='4_2_35_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='4_2_35_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10. Полностью согласен' id='4_2_35_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Я предпочел бы работать в организации, которая обеспечивает длительный контракт.' id='4_2_36' code='36' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='1. Совершенно не согласен' id='4_2_36_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='4_2_36_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='4_2_36_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='4_2_36_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='4_2_36_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='4_2_36_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='4_2_36_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='4_2_36_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='4_2_36_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10. Полностью согласен' id='4_2_36_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Я хотел бы посвятить свою карьеру достижению важной и полезной цели.' id='4_2_37' code='37' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='1. Совершенно не согласен' id='4_2_37_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='4_2_37_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='4_2_37_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='4_2_37_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='4_2_37_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='4_2_37_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='4_2_37_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='4_2_37_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='4_2_37_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10. Полностью согласен' id='4_2_37_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Я чувствую себя преуспевающим только тогда, когда я постоянно вовлечен в решение трудных проблем или в ситуации соревнования.' id='4_2_38' code='38' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='1. Совершенно не согласен' id='4_2_38_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='4_2_38_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='4_2_38_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='4_2_38_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='4_2_38_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='4_2_38_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='4_2_38_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='4_2_38_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='4_2_38_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10. Полностью согласен' id='4_2_38_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Выбрать и поддерживать определенный образ жизни важнее, чем добиваться успеха в карьере.' id='4_2_39' code='39' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='1. Совершенно не согласен' id='4_2_39_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='4_2_39_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='4_2_39_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='4_2_39_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='4_2_39_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='4_2_39_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='4_2_39_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='4_2_39_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='4_2_39_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10. Полностью согласен' id='4_2_39_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Я всегда хотел основать и построить свой собственный бизнес.' id='4_2_40' code='40' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='1. Совершенно не согласен' id='4_2_40_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='4_2_40_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='4_2_40_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='4_2_40_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='4_2_40_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='4_2_40_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='4_2_40_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='4_2_40_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='4_2_40_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10. Полностью согласен' id='4_2_40_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Я предпочитаю работу, которая не связана с командировками.' id='4_2_41' code='41' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='1. Совершенно не согласен' id='4_2_41_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='4_2_41_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='4_2_41_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='4_2_41_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='4_2_41_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='4_2_41_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='4_2_41_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='4_2_41_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='4_2_41_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10. Полностью согласен' id='4_2_41_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+        </section>
+        <images/>
+    </test>
+</root>

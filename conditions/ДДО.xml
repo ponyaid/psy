@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root mode='0'>
+    <test code='6' name='ДДО' time_limit='0' navigate='false' control_scroll='false' control='true' use_conclusion='false' use_stoping='false' time='0' guid='29e0e185-6117-11e1-85eb-bcaec5d251ec' fill='0' conclusion='' mode='Не пройден' registered='false' fb_user_guid='' fb_user_name='' fb_link_guid='' fb_link_name='' grade_unit_guid='' grade_unit_name='' grade_post_guid='' grade_post_name=''>
+        <section id='6_0' code='0' name='ДДО' shake='false' sample='0' time_limit='0' time='0'>
+            <inst img=''>Этот опросник позволит выявить тип профессиональной  деятельности, который Вас наиболее привлекает.
+			&lt;br&gt;&lt;/br&gt;Предположим, Вам представляется выбор одного из двух видов деятельности, выберите тот, который Вам больше нравится.
+			&lt;br&gt;&lt;/br&gt;Если не нравятся оба, выберите тот, который является «меньшим злом». Если Вам что-то непонятно, обратитесь к консультанту. Желаем успеха!
+		</inst>
+            <qw name='Если бы Вам пришлось выбирать только из 2-х возможностей, чтобы Вы предпочли?' id='6_0_1' code='1' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Ухаживать за животными.' id='6_0_1_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Обслуживать машины, приборы (следить, регулировать).' id='6_0_1_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Если бы Вам пришлось выбирать только из 2-х возможностей, чтобы Вы предпочли?' id='6_0_2' code='2' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Помогать больным.' id='6_0_2_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Составлять таблицы, схемы, программы для вычислительных машин.' id='6_0_2_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Если бы Вам пришлось выбирать только из 2-х возможностей, чтобы Вы предпочли?' id='6_0_3' code='3' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Следить за качеством книжных иллюстраций, плакатов, художественных открыток, грампластинок.' id='6_0_3_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Следить за состоянием, развитием растений.' id='6_0_3_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Если бы Вам пришлось выбирать только из 2-х возможностей, чтобы Вы предпочли?' id='6_0_4' code='4' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Обрабатывать материалы (дерево, ткань, металл, пластмассу и т.д.).' id='6_0_4_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Доводить товары до потребителя, рекламировать продавать.' id='6_0_4_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Если бы Вам пришлось выбирать только из 2-х возможностей, чтобы Вы предпочли?' id='6_0_5' code='5' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Обсуждать научно-популярные книги, статьи.' id='6_0_5_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Обсуждать художественные книги (или пьесы, концерты).' id='6_0_5_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Если бы Вам пришлось выбирать только из 2-х возможностей, чтобы Вы предпочли?' id='6_0_6' code='6' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Выращивать молодняк (животных какой-либо породы).' id='6_0_6_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Тренировать товарищей (или младших) в выполнении каких-либо действий (трудовых, учебных, спортивных).' id='6_0_6_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Если бы Вам пришлось выбирать только из 2-х возможностей, чтобы Вы предпочли?' id='6_0_7' code='7' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Копировать рисунки, изображения (или настраивать музыкальные инструменты).' id='6_0_7_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Управлять каким-либо грузовым (подъемным или транспортным) средством - подъемным краном, тепловозом и т.п.' id='6_0_7_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Если бы Вам пришлось выбирать только из 2-х возможностей, чтобы Вы предпочли?' id='6_0_8' code='8' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Сообщать, разъяснять людям нужные сведения (в справочном бюро, на экскурсии  и т.п.' id='6_0_8_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Оформлять выставки, витрины (или участвовать в подготовке пьес, концертов).' id='6_0_8_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Если бы Вам пришлось выбирать только из 2-х возможностей, чтобы Вы предпочли?' id='6_0_9' code='9' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Ремонтировать вещи, изделия (одежду, технику), жилище.' id='6_0_9_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Искать и исправлять ошибки в текстах, таблицах, рисунках.' id='6_0_9_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Если бы Вам пришлось выбирать только из 2-х возможностей, чтобы Вы предпочли?' id='6_0_10' code='10' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Лечить животных.' id='6_0_10_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Выполнять вычисления.' id='6_0_10_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Если бы Вам пришлось выбирать только из 2-х возможностей, чтобы Вы предпочли?' id='6_0_11' code='11' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Выводить новые сорта растений.' id='6_0_11_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Конструировать, проектировать новые виды промышленных изделий (машины, одежду, дома, продукты питания и т.п.' id='6_0_11_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Если бы Вам пришлось выбирать только из 2-х возможностей, чтобы Вы предпочли?' id='6_0_12' code='12' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Разбирать споры, ссоры между людьми, убеждать, разъяснять, наказывать, поощрять.' id='6_0_12_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Разбираться в чертежах, схемах, таблицах (проверять, уточнять, приводить в порядок).' id='6_0_12_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Если бы Вам пришлось выбирать только из 2-х возможностей, чтобы Вы предпочли?' id='6_0_13' code='13' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Наблюдать, изучать  работу кружков художественной самодеятельности.' id='6_0_13_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Наблюдать, изучать жизнь микробов.' id='6_0_13_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Если бы Вам пришлось выбирать только из 2-х возможностей, чтобы Вы предпочли?' id='6_0_14' code='14' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Обслуживать, налаживать медицинские приборы, аппараты.' id='6_0_14_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Оказывать людям медицинскую помощь при ранениях, ушибах, ожогах и т.п..' id='6_0_14_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Если бы Вам пришлось выбирать только из 2-х возможностей, чтобы Вы предпочли?' id='6_0_15' code='15' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Художественно описывать, изображать события (наблюдаемые и представляемые).' id='6_0_15_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Составлять точные описания-отчеты о наблюдаемых явлениях, событиях измеряемых объектах и др.' id='6_0_15_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Если бы Вам пришлось выбирать только из 2-х возможностей, чтобы Вы предпочли?' id='6_0_16' code='16' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Делать лабораторные анализы в больнице.' id='6_0_16_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Принимать, осматривать больных, беседовать с ними, назначать лечение.' id='6_0_16_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Если бы Вам пришлось выбирать только из 2-х возможностей, чтобы Вы предпочли?' id='6_0_17' code='17' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Красить или расписывать стены помещений, поверхность изделий.' id='6_0_17_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Осуществлять монтаж или сборку машин, приборов.' id='6_0_17_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Если бы Вам пришлось выбирать только из 2-х возможностей, чтобы Вы предпочли?' id='6_0_18' code='18' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Организовывать культпоходы сверстников или младших в театры, музеи, экскурсии туристические походы и т.п.' id='6_0_18_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Играть на сцене, принимать участие в концертах.' id='6_0_18_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Если бы Вам пришлось выбирать только из 2-х возможностей, чтобы Вы предпочли?' id='6_0_19' code='19' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Изготовлять по чертежам детали, изделия (машины, одежду), строить  здания.' id='6_0_19_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Заниматься черчением, копировать чертежи, карты.' id='6_0_19_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Если бы Вам пришлось выбирать только из 2-х возможностей, чтобы Вы предпочли?' id='6_0_20' code='20' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Вести борьбу с болезнями растений, с вредителями леса, сада.' id='6_0_20_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Работать на клавишных машинах (пишущей машинке, телетайпе, наборной машине и др.' id='6_0_20_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+        </section>
+        <images/>
+    </test>
+</root>

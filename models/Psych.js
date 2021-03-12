@@ -12,7 +12,6 @@ const schema = new Schema({
     createDate: { type: Date, default: Date.now },
     birthday: { type: Date, required: true },
 
-    pupils: [{ type: Types.ObjectId, ref: 'Pupil' }],
     schools: [{ type: Types.ObjectId, ref: 'School' }],
     meets: [{ type: Types.ObjectId, ref: 'Meet' }]
 })

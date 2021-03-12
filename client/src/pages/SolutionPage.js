@@ -7,7 +7,7 @@ import { useHttp } from '../hooks/http.hook'
 
 export const SolutionPage = () => {
     const { request } = useHttp()
-    const { user } = useSelector(state => state.auth)
+    // const { user } = useSelector(state => state.auth)
     const [test, setTest] = useState(null)
     const [html, setHtml] = useState(null)
     const [isDocPage, setIsDocPage] = useState(false)
@@ -42,7 +42,10 @@ export const SolutionPage = () => {
                 rows.push({
                     name: tds[0].innerText,
                     score: tds[1].innerText,
-                    norm: !tds[1].querySelector('font') || tds[1].querySelector('font').getAttribute('color') === 'black'
+                    norm:
+                        test.condition.id === 216
+                        || !tds[1].querySelector('font')
+                        || tds[1].querySelector('font').getAttribute('color') === 'black'
                 })
             }
 
@@ -79,8 +82,8 @@ export const SolutionPage = () => {
 
             <div className="solution-page__main">
                 <div className="solution-page__info">
-                    <p className="solution-page__name">{user.name} {user.surname}</p>
-                    {user.birthday ? <p className="solution-page__birthday">{yearsOldCounter(user.birthday)} лет</p> : null}
+                    <p className="solution-page__name">{test.pupil.name} {test.pupil.surname}</p>
+                    {test.pupil.birthday ? <p className="solution-page__birthday">{yearsOldCounter(test.pupil.birthday)} лет</p> : null}
                 </div>
             </div>
 
@@ -106,7 +109,6 @@ export const SolutionPage = () => {
                                     {row.norm ? <span className="solution-result__mark solution-result__mark_green">В норме</span>
                                         : <span className="solution-result__mark solution-result__mark_red">Не в норме</span>}
                                 </div>
-
                             </div>
                         )}
                     </div>

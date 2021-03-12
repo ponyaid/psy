@@ -45,10 +45,10 @@ router.post(
                 name, surname, email, password: hashedPassword, resolution, terms, sex, birthday, class: classId
             })
 
-            await pupil.save()
-
             const group = await Class.findById(classId)
-            group.updateOne({ pupils: [...group.pupils, pupil] })
+            await group.updateOne({ pupils: [...group.pupils, pupil] })
+
+            await pupil.save()
 
             res.status(201).json({ message: "Пользователь создан" })
 

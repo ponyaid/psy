@@ -1,21 +1,29 @@
 import React, { useCallback, useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { useSelector } from 'react-redux'
+import { useSelector, useDispatch } from 'react-redux'
 import { Range } from '../components/Range'
+import { Loader } from '../components/Loader'
+import { FINISH_LOADING, START_LOADING } from '../redux/types'
 
 
 export const StatisticPage = () => {
+    const dispatch = useDispatch()
     const { token } = useSelector(state => state.auth)
+    const { loading } = useSelector(state => state.app)
     const [conditions, setConditions] = useState(null)
     const [conditionId, setConditionId] = useState(null)
 
     useEffect(() => {
+        dispatch({ type: START_LOADING })
         let headers = {}
         headers['Authorization'] = `Bearer ${token}`
         fetch('/api/statistic/conditions', { headers: headers })
             .then(res => res.json())
-            .then(res => setConditions(res))
-    }, [token])
+            .then(res => {
+                setConditions(res)
+                dispatch({ type: FINISH_LOADING })
+            })
+    }, [token, dispatch])
 
     const nullStatusCounter = useCallback((tests) => {
         let count = 0
@@ -38,6 +46,8 @@ export const StatisticPage = () => {
     const conditionHandler = useCallback(id => {
         setConditionId(id)
     }, [])
+
+    if (loading) return <Loader />
 
     if (!conditions) return null
 

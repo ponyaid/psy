@@ -40,6 +40,7 @@ export const TestsPage = () => {
                     <div className="list">
                         {tests.map((test, index) => {
                             if (!test.solution) {
+                                if (!test.condition) return null
                                 return (
                                     <Link key={index} to={`/tests/${test._id}/${test.condition.id}`} className="list__item">
                                         <p>{test.condition.name}</p>
@@ -58,6 +59,7 @@ export const TestsPage = () => {
                 <div className="list">
                     {tests.map((test, index) => {
                         if (test.solution) {
+                            if (!test.condition) return null
                             return (
                                 <Link to={`/solutions/${test._id}`} key={index} className="tests-page__passed-test">
                                     <p className="list__desc tests-page__date">{formatDate(test.date)}</p>

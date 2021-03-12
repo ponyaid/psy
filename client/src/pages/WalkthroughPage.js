@@ -1,15 +1,13 @@
 import React, { useState, useEffect, useCallback } from 'react'
 import { Link, useParams } from 'react-router-dom'
-import { useHttp } from '../hooks/http.hook'
 import { useDispatch, useSelector } from 'react-redux'
-import { getCondition, hideAlert, showAlert } from '../redux/actions'
+import { getCondition, showAlert } from '../redux/actions'
 import { Loader } from '../components/Loader'
 import { FINISH_LOADING, START_LOADING } from '../redux/types'
 
 
 export const WalkthroughPage = () => {
     const dispatch = useDispatch()
-    const { request } = useHttp()
 
     const { user } = useSelector(state => state.auth)
     const { condition } = useSelector(state => state.test)
@@ -21,7 +19,6 @@ export const WalkthroughPage = () => {
     const [results, setResults] = useState([])
     const [answer, setAnswer] = useState([])
     const [end, setEnd] = useState(false)
-    const [normStatus, setNormStatus] = useState(true)
 
     const conditionId = useParams().conditionId
     const testId = useParams().testId
@@ -62,32 +59,27 @@ export const WalkthroughPage = () => {
                     const table = document.querySelectorAll('table')[1]
                     const array = Array.from(table.querySelectorAll('tr')).slice(1)
 
-                    for (let item of array) {
-                        let status = normStatus
-                        const tds = item.querySelectorAll('td')
-                        if (!tds[1].querySelector('font')) {
-                            status = false
-                        } else {
-                            if (tds[1].querySelector('font').getAttribute('color') !== 'black') {
+                    let status = true
+
+                    if (!['4', '216'].includes(conditionId)) {
+                        for (let item of array) {
+                            const tds = item.querySelectorAll('td')
+                            if (!tds[1].querySelector('font')
+                                || tds[1].querySelector('font').getAttribute('color') !== 'black') {
                                 status = false
                             }
                         }
-                        setNormStatus(status)
                     }
 
-                    request('/api/tests/solution', 'POST',
-                        JSON.stringify({ solution: res, testId, normStatus }), {
-                        'Content-Type': 'application/json',
+                    return fetch('/api/tests/solution', {
+                        method: 'POST',
+                        body: JSON.stringify({ solution: res, testId, normStatus: status }),
+                        headers: { 'Content-Type': 'application/json' }
                     })
-
+                })
+                .then(() => {
                     dispatch({ type: FINISH_LOADING })
-
-                    dispatch(showAlert({ type: 'success', text: 'Тест пройден' }))
-
-                    setTimeout(() => {
-                        dispatch(hideAlert())
-                        window.location.href = `/solutions/${testId}`
-                    }, 2000)
+                    window.location.href = `/solutions/${testId}`
                 })
 
         } catch (e) {
@@ -95,7 +87,7 @@ export const WalkthroughPage = () => {
             dispatch(showAlert({ type: 'error', text: e }))
         }
 
-    }, [condition, user, results, request, testId, dispatch, normStatus])
+    }, [condition, user, results, testId, conditionId, dispatch])
 
     useEffect(() => {
         !!end && postSolution()
@@ -112,13 +104,19 @@ export const WalkthroughPage = () => {
     useEffect(() => {
         if (questions.length) {
             const qw = questions[questionId]
+
+            if (conditionId === '209') {
+                qw.an.pop()
+            }
+
             setQuestion({
                 name: qw.$.name,
                 ans: qw.an
             })
+
             setAnswer([])
         }
-    }, [questionId, questions])
+    }, [conditionId, questionId, questions])
 
     const confirmBtnHandler = () => {
         if (answer.length) {

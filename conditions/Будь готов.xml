@@ -1,0 +1,523 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root mode='0'>
+    <test code='216' name='Будь готов' time_limit='0' navigate='false' control_scroll='false' control='true' use_conclusion='false' use_stoping='false' time='0' guid='883455dc-71bf-11e1-8181-bcaec5d251ec' fill='0' conclusion='' mode='Не пройден' registered='false' fb_user_guid='' fb_user_name='' fb_link_guid='' fb_link_name='' grade_unit_guid='' grade_unit_name='' grade_post_guid='' grade_post_name=''>
+        <section id='216_0' code='0' name='Будь готов' shake='false' sample='0' time_limit='0' time='0'>
+            <inst img=''>Сейчас Вам будет предложен перечень различных трудовых действий. 
+&lt;br&gt;&lt;/br&gt;Вы должны оценить, смогли бы Вы на данном этапе своего развития успешно выполнить каждое из этих действий. 
+&lt;br&gt;&lt;/br&gt;Для этого нужно использовать для самооценки шкалу от 0 до 10 баллов. Если то или иное действие представляется Вам трудным, то для него ставится невысокий балл. Если Вы считаете, что легко справились бы с этим действием, то ставится высокий балл.
+&lt;br&gt;&lt;/br&gt;Обратите внимание на то, что здесь идет речь не о Ваших желаниях, а только о Ваших возможностях и способностях.</inst>
+            <qw name='Следить за показаниями приборов, за информацией на экране (дисплее).' id='216_0_1' code='1' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='0.' id='216_0_1_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='1.' id='216_0_1_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='216_0_1_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='216_0_1_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='216_0_1_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='216_0_1_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='216_0_1_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='216_0_1_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='216_0_1_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='216_0_1_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10.' id='216_0_1_11' code='11' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Работать с текстами (много читать, изучать что-либо).' id='216_0_2' code='2' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='0.' id='216_0_2_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='1.' id='216_0_2_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='216_0_2_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='216_0_2_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='216_0_2_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='216_0_2_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='216_0_2_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='216_0_2_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='216_0_2_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='216_0_2_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10.' id='216_0_2_11' code='11' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Выполнять расчеты (на ЭВМ, микрокалькуляторе, в уме).' id='216_0_3' code='3' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='0.' id='216_0_3_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='1.' id='216_0_3_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='216_0_3_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='216_0_3_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='216_0_3_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='216_0_3_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='216_0_3_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='216_0_3_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='216_0_3_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='216_0_3_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10.' id='216_0_3_11' code='11' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Много чертить, рисовать.' id='216_0_4' code='4' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='0.' id='216_0_4_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='1.' id='216_0_4_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='216_0_4_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='216_0_4_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='216_0_4_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='216_0_4_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='216_0_4_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='216_0_4_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='216_0_4_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='216_0_4_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10.' id='216_0_4_11' code='11' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Вести записи, печатать на машинке, на компьютере.' id='216_0_5' code='5' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='0.' id='216_0_5_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='1.' id='216_0_5_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='216_0_5_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='216_0_5_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='216_0_5_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='216_0_5_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='216_0_5_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='216_0_5_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='216_0_5_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='216_0_5_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10.' id='216_0_5_11' code='11' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Много говорить, выступать перед аудиторией, беседовать с людьми.' id='216_0_6' code='6' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='0.' id='216_0_6_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='1.' id='216_0_6_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='216_0_6_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='216_0_6_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='216_0_6_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='216_0_6_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='216_0_6_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='216_0_6_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='216_0_6_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='216_0_6_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10.' id='216_0_6_11' code='11' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Быть услужливым, уметь нравиться и угождать клиентам.' id='216_0_7' code='7' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='0.' id='216_0_7_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='1.' id='216_0_7_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='216_0_7_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='216_0_7_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='216_0_7_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='216_0_7_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='216_0_7_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='216_0_7_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='216_0_7_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='216_0_7_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10.' id='216_0_7_11' code='11' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Соблюдать дисциплину труда и субординацию (правила подчинения).' id='216_0_8' code='8' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='0.' id='216_0_8_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='1.' id='216_0_8_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='216_0_8_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='216_0_8_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='216_0_8_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='216_0_8_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='216_0_8_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='216_0_8_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='216_0_8_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='216_0_8_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10.' id='216_0_8_11' code='11' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Управлять техникой (машинами, станками, агрегатами).' id='216_0_9' code='9' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='0.' id='216_0_9_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='1.' id='216_0_9_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='216_0_9_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='216_0_9_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='216_0_9_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='216_0_9_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='216_0_9_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='216_0_9_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='216_0_9_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='216_0_9_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10.' id='216_0_9_11' code='11' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Обрабатывать что-либо вручную или с помощью простых приспособлений.' id='216_0_10' code='10' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='0.' id='216_0_10_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='1.' id='216_0_10_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='216_0_10_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='216_0_10_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='216_0_10_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='216_0_10_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='216_0_10_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='216_0_10_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='216_0_10_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='216_0_10_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10.' id='216_0_10_11' code='11' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Часто работать на открытом воздухе, на природе (в любую погоду).' id='216_0_11' code='11' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='0.' id='216_0_11_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='1.' id='216_0_11_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='216_0_11_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='216_0_11_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='216_0_11_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='216_0_11_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='216_0_11_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='216_0_11_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='216_0_11_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='216_0_11_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10.' id='216_0_11_11' code='11' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Много запоминать по ходу работы.' id='216_0_12' code='12' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='0.' id='216_0_12_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='1.' id='216_0_12_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='216_0_12_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='216_0_12_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='216_0_12_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='216_0_12_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='216_0_12_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='216_0_12_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='216_0_12_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='216_0_12_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10.' id='216_0_12_11' code='11' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Часто разъезжать (командировки, экспедиции).' id='216_0_13' code='13' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='0.' id='216_0_13_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='1.' id='216_0_13_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='216_0_13_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='216_0_13_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='216_0_13_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='216_0_13_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='216_0_13_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='216_0_13_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='216_0_13_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='216_0_13_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10.' id='216_0_13_11' code='11' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Быстро реагировать на меняющуюся ситуацию, уметь переключать внимание.' id='216_0_14' code='14' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='0.' id='216_0_14_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='1.' id='216_0_14_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='216_0_14_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='216_0_14_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='216_0_14_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='216_0_14_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='216_0_14_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='216_0_14_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='216_0_14_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='216_0_14_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10.' id='216_0_14_11' code='11' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Проверять, контролировать, оценивать что-либо и кого-либо, ставить диагноз.' id='216_0_15' code='15' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='0.' id='216_0_15_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='1.' id='216_0_15_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='216_0_15_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='216_0_15_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='216_0_15_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='216_0_15_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='216_0_15_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='216_0_15_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='216_0_15_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='216_0_15_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10.' id='216_0_15_11' code='11' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Быть осторожным и предусмотрительным, соблюдать правила безопасности (рисковать, но по-умному).' id='216_0_16' code='16' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='0.' id='216_0_16_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='1.' id='216_0_16_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='216_0_16_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='216_0_16_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='216_0_16_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='216_0_16_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='216_0_16_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='216_0_16_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='216_0_16_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='216_0_16_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10.' id='216_0_16_11' code='11' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Выполнять «грязную» работу (которая может сопровождаться неприятным запахом, пылью, сыростью, шумом).' id='216_0_17' code='17' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='0.' id='216_0_17_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='1.' id='216_0_17_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='216_0_17_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='216_0_17_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='216_0_17_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='216_0_17_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='216_0_17_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='216_0_17_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='216_0_17_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='216_0_17_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10.' id='216_0_17_11' code='11' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Переносить однообразную, монотонную работу.' id='216_0_18' code='18' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='0.' id='216_0_18_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='1.' id='216_0_18_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='216_0_18_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='216_0_18_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='216_0_18_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='216_0_18_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='216_0_18_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='216_0_18_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='216_0_18_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='216_0_18_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10.' id='216_0_18_11' code='11' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Терпеть насмешки, грубость.' id='216_0_19' code='19' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='0.' id='216_0_19_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='1.' id='216_0_19_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='216_0_19_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='216_0_19_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='216_0_19_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='216_0_19_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='216_0_19_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='216_0_19_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='216_0_19_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='216_0_19_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10.' id='216_0_19_11' code='11' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Испытывать длительные физические нагрузки (много ходить, выполнять разнообразные движения, давление, переносить вибрацию, перепады температуры).' id='216_0_20' code='20' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='0.' id='216_0_20_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='1.' id='216_0_20_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='216_0_20_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='216_0_20_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='216_0_20_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='216_0_20_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='216_0_20_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='216_0_20_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='216_0_20_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='216_0_20_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10.' id='216_0_20_11' code='11' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Уметь организовывать, руководить людьми.' id='216_0_21' code='21' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='0.' id='216_0_21_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='1.' id='216_0_21_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='216_0_21_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='216_0_21_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='216_0_21_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='216_0_21_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='216_0_21_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='216_0_21_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='216_0_21_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='216_0_21_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10.' id='216_0_21_11' code='11' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Владеть иностранным языком.' id='216_0_22' code='22' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='0.' id='216_0_22_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='1.' id='216_0_22_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='216_0_22_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='216_0_22_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='216_0_22_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='216_0_22_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='216_0_22_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='216_0_22_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='216_0_22_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='216_0_22_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10.' id='216_0_22_11' code='11' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Уметь постоять за себя, с честью выходить из конфликтных ситуаций.' id='216_0_23' code='23' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='0.' id='216_0_23_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='1.' id='216_0_23_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='216_0_23_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='216_0_23_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='216_0_23_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='216_0_23_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='216_0_23_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='216_0_23_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='216_0_23_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='216_0_23_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10.' id='216_0_23_11' code='11' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Не обманывать других и самого себя (говорят, это не каждому дано).' id='216_0_24' code='24' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='0.' id='216_0_24_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='1.' id='216_0_24_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='216_0_24_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='216_0_24_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='216_0_24_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='216_0_24_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='216_0_24_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='216_0_24_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='216_0_24_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='216_0_24_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10.' id='216_0_24_11' code='11' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Уметь не принимать все близко к сердцу (не волноваться, что от вашей работы кому-то будет плохо).' id='216_0_25' code='25' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='0.' id='216_0_25_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='1.' id='216_0_25_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='216_0_25_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='216_0_25_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='216_0_25_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='216_0_25_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='216_0_25_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='216_0_25_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='216_0_25_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='216_0_25_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10.' id='216_0_25_11' code='11' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Часто работать по вечерам и без выходных.' id='216_0_26' code='26' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='0.' id='216_0_26_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='1.' id='216_0_26_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='216_0_26_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='216_0_26_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='216_0_26_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='216_0_26_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='216_0_26_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='216_0_26_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='216_0_26_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='216_0_26_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10.' id='216_0_26_11' code='11' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Уметь самостоятельно принимать важные решения (и отвечать за них тоже самостоятельно).' id='216_0_27' code='27' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='0.' id='216_0_27_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='1.' id='216_0_27_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='216_0_27_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='216_0_27_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='216_0_27_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='216_0_27_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='216_0_27_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='216_0_27_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='216_0_27_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='216_0_27_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10.' id='216_0_27_11' code='11' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Уметь взаимодействовать с коллегами, работать в коллективе (без скандалов и склок).' id='216_0_28' code='28' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='0.' id='216_0_28_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='1.' id='216_0_28_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='216_0_28_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='216_0_28_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='216_0_28_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='216_0_28_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='216_0_28_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='216_0_28_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='216_0_28_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='216_0_28_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10.' id='216_0_28_11' code='11' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Уметь тихо и спокойно размышлять, мечтать на работе (и так зарабатывать себе на хлеб насущный).' id='216_0_29' code='29' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='0.' id='216_0_29_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='1.' id='216_0_29_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='216_0_29_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='216_0_29_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='216_0_29_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='216_0_29_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='216_0_29_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='216_0_29_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='216_0_29_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='216_0_29_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10.' id='216_0_29_11' code='11' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Постоянно следить за собой, тренироваться, репетировать, быть в хорошей форме.' id='216_0_30' code='30' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='0.' id='216_0_30_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='1.' id='216_0_30_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='216_0_30_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='216_0_30_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='216_0_30_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='216_0_30_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='216_0_30_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='216_0_30_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='216_0_30_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='216_0_30_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10.' id='216_0_30_11' code='11' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Свято верить во что-то (в великую идею, в Бога, в обожаемого человека, в начальника).' id='216_0_31' code='31' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='0.' id='216_0_31_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='1.' id='216_0_31_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='216_0_31_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='216_0_31_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='216_0_31_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='216_0_31_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='216_0_31_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='216_0_31_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='216_0_31_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='216_0_31_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10.' id='216_0_31_11' code='11' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Постоянно придумывать на работе что-то новое и необычное.' id='216_0_32' code='32' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='0.' id='216_0_32_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='1.' id='216_0_32_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='216_0_32_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='216_0_32_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='216_0_32_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='216_0_32_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='216_0_32_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='216_0_32_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='216_0_32_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='216_0_32_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10.' id='216_0_32_11' code='11' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Создавать красоту, уметь ценить прекрасное.' id='216_0_33' code='33' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='0.' id='216_0_33_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='1.' id='216_0_33_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='216_0_33_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='216_0_33_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='216_0_33_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='216_0_33_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='216_0_33_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='216_0_33_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='216_0_33_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='216_0_33_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10.' id='216_0_33_11' code='11' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Быть проворным, уметь работать быстро.' id='216_0_34' code='34' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='0.' id='216_0_34_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='1.' id='216_0_34_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='2.' id='216_0_34_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='3.' id='216_0_34_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='4.' id='216_0_34_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='5.' id='216_0_34_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='6.' id='216_0_34_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='7.' id='216_0_34_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='8.' id='216_0_34_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='9.' id='216_0_34_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='10.' id='216_0_34_11' code='11' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+            <qw name='Сейчас Вам будут предложены различные профессии. Из полного списка (67 профессий) выберите профессию, которая Вас интересует. Если той профессии, которая Вас интересует, не окажется в списке, попробуйте выбрать близкую к ней профессию.' id='216_0_35' code='35' valid_type='0' img='' time_limit='0' time='0'>
+                <an name='Автослесарь' id='216_0_35_1' code='1' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Агроном' id='216_0_35_2' code='2' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Артист драматического театра' id='216_0_35_3' code='3' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Археолог, этнограф' id='216_0_35_4' code='4' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Библиотекарь' id='216_0_35_5' code='5' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Водитель городского автобуса' id='216_0_35_6' code='6' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Водитель-«дальнобойщик»' id='216_0_35_7' code='7' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Воспитатель в детском саду, яслях' id='216_0_35_8' code='8' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Врач-терапевт' id='216_0_35_9' code='9' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Врач-хирург' id='216_0_35_10' code='10' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Геолог' id='216_0_35_11' code='11' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Дизайнер (техническая эстетика)' id='216_0_35_12' code='12' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Домохозяйка (воспитание детей, создание уюта в доме, обслуживание мужа)' id='216_0_35_13' code='13' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Животновод (зоотехник)' id='216_0_35_14' code='14' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Инженер на промышленном производстве' id='216_0_35_15' code='15' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Инспектор ГИББД' id='216_0_35_16' code='16' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Кассир-оператор кассовых аппаратов (в магазине, в банке)' id='216_0_35_17' code='17' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Коммерсант' id='216_0_35_18' code='18' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Конструктор (чертежник-конструктор)' id='216_0_35_19' code='19' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Лесник, инспектор рыбнадзора' id='216_0_35_20' code='20' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Летчик (пилот гражданской авиации)' id='216_0_35_21' code='21' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Манекенщица, фотомодель' id='216_0_35_22' code='22' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Мастер телеателье' id='216_0_35_23' code='23' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Матрос, рыбак на сейнере' id='216_0_35_24' code='24' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Машинист поезда' id='216_0_35_25' code='25' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Металлург' id='216_0_35_26' code='26' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Монах, человек-отшельник, послушник' id='216_0_35_27' code='27' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Офицер армии (десантные войска)' id='216_0_35_28' code='28' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Официант' id='216_0_35_29' code='29' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Парикмахер' id='216_0_35_30' code='30' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Переводчик (текстовый перевод)' id='216_0_35_31' code='31' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Писатель, поэт, публицист, журналист' id='216_0_35_32' code='32' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Повар (в престижном ресторане)' id='216_0_35_33' code='33' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Пограничник (сухопутная граница)' id='216_0_35_34' code='34' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Пожарник, спасатель' id='216_0_35_35' code='35' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Политический деятель, дипломат' id='216_0_35_36' code='36' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Портной по пошиву верхней одежды' id='216_0_35_37' code='37' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Приемщица белья в прачечной, в химчистке' id='216_0_35_38' code='38' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Программист' id='216_0_35_39' code='39' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Продавец-консультант' id='216_0_35_40' code='40' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Продавец мелкорозничной торговли' id='216_0_35_41' code='41' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Проводник железнодорожных составов' id='216_0_35_42' code='42' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Психолог, психотерапевт' id='216_0_35_43' code='43' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Редактор, корректор' id='216_0_35_44' code='44' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Руководитель, менеджер' id='216_0_35_45' code='45' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Священнослужитель' id='216_0_35_46' code='46' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Секретарь-референт' id='216_0_35_47' code='47' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Сельский механизатор (комбайнер, тракторист)' id='216_0_35_48' code='48' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Слесарь-ремонтник' id='216_0_35_49' code='49' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Спортсмен-профессионал (командный спорт)' id='216_0_35_50' code='50' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Станочник широкого профиля (токарь, фрезеровщик)' id='216_0_35_51' code='51' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Строитель-монтажник' id='216_0_35_52' code='52' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Стюардесса' id='216_0_35_53' code='53' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Таксист' id='216_0_35_54' code='54' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Телохранитель, охранник' id='216_0_35_55' code='55' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Участковый милиционер' id='216_0_35_56' code='56' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Ученый-теоретик (биолог)' id='216_0_35_57' code='57' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Ученый-экспериментатор (научный сотрудник на био-, метеостанции)' id='216_0_35_58' code='58' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Учитель средней школы' id='216_0_35_59' code='59' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Фотокорреспондент' id='216_0_35_60' code='60' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Художник, скульптор' id='216_0_35_61' code='61' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Чиновник, служащий, инспектор' id='216_0_35_62' code='62' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Шахтер, проходчик' id='216_0_35_63' code='63' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Экономист' id='216_0_35_64' code='64' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Экскурсовод-переводчик' id='216_0_35_65' code='65' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Ювелир' id='216_0_35_66' code='66' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+                <an name='Юрист (адвокат)' id='216_0_35_67' code='67' type='r' img='' max_value='0' min_value='0' snap_value='0' tick_value='0' x='0' y='0' height='0' width='0' adapt='' tv='' nv='' selected='false'/>
+            </qw>
+        </section>
+        <images/>
+    </test>
+</root>
