@@ -1,6 +1,8 @@
-import React, { useCallback, useState, useEffect } from 'react'
+import React, { useCallback, useState, useEffect, useRef } from 'react'
 import { Link } from 'react-router-dom'
-import { useSelector } from 'react-redux'
+
+import { Doughnut } from 'react-chartjs-2'
+
 import { useParams } from 'react-router-dom'
 import { useHttp } from '../hooks/http.hook'
 
@@ -10,6 +12,7 @@ export const SolutionPage = () => {
     // const { user } = useSelector(state => state.auth)
     const [test, setTest] = useState(null)
     const [html, setHtml] = useState(null)
+    const [diagram, setDiagram] = useState(false)
     const [isDocPage, setIsDocPage] = useState(false)
     const [rows, setRows] = useState([])
 
@@ -65,12 +68,20 @@ export const SolutionPage = () => {
         setIsDocPage(!isDocPage)
     }, [isDocPage])
 
+    const diagramBtnHandler = useCallback(() => {
+        setDiagram(!diagram)
+    }, [diagram])
+
     if (!html) {
         return null
     }
 
     if (isDocPage) {
         return <DocPage handler={docBtnHandler} doc={html} />
+    }
+
+    if (diagram) {
+        return <Diagram handler={diagramBtnHandler} row={rows[0]} conditionName={test.condition.name} />
     }
 
     return (
@@ -95,6 +106,8 @@ export const SolutionPage = () => {
 
                     <span onClick={docBtnHandler}
                         className="solution-results__doc-btn">Информация о тесте</span>
+
+                    <p className='diagram-handler' onClick={diagramBtnHandler}>Диаграмма</p>
 
                     <div className="solution-results__items">
                         {rows.map((row, index) =>
@@ -132,3 +145,47 @@ const DocPage = ({ handler, doc }) => {
         </div>
     )
 }
+
+
+
+export const Diagram = ({ handler, row, conditionName }) => {
+    // const chartRef = useRef(null)
+
+    // useEffect(() => {
+    //     console.log(chartRef.current)
+    // }, [])
+
+    // console.log(test.condition.name)
+
+    return (
+        <div className='page'>
+            <header className="page__header">
+                <button onClick={handler} className="icon-btn page__icon-btn page__icon-btn_left icon-btn_close"></button>
+                <p className="page__title">Статистика</p>
+            </header>
+
+            <div className="diagram">
+                <p className='diagram__title'>{conditionName}</p>
+
+                <div className="chart"></div>
+
+                {/* <Doughnut ref={chartRef} data={} /> */}
+
+                <p className="diagram__condition-name">{row.name}</p>
+                <div className="diagram__details">
+                    <p className="diagram__details-key">Сумарный бал:</p>
+                    <p className="diagram__details-value">{row.score}</p>
+                </div>
+                <div className="diagram__details">
+                    <p className="diagram__details-key">Показатель:</p>
+
+                    {row.norm ? <span className="solution-result__mark solution-result__mark_green">В норме</span>
+                        : <span className="solution-result__mark solution-result__mark_red">Не в норме</span>}
+                </div>
+
+            </div>
+        </div>
+    )
+}
+
+
