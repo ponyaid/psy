@@ -1,7 +1,7 @@
 import React, { useCallback, useState, useEffect, useRef } from 'react'
 import { Link } from 'react-router-dom'
 
-import { Doughnut } from 'react-chartjs-2'
+import { Radar } from 'react-chartjs-2'
 
 import { useParams } from 'react-router-dom'
 import { useHttp } from '../hooks/http.hook'
@@ -81,7 +81,7 @@ export const SolutionPage = () => {
     }
 
     if (diagram) {
-        return <Diagram handler={diagramBtnHandler} row={rows[0]} conditionName={test.condition.name} />
+        return <Diagram handler={diagramBtnHandler} rows={rows} conditionName={test.condition.name} />
     }
 
     return (
@@ -148,14 +148,54 @@ const DocPage = ({ handler, doc }) => {
 
 
 
-export const Diagram = ({ handler, row, conditionName }) => {
-    // const chartRef = useRef(null)
+export const Diagram = ({ handler, conditionName, rows }) => {
+    const [row, setRow] = useState(null)
+    const [data, setData] = useState(null)
 
-    // useEffect(() => {
-    //     console.log(chartRef.current)
-    // }, [])
+    const getElementAtEvent = element => {
+        if (!element.length) return
+        setRow(rows[element[0]._index])
+    }
 
-    // console.log(test.condition.name)
+    useEffect(() => {
+        setRow(rows[0])
+    }, [rows])
+
+    useEffect(() => {
+
+        const newLabels = []
+        const newData = []
+
+        for (let row of rows) {
+            newLabels.push('')
+            newData.push(Number(row.score.replace(',', '.')))
+        }
+
+        const data = {
+            labels: newLabels,
+            datasets: [
+                {
+                    fill: false,
+                    data: newData,
+                    borderWidth: 2,
+                    borderColor: '#52C22B',
+                },
+            ],
+        }
+        setData(data)
+    }, [rows])
+
+    const options = {
+        scale: {
+            ticks: {
+                display: false
+            },
+        },
+        legend: { display: false },
+        tooltips: { enabled: false }
+    }
+
+    if (!row) return null
 
     return (
         <div className='page'>
@@ -167,15 +207,17 @@ export const Diagram = ({ handler, row, conditionName }) => {
             <div className="diagram">
                 <p className='diagram__title'>{conditionName}</p>
 
-                <div className="chart"></div>
+                {/* <div className="chart"></div> */}
 
-                {/* <Doughnut ref={chartRef} data={} /> */}
+                <Radar data={data} options={options} getElementAtEvent={getElementAtEvent} />
 
                 <p className="diagram__condition-name">{row.name}</p>
+
                 <div className="diagram__details">
                     <p className="diagram__details-key">Сумарный бал:</p>
                     <p className="diagram__details-value">{row.score}</p>
                 </div>
+
                 <div className="diagram__details">
                     <p className="diagram__details-key">Показатель:</p>
 
