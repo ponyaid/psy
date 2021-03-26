@@ -12,18 +12,22 @@ export const StatisticPage = () => {
     const { loading } = useSelector(state => state.app)
     const [conditions, setConditions] = useState(null)
     const [conditionId, setConditionId] = useState(null)
+    const [schoolId, setSchoolId] = useState(null)
+    const [classId, setClassId] = useState(null)
 
     useEffect(() => {
-        dispatch({ type: START_LOADING })
-        let headers = {}
-        headers['Authorization'] = `Bearer ${token}`
-        fetch('/api/statistic/conditions', { headers: headers })
-            .then(res => res.json())
-            .then(res => {
-                setConditions(res)
-                dispatch({ type: FINISH_LOADING })
-            })
-    }, [token, dispatch])
+        if (classId) {
+            dispatch({ type: START_LOADING })
+            let headers = {}
+            headers['Authorization'] = `Bearer ${token}`
+            fetch(`/api/statistic/conditions/${classId}`, { headers: headers })
+                .then(res => res.json())
+                .then(res => {
+                    setConditions(res)
+                    dispatch({ type: FINISH_LOADING })
+                })
+        }
+    }, [token, dispatch, classId])
 
     const nullStatusCounter = useCallback((tests) => {
         let count = 0
@@ -47,18 +51,49 @@ export const StatisticPage = () => {
         setConditionId(id)
     }, [])
 
+    const schoolHandler = useCallback(id => {
+        setSchoolId(id)
+    }, [])
+
+    const classHandler = useCallback(id => {
+        setClassId(id)
+    }, [])
+
+
+    if (!schoolId) return <SchoolFilter
+        nullStatusCounter={nullStatusCounter}
+        normStatusCounter={normStatusCounter}
+        notNormStatusCounter={notNormStatusCounter}
+        schoolHandler={schoolHandler}
+    />
+
+    if (schoolId && !classId) return <ClassFilter
+        schoolId={schoolId}
+        classHandler={classHandler}
+        nullStatusCounter={nullStatusCounter}
+        normStatusCounter={normStatusCounter}
+        notNormStatusCounter={notNormStatusCounter}
+        classBackHandler={schoolHandler}
+    />
+
     if (loading) return <Loader />
 
     if (!conditions) return null
 
     if (conditionId) {
-        return <StatisticDitails conditionId={conditionId} handler={conditionHandler} />
+        return <StatisticDitails
+            conditionId={conditionId}
+            handler={conditionHandler}
+            classId={classId}
+        />
     }
 
     return (
         <div className="page">
             <header className="page__header">
-                <Link to='/' className="icon-btn page__icon-btn page__icon-btn_left icon-btn_back"></Link>
+                <button
+                    onClick={() => classHandler(null)}
+                    className="icon-btn page__icon-btn page__icon-btn_left icon-btn_back"></button>
                 <p className="page__title">Статистика</p>
             </header>
             <div>
@@ -86,7 +121,7 @@ export const StatisticPage = () => {
 }
 
 
-const StatisticDitails = ({ conditionId, handler }) => {
+const StatisticDitails = ({ conditionId, handler, classId }) => {
     const { token } = useSelector(state => state.auth)
     const [statutes, setStatutes] = useState(null)
     const [norm, setNorm] = useState([])
@@ -96,7 +131,7 @@ const StatisticDitails = ({ conditionId, handler }) => {
     useEffect(() => {
         let headers = {}
         headers['Authorization'] = `Bearer ${token}`
-        fetch(`/api/statistic/conditions/${conditionId}`, { headers: headers })
+        fetch(`/api/statistic/conditions/${classId}/${conditionId}`, { headers: headers })
             .then(res => res.json())
             .then(res => {
                 for (let status of res) {
@@ -106,7 +141,7 @@ const StatisticDitails = ({ conditionId, handler }) => {
                 }
                 setStatutes(res)
             })
-    }, [conditionId, token])
+    }, [classId, conditionId, token])
 
     if (!statutes) return null
 
@@ -204,5 +239,133 @@ const StatisticDitails = ({ conditionId, handler }) => {
             </div>
         </div>
 
+    )
+}
+
+
+const SchoolFilter = ({ schoolHandler, nullStatusCounter, normStatusCounter, notNormStatusCounter }) => {
+    const dispatch = useDispatch()
+    const { token } = useSelector(state => state.auth)
+    const { loading } = useSelector(state => state.app)
+    const [schools, setSchools] = useState(null)
+
+    useEffect(() => {
+        dispatch({ type: START_LOADING })
+        let headers = {}
+        headers['Authorization'] = `Bearer ${token}`
+        fetch(`/api/statistic/for-schools`, { headers: headers })
+            .then(res => res.json())
+            .then(res => {
+                setSchools(res)
+                dispatch({ type: FINISH_LOADING })
+            })
+
+    }, [dispatch, token])
+
+    if (loading) {
+        return <Loader />
+    }
+
+    if (!schools) return null
+
+    return (
+        <div className="page">
+            <header className="page__header">
+                <Link to='/' className="icon-btn page__icon-btn page__icon-btn_left icon-btn_back"></Link>
+                <p className="page__title">Статистика</p>
+            </header>
+
+            <div>
+                {schools.map((school, index) => (
+                    <div
+                        key={index}
+                        className="statistic-condition"
+                        onClick={() => schoolHandler(school._id)}>
+                        <p className="statistic-condition__title">{school.schoolName[0]}</p>
+
+                        <Range
+                            total={school.tests.length}
+                            norm={normStatusCounter(school.tests)}
+                            notNorm={notNormStatusCounter(school.tests)}
+                        />
+                        <div className="statistic-condition__footer">
+                            <span className="statistic-condition__indicator green">{normStatusCounter(school.tests)}</span>
+                            <span className="statistic-condition__indicator red">{notNormStatusCounter(school.tests)}</span>
+                            <span className="statistic-condition__indicator blue">{nullStatusCounter(school.tests)}</span>
+                            <p className="statistic-condition__members">{school.tests.length} участников</p>
+                        </div>
+
+                    </div>
+                ))}
+            </div>
+        </div>
+    )
+}
+
+
+const ClassFilter = ({
+    schoolId,
+    classHandler,
+    nullStatusCounter,
+    normStatusCounter,
+    notNormStatusCounter,
+    classBackHandler }) => {
+    const dispatch = useDispatch()
+    const { token } = useSelector(state => state.auth)
+    const { loading } = useSelector(state => state.app)
+    const [classes, setClasses] = useState(null)
+
+    useEffect(() => {
+        if (schoolId) {
+            dispatch({ type: START_LOADING })
+            let headers = {}
+            headers['Authorization'] = `Bearer ${token}`
+            fetch(`/api/statistic/for-classes/${schoolId}`, { headers: headers })
+                .then(res => res.json())
+                .then(res => {
+                    setClasses(res)
+                    dispatch({ type: FINISH_LOADING })
+                })
+        }
+    }, [dispatch, schoolId, token])
+
+    if (loading) {
+        return <Loader />
+    }
+
+    if (!classes) return null
+
+    return (
+        <div className="page">
+            <header className="page__header">
+                <button
+                    onClick={() => classBackHandler(null)}
+                    className="icon-btn page__icon-btn page__icon-btn_left icon-btn_back"></button>
+                <p className="page__title">Статистика</p>
+            </header>
+            <div>
+                {classes.map((group, index) => (
+                    <div
+                        key={index}
+                        className="statistic-condition"
+                        onClick={() => classHandler(group._id)}>
+                        <p className="statistic-condition__title">{group.classNumber[0]} {group.classLetter[0]}</p>
+
+                        <Range
+                            total={group.tests.length}
+                            norm={normStatusCounter(group.tests)}
+                            notNorm={notNormStatusCounter(group.tests)}
+                        />
+                        <div className="statistic-condition__footer">
+                            <span className="statistic-condition__indicator green">{normStatusCounter(group.tests)}</span>
+                            <span className="statistic-condition__indicator red">{notNormStatusCounter(group.tests)}</span>
+                            <span className="statistic-condition__indicator blue">{nullStatusCounter(group.tests)}</span>
+                            <p className="statistic-condition__members">{group.tests.length} участников</p>
+                        </div>
+
+                    </div>
+                ))}
+            </div>
+        </div>
     )
 }

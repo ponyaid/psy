@@ -1,7 +1,9 @@
-import React, { useCallback, useState, useEffect, useRef } from 'react'
+import React, { useCallback, useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 
 import { Radar } from 'react-chartjs-2'
+
+import { Chart } from 'chart.js'
 
 import { useParams } from 'react-router-dom'
 import { useHttp } from '../hooks/http.hook'
@@ -167,7 +169,7 @@ export const Diagram = ({ handler, conditionName, rows }) => {
         const newData = []
 
         for (let row of rows) {
-            newLabels.push('')
+            newLabels.push('•')
             newData.push(Number(row.score.replace(',', '.')))
         }
 
@@ -178,7 +180,7 @@ export const Diagram = ({ handler, conditionName, rows }) => {
                     fill: false,
                     data: newData,
                     borderWidth: 2,
-                    borderColor: '#52C22B',
+                    borderColor: '#52C22B'
                 },
             ],
         }
@@ -187,12 +189,24 @@ export const Diagram = ({ handler, conditionName, rows }) => {
 
     const options = {
         scale: {
+            pointLabels: {
+                fontSize: 40
+            },
             ticks: {
                 display: false
             },
         },
         legend: { display: false },
-        tooltips: { enabled: false }
+        tooltips: { enabled: false },
+        // onClick: function (evt, element) {
+
+        //     var helpers = Chart.helpers
+
+        //     var scale = Chart.scale
+
+        //     console.log(helpers, scale)
+
+        // }
     }
 
     if (!row) return null
@@ -209,7 +223,9 @@ export const Diagram = ({ handler, conditionName, rows }) => {
 
                 {/* <div className="chart"></div> */}
 
-                <Radar data={data} options={options} getElementAtEvent={getElementAtEvent} />
+                <Radar data={data} options={options}
+                    getElementAtEvent={getElementAtEvent}
+                />
 
                 <p className="diagram__condition-name">{row.name}</p>
 

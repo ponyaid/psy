@@ -11,14 +11,20 @@ const router = Router()
 router.post('/create', auth,
     async (req, res) => {
         try {
-            const { conditionId, pupils } = req.body
+            const { conditionId, pupils, classId, schoolId } = req.body
 
             if (!pupils.length) {
                 throw new Error('Выберите хотя бы одного ученика')
             }
 
             for (let pupilId of pupils) {
-                const test = new Test({ conditionId, pupil: pupilId, psych: req.user.userId })
+                const test = new Test({
+                    conditionId,
+                    pupil: pupilId,
+                    class: classId,
+                    school: schoolId,
+                    psych: req.user.userId,
+                })
                 await test.save()
 
                 await Pupil.findById(pupilId, function (err, pupil) {

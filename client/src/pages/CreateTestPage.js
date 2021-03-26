@@ -87,7 +87,12 @@ export const CreateTestPage = () => {
     const postTests = useCallback(async () => {
         try {
             const fetched = await request('/api/tests/create', 'POST',
-                JSON.stringify({ conditionId, pupils }), {
+                JSON.stringify({
+                    pupils,
+                    conditionId,
+                    classId: classData._id,
+                    schoolId: schoolData._id
+                }), {
                 'Content-Type': 'application/json',
                 'Authorization': `Bearer ${token}`
             })
@@ -102,7 +107,7 @@ export const CreateTestPage = () => {
         } catch (e) {
             dispatch(showAlert({ type: 'error', text: e.message }))
         }
-    }, [conditionId, pupils, request, token, dispatch])
+    }, [request, pupils, conditionId, classData, schoolData, token, dispatch])
 
     const sendHandler = () => {
         postTests()
