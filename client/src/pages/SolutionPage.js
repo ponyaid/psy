@@ -1,4 +1,4 @@
-import React, { useCallback, useState, useEffect } from 'react'
+import React, { useCallback, useState, useEffect, useRef } from 'react'
 import { Link } from 'react-router-dom'
 
 import { Radar } from 'react-chartjs-2'
@@ -151,26 +151,26 @@ const DocPage = ({ handler, doc }) => {
 
 
 export const Diagram = ({ handler, conditionName, rows }) => {
+    const canvasRef = useRef(null)
     const [row, setRow] = useState(null)
     const [data, setData] = useState(null)
+    const [colors, setColors] = useState(null)
+    const [radar, setRadar] = useState(null)
 
-    const getElementAtEvent = element => {
-        if (!element.length) return
-        setRow(rows[element[0]._index])
-    }
 
     useEffect(() => {
         setRow(rows[0])
     }, [rows])
 
     useEffect(() => {
-
         const newLabels = []
         const newData = []
+        const colors = []
 
         for (let row of rows) {
             newLabels.push('•')
             newData.push(Number(row.score.replace(',', '.')))
+            colors.push(row.norm ? '#52C22B' : '#FF5A52')
         }
 
         const data = {
@@ -185,28 +185,110 @@ export const Diagram = ({ handler, conditionName, rows }) => {
             ],
         }
         setData(data)
+        setColors(colors)
     }, [rows])
 
-    const options = {
-        scale: {
-            pointLabels: {
-                fontSize: 40
+    useEffect(() => {
+        const canvas = canvasRef.current
+
+        const options = {
+            scale: {
+                pointLabels: {
+                    fontSize: 25,
+                    fontColor: colors,
+                },
+                ticks: {
+                    min: 0,
+                    stepSize: 1,
+                    display: false
+                },
             },
-            ticks: {
-                display: false
+            legend: { display: false },
+            tooltips: { enabled: false },
+            onClick: function (evt, element) {
+                if (!element.length) return
+                setRow(rows[element[0]._index])
             },
-        },
-        legend: { display: false },
-        tooltips: { enabled: false },
-        // onClick: function (evt, element) {
+        }
 
-        //     var helpers = Chart.helpers
+        if (canvas) {
+            const context = canvas.getContext('2d')
+            const myRadar = new Chart(context, {
+                type: 'radar',
+                data: data,
+                options: options,
+            })
+            setRadar(myRadar)
+        }
 
-        //     var scale = Chart.scale
+    }, [data, rows, colors])
 
-        //     console.log(helpers, scale)
+    const canvasHandler = (e) => {
+        var helpers = Chart.helpers
+        var scale = radar.scale
+        var opts = scale.options
+        var tickOpts = opts.ticks
 
-        // }
+        // Position of click relative to canvas.
+        var mouseX = e.nativeEvent.offsetX
+        var mouseY = e.nativeEvent.offsetY
+
+        var labelPadding = 5 // number pixels to expand label bounding box by
+
+        var tickBackdropHeight = (tickOpts.display && opts.display) ?
+            helpers.valueOrDefault(tickOpts.fontSize, Chart.defaults.global.defaultFontSize)
+            + 5 : 0
+        var outerDistance = scale.getDistanceFromCenterForValue(opts.ticks.reverse ? scale.min : scale.max)
+        for (var i = 0; i < scale.pointLabels.length; i++) {
+            // Extra spacing for top value due to axis labels
+            var extra = (i === 0 ? tickBackdropHeight / 2 : 0)
+            var pointLabelPosition = scale.getPointPosition(i, outerDistance + extra + 5)
+
+            var plSize = scale._pointLabelSizes[i]
+
+            // get label textAlign info
+            var angleRadians = scale.getIndexAngle(i)
+            var angle = helpers.toDegrees(angleRadians)
+            var textAlign = 'right'
+            if (angle === 0 || angle === 180) {
+                textAlign = 'center'
+            } else if (angle < 180) {
+                textAlign = 'left'
+            }
+
+            var verticalTextOffset = 0
+            if (angle === 90 || angle === 270) {
+                verticalTextOffset = plSize.h / 2
+            } else if (angle > 270 || angle < 90) {
+                verticalTextOffset = plSize.h
+            }
+
+            var labelTop = pointLabelPosition.y - verticalTextOffset - labelPadding;
+            var labelHeight = 2 * labelPadding + plSize.h
+            var labelBottom = labelTop + labelHeight
+
+            var labelWidth = plSize.w + 2 * labelPadding
+            var labelLeft
+            switch (textAlign) {
+                case 'center':
+                    labelLeft = pointLabelPosition.x - labelWidth / 2
+                    break
+                case 'left':
+                    labelLeft = pointLabelPosition.x - labelPadding
+                    break;
+                case 'right':
+                    labelLeft = pointLabelPosition.x - labelWidth + labelPadding
+                    break
+                default:
+                    console.log('ERROR: unknown textAlign ' + textAlign)
+            }
+            var labelRight = labelLeft + labelWidth
+
+            if (mouseX >= labelLeft && mouseX <= labelRight && mouseY <= labelBottom && mouseY >= labelTop) {
+                setRow(rows[i])
+                break
+            }
+        }
     }
 
     if (!row) return null
@@ -221,11 +303,12 @@ export const Diagram = ({ handler, conditionName, rows }) => {
             <div className="diagram">
                 <p className='diagram__title'>{conditionName}</p>
 
-                {/* <div className="chart"></div> */}
 
-                <Radar data={data} options={options}
+                {/* <Radar data={data} options={options}
                     getElementAtEvent={getElementAtEvent}
-                />
+                /> */}
+
+                <canvas ref={canvasRef} onClick={canvasHandler} />
 
                 <p className="diagram__condition-name">{row.name}</p>
 
@@ -245,5 +328,3 @@ export const Diagram = ({ handler, conditionName, rows }) => {
         </div>
     )
 }
-
-
