@@ -2,7 +2,6 @@ import React, { useCallback, useState, useEffect, useRef } from 'react'
 import { Link } from 'react-router-dom'
 
 import { Radar } from 'react-chartjs-2'
-
 import { Chart } from 'chart.js'
 
 import { useParams } from 'react-router-dom'
@@ -11,7 +10,6 @@ import { useHttp } from '../hooks/http.hook'
 
 export const SolutionPage = () => {
     const { request } = useHttp()
-    // const { user } = useSelector(state => state.auth)
     const [test, setTest] = useState(null)
     const [html, setHtml] = useState(null)
     const [diagram, setDiagram] = useState(false)
@@ -44,14 +42,23 @@ export const SolutionPage = () => {
 
             for (let item of array) {
                 const tds = item.querySelectorAll('td')
-                rows.push({
+
+                const row = {
                     name: tds[0].innerText,
                     score: tds[1].innerText,
                     norm:
                         test.condition.id === 216
                         || !tds[1].querySelector('font')
                         || tds[1].querySelector('font').getAttribute('color') === 'black'
-                })
+                }
+
+                if (test.condition.id === 216 && tds[0].querySelector('font')) {
+                    rows.unshift(row)
+                } else {
+                    rows.push(row)
+                }
+
+
             }
 
             setRows(rows)
@@ -109,7 +116,7 @@ export const SolutionPage = () => {
                     <span onClick={docBtnHandler}
                         className="solution-results__doc-btn">Информация о тесте</span>
 
-                    <p className='diagram-handler' onClick={diagramBtnHandler}>Диаграмма</p>
+                    {!test.condition.id === 216 && <p className='diagram-handler' onClick={diagramBtnHandler}>Диаграмма</p>}
 
                     <div className="solution-results__items">
                         {rows.map((row, index) =>
@@ -136,6 +143,19 @@ export const SolutionPage = () => {
 }
 
 const DocPage = ({ handler, doc }) => {
+    const [document, setDocument] = useState(null)
+
+    useEffect(() => {
+        const parser = new DOMParser()
+        const html = doc.body.innerHTML
+        const document = parser.parseFromString(html, 'text/html')
+        document.querySelector('body p:last-child').remove()
+        var ns = new XMLSerializer()
+        var ss = ns.serializeToString(document)
+        setDocument(ss)
+    }, [doc])
+
+
     return (
         <div className='page'>
             <header className="page__header">
@@ -143,7 +163,8 @@ const DocPage = ({ handler, doc }) => {
                     className="icon-btn page__icon-btn page__icon-btn_left icon-btn_close"></button>
                 <p className="page__title">Подробности теста</p>
             </header>
-            <div dangerouslySetInnerHTML={{ __html: doc.body.innerHTML }}></div>
+
+            <div dangerouslySetInnerHTML={{ __html: document }}></div>
         </div>
     )
 }
@@ -186,15 +207,18 @@ export const Diagram = ({ handler, conditionName, rows }) => {
         }
         setData(data)
         setColors(colors)
+
+
     }, [rows])
 
     useEffect(() => {
         const canvas = canvasRef.current
 
         const options = {
+            maintainAspectRatio: false,
             scale: {
                 pointLabels: {
-                    fontSize: 25,
+                    fontSize: 45,
                     fontColor: colors,
                 },
                 ticks: {
@@ -202,6 +226,15 @@ export const Diagram = ({ handler, conditionName, rows }) => {
                     stepSize: 1,
                     display: false
                 },
+            },
+
+            layout: {
+                padding: {
+                    top: 0,
+                    left: 0,
+                    right: 0,
+                    bottom: 0
+                }
             },
             legend: { display: false },
             tooltips: { enabled: false },
@@ -218,6 +251,9 @@ export const Diagram = ({ handler, conditionName, rows }) => {
                 data: data,
                 options: options,
             })
+            myRadar.ctx.minHeight = 275
+            // myRadar.ctx.width = '100%'
+
             setRadar(myRadar)
         }
 
@@ -288,6 +324,8 @@ export const Diagram = ({ handler, conditionName, rows }) => {
                 setRow(rows[i])
                 break
             }
+
+
         }
     }
 
@@ -308,7 +346,9 @@ export const Diagram = ({ handler, conditionName, rows }) => {
                     getElementAtEvent={getElementAtEvent}
                 /> */}
 
-                <canvas ref={canvasRef} onClick={canvasHandler} />
+                <div className="chart-container" style={{ 'minHeight': `278px`, 'width': '100%', 'position': 'relative' }}>
+                    <canvas ref={canvasRef} onClick={canvasHandler} />
+                </div>
 
                 <p className="diagram__condition-name">{row.name}</p>
 

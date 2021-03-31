@@ -73,7 +73,7 @@ async function start() {
                     if (err) throw err
 
                     parser.parseString(data, async (err, result) => {
-                        if (err) throw err
+                        if (err) throw error
 
                         const condition = new Condition({
                             id: result.root.test[0].$.code,
