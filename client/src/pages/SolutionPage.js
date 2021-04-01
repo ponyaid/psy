@@ -116,7 +116,8 @@ export const SolutionPage = () => {
                     <span onClick={docBtnHandler}
                         className="solution-results__doc-btn">Информация о тесте</span>
 
-                    {!test.condition.id === 216 && <p className='diagram-handler' onClick={diagramBtnHandler}>Диаграмма</p>}
+                    {/* {!test.condition.id === 216 && <p className='diagram-handler' onClick={diagramBtnHandler}>Диаграмма</p>} */}
+                    <p className='diagram-handler' onClick={diagramBtnHandler}>Диаграмма</p>
 
                     <div className="solution-results__items">
                         {rows.map((row, index) =>

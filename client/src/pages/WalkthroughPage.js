@@ -61,7 +61,7 @@ export const WalkthroughPage = () => {
 
                     let status = true
 
-                    if (!['4', '216'].includes(conditionId)) {
+                    if (!['4', '216', '213'].includes(conditionId)) {
                         for (let item of array) {
                             const tds = item.querySelectorAll('td')
                             if (!tds[1].querySelector('font')
@@ -118,7 +118,7 @@ export const WalkthroughPage = () => {
         }
     }, [conditionId, questionId, questions])
 
-    const confirmBtnHandler = () => {
+    const confirmBtnHandler = useCallback(() => {
         if (answer.length) {
             const updatedResults = [...results, ...answer]
             setResults(updatedResults)
@@ -129,9 +129,13 @@ export const WalkthroughPage = () => {
                 setEnd(!end)
             }
         }
-    }
+    }, [answer, end, questionId, questions, results])
 
-    if (!question) { return null }
+    const setNewAnswer = useCallback(value => {
+        setAnswer([value])
+    }, [])
+
+    if (!question) return null
 
     if (loading) { return <Loader /> }
 
@@ -151,27 +155,91 @@ export const WalkthroughPage = () => {
                 />
             </div>
             <p className="walkthrough__title">{question.name ? question.name : 'Выберите один вариант ответа'}</p>
-            <div className="answers-wrapper">
-                <p className="answers-wrapper__prompt">Нажми на подходящий ответ</p>
-                <div className="answers">
-                    {
-                        question.ans.map((elem, index) => {
-                            return (
-                                <label className="answers__item" key={index}>
-                                    <input
-                                        type="radio" value={elem.$.id}
-                                        checked={answer[0] === elem.$.id}
-                                        onChange={e => { setAnswer([e.target.value]) }} />
-                                    <span>{elem.$.name}</span>
-                                </label>
-                            )
-                        })
-                    }
-                </div>
-                <button onClick={confirmBtnHandler} className={
-                    `answers-wrapper__confirm-btn 
+            {!['216', '4'].includes(conditionId) ?
+                <div className="answers-wrapper">
+                    <p className="answers-wrapper__prompt">Нажми на подходящий ответ</p>
+                    <div className="answers">
+                        {
+                            question.ans.map((elem, index) => {
+                                return (
+                                    <label className="answers__item" key={index}>
+                                        <input
+                                            type="radio" value={elem.$.id}
+                                            checked={answer[0] === elem.$.id}
+                                            onChange={e => setNewAnswer(e.target.value)} />
+                                        <span>{elem.$.name}</span>
+                                    </label>
+                                )
+                            })
+                        }
+                    </div>
+                    <button onClick={confirmBtnHandler} className={
+                        `answers-wrapper__confirm-btn 
                     ${answer.length ? 'answers-wrapper__confirm-btn_active' : null}`}></button>
+                </div> :
+                <Range
+                    answer={answer}
+                    question={question}
+                    confirmBtnHandler={confirmBtnHandler}
+                    setAnswer={setNewAnswer}
+                />
+            }
+        </div>
+    )
+}
+
+
+const Range = ({ question, answer, confirmBtnHandler, setAnswer }) => {
+    const [value, setValue] = useState(0)
+    const [min, setMin] = useState(0)
+    const [max, setMax] = useState(0)
+    const [btnActive, setBtnActive] = useState(false)
+
+    useEffect(() => {
+        setValue(0)
+        setBtnActive(false)
+        if (question) {
+            setMax(question.ans.length - 1)
+        }
+    }, [question])
+
+    const handleChange = e => {
+        setBtnActive(true)
+        setValue(e.target.value)
+        setAnswer(question.ans[e.target.value].$.id)
+    }
+
+    const useDotes = useCallback(() => {
+        const dotes = []
+        for (var i = 0; i < question.ans.length; i++) {
+            dotes.push(<li style={i >= value ? { 'background': `#DEEBF9` } : null} key={i}></li>)
+        }
+        return dotes
+    }, [question, value])
+
+    return (
+        <div className="walk-range-wrapper">
+
+            <div className="walk-range">
+                <ul className="walk-range__dotes">{useDotes()}</ul>
+                <input
+                    onChange={handleChange}
+                    className="walk-range__slider"
+                    type="range" min={min} max={max} value={value}>
+                </input>
+                {/* <div
+                    className="walk-range__selector"
+                    style={{ left: (value * 100 / max) + '%' }}>
+                </div> */}
+                <div className="walk-range__progress" style={{ 'width': `${(value - min) * 100 / (max - min)}%` }} />
             </div>
+
+            <button
+                onClick={confirmBtnHandler}
+                className={`walk-range-wrapper__button 
+                ${btnActive ? 'walk-range-wrapper__button_active' : null}`}>
+            </button>
+            <p>Потяните ползунок чтобы выбрать подходящий ответ</p>
         </div>
     )
 }
