@@ -155,7 +155,8 @@ export const WalkthroughPage = () => {
                 />
             </div>
             <p className="walkthrough__title">{question.name ? question.name : 'Выберите один вариант ответа'}</p>
-            {!['216', '4'].includes(conditionId) ?
+            {!['216', '4'].includes(conditionId)
+                || (['216'].includes(conditionId) && questionId === questions.length - 1) ?
                 <div className="answers-wrapper">
                     <p className="answers-wrapper__prompt">Нажми на подходящий ответ</p>
                     <div className="answers">

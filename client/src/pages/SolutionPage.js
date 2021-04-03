@@ -52,6 +52,12 @@ export const SolutionPage = () => {
                         || tds[1].querySelector('font').getAttribute('color') === 'black'
                 }
 
+                if ([213, 4, 202].includes(test.condition.id)) {
+                    row.norm = tds[1].querySelector('font')
+                        && tds[1].querySelector('font').getAttribute('color') === 'red'
+                        ? false : true
+                }
+
                 if (test.condition.id === 216 && tds[0].querySelector('font')) {
                     rows.unshift(row)
                 } else {
@@ -116,8 +122,8 @@ export const SolutionPage = () => {
                     <span onClick={docBtnHandler}
                         className="solution-results__doc-btn">Информация о тесте</span>
 
-                    {/* {!test.condition.id === 216 && <p className='diagram-handler' onClick={diagramBtnHandler}>Диаграмма</p>} */}
-                    <p className='diagram-handler' onClick={diagramBtnHandler}>Диаграмма</p>
+                    {!test.condition.id === 216 && <p className='diagram-handler' onClick={diagramBtnHandler}>Диаграмма</p>}
+                    {/* <p className='diagram-handler' onClick={diagramBtnHandler}>Диаграмма</p> */}
 
                     <div className="solution-results__items">
                         {rows.map((row, index) =>
@@ -129,8 +135,10 @@ export const SolutionPage = () => {
                                 </div>
                                 <div className="solution-result__row">
                                     <span className="solution-result__row-title">Показатель:</span>
-                                    {row.norm ? <span className="solution-result__mark solution-result__mark_green">В норме</span>
-                                        : <span className="solution-result__mark solution-result__mark_red">Не в норме</span>}
+                                    {row.norm ? <span className="solution-result__mark solution-result__mark_green">
+                                        {[213, 4, 202].includes(test.condition.id) ? 'Значимость не высокая' : 'В норме'}</span>
+                                        : <span className="solution-result__mark solution-result__mark_red">
+                                            {[213, 4, 202].includes(test.condition.id) ? 'Значимость высокая' : 'Не в норме'}</span>}
                                 </div>
                             </div>
                         )}
