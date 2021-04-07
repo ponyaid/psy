@@ -117,12 +117,12 @@ export const SolutionPage = () => {
                 <div className="solution-results__wrapper">
                     <p className="solution-results__title">Результаты теста</p>
                     <p className="solution-results__name">{test.condition.name}</p>
-                    <p className="solution-results__desc">{test.condition.desc}</p>
+                    <p className="solution-results__desc" dangerouslySetInnerHTML={{ __html: test.condition.desc }} />
 
                     <span onClick={docBtnHandler}
                         className="solution-results__doc-btn">Информация о тесте</span>
 
-                    {!test.condition.id === 216 && <p className='diagram-handler' onClick={diagramBtnHandler}>Диаграмма</p>}
+                    {test.condition.id !== 216 && <p className='diagram-handler' onClick={diagramBtnHandler}>Диаграмма</p>}
                     {/* <p className='diagram-handler' onClick={diagramBtnHandler}>Диаграмма</p> */}
 
                     <div className="solution-results__items">
@@ -197,10 +197,15 @@ export const Diagram = ({ handler, conditionName, rows }) => {
         const newData = []
         const colors = []
 
-        for (let row of rows) {
+        for (let item of rows) {
             newLabels.push('•')
-            newData.push(Number(row.score.replace(',', '.')))
-            colors.push(row.norm ? '#52C22B' : '#FF5A52')
+            newData.push(Number(item.score.replace(',', '.')))
+
+            if (item.norm) {
+                colors.push(row === item ? 'rgba(82,194,43, 1)' : 'rgba(82,194,43, 0.5)')
+            } else {
+                colors.push(row === item ? 'rgba(255,90,82, 1)' : 'rgba(255,90,82, 0.5)')
+            }
         }
 
         const data = {
@@ -218,7 +223,7 @@ export const Diagram = ({ handler, conditionName, rows }) => {
         setColors(colors)
 
 
-    }, [rows])
+    }, [rows, row])
 
     useEffect(() => {
         const canvas = canvasRef.current
@@ -247,10 +252,10 @@ export const Diagram = ({ handler, conditionName, rows }) => {
             },
             legend: { display: false },
             tooltips: { enabled: false },
-            onClick: function (evt, element) {
-                if (!element.length) return
-                setRow(rows[element[0]._index])
-            },
+            // onClick: function (evt, element) {
+            //     if (!element.length) return
+            //     setRow(rows[element[0]._index])
+            // },
         }
 
         if (canvas) {

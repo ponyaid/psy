@@ -1,10 +1,13 @@
-import React, { useCallback, useEffect } from 'react'
+import React, { useCallback, useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { Link } from 'react-router-dom'
+import { Link, useHistory } from 'react-router-dom'
 import { getTestsBiPupilId } from '../redux/actions'
+import { Info } from '../components/Info'
 
 
 export const TestsPage = () => {
+    const [info, setInfo] = useState(null)
+    let history = useHistory()
     const dispatch = useDispatch()
     const { tests } = useSelector(state => state.test)
 
@@ -23,8 +26,25 @@ export const TestsPage = () => {
         return newDate
     }, [])
 
+    const infoBtnHandler = useCallback(e => {
+        if (!info) {
+            e.stopPropagation()
+            const iter = e.target.id
+            setInfo({
+                name: tests[iter].condition.name,
+                desc: tests[iter].condition.desc
+            })
+        } else {
+            setInfo(null)
+        }
+    }, [info, tests])
+
     if (!tests.length) {
         return null
+    }
+
+    if (info) {
+        return <Info name={info.name} desc={info.desc} handler={infoBtnHandler} />
     }
 
     return (
@@ -42,11 +62,15 @@ export const TestsPage = () => {
                             if (!test.solution) {
                                 if (!test.condition) return null
                                 return (
-                                    <Link key={index} to={`/tests/${test._id}/${test.condition.id}`} className="list__item">
+                                    <div
+                                        key={index}
+                                        className="list__item"
+                                        onClick={() => { history.push(`/tests/${test._id}/${test.condition.id}`) }}>
+                                        <button id={index} className="list__info-btn" onClick={infoBtnHandler}></button>
                                         <p>{test.condition.name}</p>
                                         <p className="list__desc"
                                             dangerouslySetInnerHTML={{ __html: test.condition.desc.slice(0, 64) + ' ...' }} />
-                                    </Link>)
+                                    </div>)
                             }
                             return null
                         })}
@@ -61,14 +85,17 @@ export const TestsPage = () => {
                         if (test.solution) {
                             if (!test.condition) return null
                             return (
-                                <Link to={`/solutions/${test._id}`} key={index} className="tests-page__passed-test">
+                                <div key={index} className="tests-page__passed-test">
                                     <p className="list__desc tests-page__date">{formatDate(test.date)}</p>
-                                    <div className="list__item">
+                                    <div
+                                        className="list__item"
+                                        onClick={() => { history.push(`/solutions/${test._id}`) }}>
+                                        <button id={index} className="list__info-btn" onClick={infoBtnHandler}></button>
                                         <p>{test.condition.name}</p>
                                         <p className="list__desc"
                                             dangerouslySetInnerHTML={{ __html: test.condition.desc.slice(0, 64) + ' ...' }} />
                                     </div>
-                                </Link>)
+                                </div>)
                         }
                         return null
                     })}

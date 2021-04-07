@@ -94,7 +94,10 @@ export const LandingPage = () => {
 
             <section className="landing-main" id="landing-main">
                 <h1 className="landing-main__title">Мы развиваем системы автоматизации школьной психодиагностики</h1>
-                <HashLink to="#landing-contacts" className="landing-main__btn">Оставить заявку</HashLink>
+                <div className="landing-main__btns">
+                    <Link to="/psych" className="landing-main__btn">Для психолога</Link>
+                    <Link to="/pupil" className="landing-main__btn landing-main__btn_blue">Для ученика</Link>
+                </div>
                 <div className="landing-main__bnr">
                     <img src={bnr} alt="bnr" />
                 </div>

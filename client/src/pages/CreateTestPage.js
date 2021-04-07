@@ -4,6 +4,7 @@ import { useHistory } from 'react-router-dom'
 import { useHttp } from '../hooks/http.hook'
 import { ProgressBar } from '../components/ProgressBar'
 import { Loader } from '../components/Loader'
+import { Info } from '../components/Info'
 import {
     getConditionsINedded,
     getSchoolsINedded,
@@ -27,6 +28,7 @@ export const CreateTestPage = () => {
     const { token } = useSelector(state => state.auth)
     const [selectAll, setSelectAll] = useState(false)
     const [pupils, setPupils] = useState([])
+    const [info, setInfo] = useState(null)
     const { request } = useHttp()
 
     useEffect(() => {
@@ -109,8 +111,25 @@ export const CreateTestPage = () => {
         }
     }, [request, pupils, conditionId, classData, schoolData, token, dispatch])
 
+    const infoBtnHandler = useCallback(e => {
+        if (!info) {
+            e.stopPropagation()
+            const iter = e.target.id
+            setInfo({
+                name: conditions[iter].name,
+                desc: conditions[iter].desc
+            })
+        } else {
+            setInfo(null)
+        }
+    }, [info, conditions])
+
     const sendHandler = () => {
         postTests()
+    }
+
+    if (info) {
+        return <Info name={info.name} desc={info.desc} handler={infoBtnHandler} />
     }
 
     return (
@@ -123,7 +142,12 @@ export const CreateTestPage = () => {
 
             <ProgressBar step={step} total={5} color='red' />
 
-            <TestsStep step={step} loading={loading} conditions={conditions} clickHandler={conditionsHandler} />
+            <TestsStep
+                step={step}
+                loading={loading}
+                conditions={conditions}
+                clickHandler={conditionsHandler}
+                infoBtnHandler={infoBtnHandler} />
 
             <SchoolsStep step={step} loading={loading} schools={schools} clickHandler={schoolsHandler} />
 
@@ -151,10 +175,17 @@ const TestsStep = props => {
             <h3>Выберете тест</h3>
             <ul className="list">
                 {
-                    props.conditions.map((condition) => {
+                    props.conditions.map((condition, index) => {
                         return (
                             <li onClick={props.clickHandler} className="list__item"
-                                key={condition.id} id={condition.id}><p>{condition.name}</p>
+                                key={condition.id} id={condition.id}>
+                                <button id={index}
+                                    className="list__info-btn"
+                                    onClick={props.infoBtnHandler}>
+                                </button>
+                                <p>{condition.name}</p>
+                                <p className="list__desc"
+                                    dangerouslySetInnerHTML={{ __html: condition.desc.slice(0, 64) + ' ...' }} />
                             </li>
                         )
                     })

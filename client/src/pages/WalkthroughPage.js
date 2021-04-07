@@ -142,7 +142,7 @@ export const WalkthroughPage = () => {
     return (
         <div className="page walkthrough">
             <header className="page__header">
-                <Link to='/' className="icon-btn page__icon-btn page__icon-btn_left icon-btn_close"></Link>
+                <Link to='/tests' className="icon-btn page__icon-btn page__icon-btn_left icon-btn_close"></Link>
                 <div className="walkthrough__score">
                     <p>{questionId + 1}</p>
                     <p>{questions.length}</p>

@@ -423,7 +423,7 @@ $gradient-orange: linear-gradient(315deg, #ffe53b 0%, #ff2525 100%);
 
     &__item {
         width: 100%;
-        padding: 1rem;
+        padding: 1rem 3rem 1rem 1rem;
         display: block;
         position: relative;
 
@@ -510,6 +510,17 @@ $gradient-orange: linear-gradient(315deg, #ffe53b 0%, #ff2525 100%);
                 background: url(../img/ic-check.svg) no-repeat center;
             }
         }
+    }
+
+    &__info-btn {
+        top: 1rem;
+        right: 1rem;
+        width: 22px;
+        height: 22px;
+        display: block;
+        cursor: pointer;
+        position: absolute;
+        background: url(../img/ic-info-black.svg) no-repeat center;
     }
 }
 
