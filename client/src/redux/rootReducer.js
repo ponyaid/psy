@@ -4,6 +4,7 @@ import { appReducer } from './appReducer'
 import { schoolReducer } from './schoolReducer'
 import { testReducer } from './testReducer'
 import { historyReducer } from './historyReducer'
+import { statisticReducer } from './statisticReducer'
 
 
 export const rootReducer = combineReducers({
@@ -12,4 +13,5 @@ export const rootReducer = combineReducers({
     school: schoolReducer,
     test: testReducer,
     history: historyReducer,
+    statistic: statisticReducer,
 })

@@ -4,16 +4,22 @@ import { useSelector, useDispatch } from 'react-redux'
 import { Range } from '../components/Range'
 import { Loader } from '../components/Loader'
 import { FINISH_LOADING, START_LOADING } from '../redux/types'
+import {
+    getStatisticConditionId,
+    getStatisticSchoolId,
+    getStatisticClassId
+} from '../redux/actions'
 
 
 export const StatisticPage = () => {
     const dispatch = useDispatch()
     const { token } = useSelector(state => state.auth)
     const { loading } = useSelector(state => state.app)
+    const { conditionId, schoolId, classId } = useSelector(state => state.statistic)
     const [conditions, setConditions] = useState(null)
-    const [conditionId, setConditionId] = useState(null)
-    const [schoolId, setSchoolId] = useState(null)
-    const [classId, setClassId] = useState(null)
+    // const [conditionId, setConditionId] = useState(null)
+    // const [schoolId, setSchoolId] = useState(null)
+    // const [classId, setClassId] = useState(null)
 
     useEffect(() => {
         if (classId) {
@@ -48,16 +54,16 @@ export const StatisticPage = () => {
     }, [])
 
     const conditionHandler = useCallback(id => {
-        setConditionId(id)
-    }, [])
+        dispatch(getStatisticConditionId(id))
+    }, [dispatch])
 
     const schoolHandler = useCallback(id => {
-        setSchoolId(id)
-    }, [])
+        dispatch(getStatisticSchoolId(id))
+    }, [dispatch])
 
     const classHandler = useCallback(id => {
-        setClassId(id)
-    }, [])
+        dispatch(getStatisticClassId(id))
+    }, [dispatch])
 
 
     if (!schoolId) return <SchoolFilter

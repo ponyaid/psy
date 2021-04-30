@@ -102,7 +102,8 @@ export const SolutionPage = () => {
     return (
         <div className='page solution-page'>
             <header className="page__header">
-                <Link to='/' className="icon-btn page__icon-btn page__icon-btn_left icon-btn_close"></Link>
+                <Link to='/statistic' className="icon-btn page__icon-btn page__icon-btn_left icon-btn_back"></Link>
+                <Link to='/' className="icon-btn page__icon-btn page__icon-btn_right icon-btn_close"></Link>
                 <p className="page__title solution-page__title">Статистика</p>
             </header>
 
@@ -123,7 +124,6 @@ export const SolutionPage = () => {
                         className="solution-results__doc-btn">Информация о тесте</span>
 
                     {test.condition.id !== 216 && <p className='diagram-handler' onClick={diagramBtnHandler}>Диаграмма</p>}
-                    {/* <p className='diagram-handler' onClick={diagramBtnHandler}>Диаграмма</p> */}
 
                     <div className="solution-results__items">
                         {rows.map((row, index) =>

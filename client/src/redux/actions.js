@@ -20,6 +20,9 @@ import {
     GET_HISTORY,
     GET_TESTS,
     SET_NOT_PASSED_TESTS,
+    GET_STATISTIC_CONDITION_ID,
+    GET_STATISTIC_SCHOOL_ID,
+    GET_STATISTIC_CLASS_ID,
 } from './types'
 
 
@@ -337,5 +340,27 @@ export function getCondition(id) {
             dispatch(finishLoading())
             dispatch(showAlert({ type: 'error', text: e.message }))
         }
+    }
+}
+
+
+export function getStatisticConditionId(id) {
+    return {
+        type: GET_STATISTIC_CONDITION_ID,
+        payload: id
+    }
+}
+
+export function getStatisticSchoolId(id) {
+    return {
+        type: GET_STATISTIC_SCHOOL_ID,
+        payload: id
+    }
+}
+
+export function getStatisticClassId(id) {
+    return {
+        type: GET_STATISTIC_CLASS_ID,
+        payload: id
     }
 }
