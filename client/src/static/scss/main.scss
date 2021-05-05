@@ -254,6 +254,30 @@ $gradient-orange: linear-gradient(315deg, #ffe53b 0%, #ff2525 100%);
     }
 }
 
+.swipe {
+    width: 37px;
+    padding: 1px;
+    display: flex;
+    cursor: pointer;
+    border-radius: 11px;
+    justify-content: flex-start;
+    background: rgba(18, 36, 67, 0.06);
+
+    &::before {
+        content: "";
+        width: 20px;
+        height: 20px;
+        display: block;
+        border-radius: 50%;
+        border: 7px solid #fff;
+    }
+
+    &_active {
+        justify-content: flex-end;
+        background: linear-gradient(270deg, #eb3349 0%, #f45c43 100%);
+    }
+}
+
 .input-field {
     width: 100%;
     display: flex;
@@ -513,10 +537,10 @@ $gradient-orange: linear-gradient(315deg, #ffe53b 0%, #ff2525 100%);
     }
 
     &__info-btn {
-        top: 1rem;
-        right: 1rem;
-        width: 22px;
-        height: 22px;
+        top: 0;
+        right: 0;
+        width: 54px;
+        height: 54px;
         display: block;
         cursor: pointer;
         position: absolute;
@@ -1012,6 +1036,22 @@ $gradient-orange: linear-gradient(315deg, #ffe53b 0%, #ff2525 100%);
     }
 }
 
+.bool-field {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    left: 1.5rem;
+    right: 1.5rem;
+    bottom: calc(3rem + 58px);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.3px;
+    color: #122443;
+}
+
 .send-btn {
     left: 1.5rem;
     right: 1.5rem;
@@ -1127,6 +1167,26 @@ $gradient-orange: linear-gradient(315deg, #ffe53b 0%, #ff2525 100%);
     width: 100%;
     height: 2rem;
     position: relative;
+
+    &__min,
+    &__max {
+        position: absolute;
+        top: 100%;
+        opacity: 0.4;
+        color: #122443;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 22px;
+        letter-spacing: 0.2625px;
+    }
+
+    &__min {
+        left: 0;
+    }
+
+    &__max {
+        right: 0;
+    }
 
     &__slider {
         width: 100%;

@@ -6,9 +6,9 @@ import { Info } from '../components/Info'
 
 
 export const TestsPage = () => {
-    const [info, setInfo] = useState(null)
     let history = useHistory()
     const dispatch = useDispatch()
+    const [info, setInfo] = useState(null)
     const { tests } = useSelector(state => state.test)
 
     useEffect(() => {
@@ -85,11 +85,14 @@ export const TestsPage = () => {
                         if (test.solution) {
                             if (!test.condition) return null
                             return (
-                                <div key={index} className="tests-page__passed-test">
+                                <div key={index} className="tests-page__passed-test" style={{ position: 'relative' }}>
                                     <p className="list__desc tests-page__date">{formatDate(test.date)}</p>
+                                    {test.isVisible && <span className='list__desc'
+                                        style={{ position: 'absolute', top: 0, right: 0, }}>
+                                        Результат доступен</span>}
                                     <div
                                         className="list__item"
-                                        onClick={() => { history.push(`/solutions/${test._id}`) }}>
+                                        onClick={() => { test.isVisible && history.push(`/solutions/${test._id}`) }}>
                                         <button id={index} className="list__info-btn" onClick={infoBtnHandler}></button>
                                         <p>{test.condition.name}</p>
                                         <p className="list__desc"

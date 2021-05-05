@@ -11,7 +11,7 @@ const router = Router()
 router.post('/create', auth,
     async (req, res) => {
         try {
-            const { conditionId, pupils, classId, schoolId } = req.body
+            const { conditionId, pupils, classId, schoolId, isVisible } = req.body
 
             if (!pupils.length) {
                 throw new Error('Выберите хотя бы одного ученика')
@@ -19,6 +19,7 @@ router.post('/create', auth,
 
             for (let pupilId of pupils) {
                 const test = new Test({
+                    isVisible,
                     conditionId,
                     pupil: pupilId,
                     class: classId,

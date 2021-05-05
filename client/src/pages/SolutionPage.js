@@ -1,15 +1,14 @@
 import React, { useCallback, useState, useEffect, useRef } from 'react'
 import { Link } from 'react-router-dom'
-
-import { Radar } from 'react-chartjs-2'
 import { Chart } from 'chart.js'
-
 import { useParams } from 'react-router-dom'
 import { useHttp } from '../hooks/http.hook'
+import { useDispatch, useSelector } from 'react-redux'
 
 
 export const SolutionPage = () => {
     const { request } = useHttp()
+    const { role } = useSelector(state => state.auth)
     const [test, setTest] = useState(null)
     const [html, setHtml] = useState(null)
     const [diagram, setDiagram] = useState(false)
@@ -102,7 +101,8 @@ export const SolutionPage = () => {
     return (
         <div className='page solution-page'>
             <header className="page__header">
-                <Link to='/statistic' className="icon-btn page__icon-btn page__icon-btn_left icon-btn_back"></Link>
+                <Link to={role === 'psych' ? '/statistic' : '/tests'}
+                    className="icon-btn page__icon-btn page__icon-btn_left icon-btn_back"></Link>
                 <Link to='/' className="icon-btn page__icon-btn page__icon-btn_right icon-btn_close"></Link>
                 <p className="page__title solution-page__title">Статистика</p>
             </header>

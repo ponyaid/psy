@@ -79,7 +79,7 @@ export const WalkthroughPage = () => {
                 })
                 .then(() => {
                     dispatch({ type: FINISH_LOADING })
-                    window.location.href = `/solutions/${testId}`
+                    window.location.href = `/`
                 })
 
         } catch (e) {
@@ -222,16 +222,12 @@ const Range = ({ question, answer, confirmBtnHandler, setAnswer }) => {
         <div className="walk-range-wrapper">
 
             <div className="walk-range">
+                <span className='walk-range__min'>{min}</span>
+                <span className='walk-range__max'>{max}</span>
                 <ul className="walk-range__dotes">{useDotes()}</ul>
-                <input
-                    onChange={handleChange}
+                <input onChange={handleChange}
                     className="walk-range__slider"
-                    type="range" min={min} max={max} value={value}>
-                </input>
-                {/* <div
-                    className="walk-range__selector"
-                    style={{ left: (value * 100 / max) + '%' }}>
-                </div> */}
+                    type="range" min={min} max={max} value={value} />
                 <div className="walk-range__progress" style={{ 'width': `${(value - min) * 100 / (max - min)}%` }} />
             </div>
 

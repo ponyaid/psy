@@ -27,6 +27,7 @@ export const CreateTestPage = () => {
     const { loading } = useSelector(state => state.app)
     const { token } = useSelector(state => state.auth)
     const [selectAll, setSelectAll] = useState(false)
+    const [isVisible, setIsVisible] = useState(false)
     const [pupils, setPupils] = useState([])
     const [info, setInfo] = useState(null)
     const { request } = useHttp()
@@ -57,6 +58,10 @@ export const CreateTestPage = () => {
     const classesHandler = (evt) => {
         dispatch(getClassINedded(evt.currentTarget.id))
         dispatch(stepUp())
+    }
+
+    const visibleHandler = () => {
+        setIsVisible(!isVisible)
     }
 
     const checkboxHandler = evt => {
@@ -93,7 +98,8 @@ export const CreateTestPage = () => {
                     pupils,
                     conditionId,
                     classId: classData._id,
-                    schoolId: schoolData._id
+                    schoolId: schoolData._id,
+                    isVisible
                 }), {
                 'Content-Type': 'application/json',
                 'Authorization': `Bearer ${token}`
@@ -109,7 +115,7 @@ export const CreateTestPage = () => {
         } catch (e) {
             dispatch(showAlert({ type: 'error', text: e.message }))
         }
-    }, [request, pupils, conditionId, classData, schoolData, token, dispatch])
+    }, [request, pupils, conditionId, classData, schoolData, token, isVisible, dispatch])
 
     const infoBtnHandler = useCallback(e => {
         if (!info) {
@@ -157,7 +163,9 @@ export const CreateTestPage = () => {
                 selectAllHandler={selectAllHandler}
                 checkboxHandler={checkboxHandler}
                 clickHandler={sendHandler}
+                visibleHandler={visibleHandler}
                 selectAll={selectAll}
+                isVisible={isVisible}
             />
 
         </div>
@@ -245,6 +253,7 @@ const ClassesStep = props => {
 }
 
 const PupilsStep = props => {
+
     if (props.step !== 4) { return null }
 
     if (props.loading || !props.classData) { return <Loader /> }
@@ -252,7 +261,7 @@ const PupilsStep = props => {
     const group = props.classData
 
     return (
-        <div className="page__content">
+        <div className="page__content" style={{ paddingBottom: 100 + 'px' }}>
             <h3>Выберете учеников</h3>
             <p className="page__desc">
                 {group.number}{group.letter}, всего {group.pupils.length} учеников</p>
@@ -277,6 +286,11 @@ const PupilsStep = props => {
                         )
                     })
                 }
+            </div>
+            <div className="bool-field">
+                <p>Показывать результат ученику</p>
+                <div onClick={props.visibleHandler}
+                    className={`swipe ${props.isVisible && 'swipe_active'}`} />
             </div>
             <div className="send-btn">
                 <button onClick={props.clickHandler} className="main-btn">Отправить</button>

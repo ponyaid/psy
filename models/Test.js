@@ -10,6 +10,7 @@ const schema = new Schema({
     psych: { type: Types.ObjectId, ref: 'Psych', required: true },
     class: { type: Types.ObjectId, ref: 'Class', required: true },
     school: { type: Types.ObjectId, ref: 'School', required: true },
+    isVisible: { type: Boolean }
 }, { toJSON: { virtuals: true } })
 
 schema.virtual('condition', {
